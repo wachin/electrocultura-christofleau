@@ -1,0 +1,8 @@
+Para el próximo agente
+
+El archivo TODO-integrar-imagenes.md es la guía. El agente debe leerlo, luego:
+
+1. Leer el README.md actual
+2. Hacer las sustituciones de [Imagen: ...] por ![alt](images/imageXX.png)
+3. Insertar [p. X] en cada sección según el mapeo
+4. Verificar con git diff y hacer commit
