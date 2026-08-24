@@ -14,6 +14,10 @@ JeBoys' Home, Westmead.
 ---
 
 > **PDF original:** [Electroculture (Archive.org)](https://ia601400.us.archive.org/27/items/Electroculture_127/Christofleau-Electroculture_text.pdf)
+>
+> 📖 **Guías rápidas:**
+> - [Electroculture For Dummies (English)](docs/electroculture-for-dummies.md)
+> - [Electroicultura Para Dummies (Español)](docs/electroculture-for-dummies-es.md)
 
 # ELECTROCULTURA
 
