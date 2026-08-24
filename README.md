@@ -20,7 +20,19 @@ JeBoys' Home, Westmead.
 > - [Electroicultura Para Dummies (Español)](docs/electroculture-for-dummies-es.md)
 >
 > 🔬 **Patentes de Christofleau (versión actualizada con diagramas SVG):**
-> - [Ver todas las patentes actualizadas](patents/Patents-updated/README.md)
+>
+> | Patente | Descripción | Enlace |
+> |---------|-------------|--------|
+> | **FR 829789** | Fertilizador Electromagnético — Dispositivo subterráneo de hierro fundido en forma de imán alargado con aletas de recolección | [Ver](patents/Patents-updated/FR-829789-Fertilizador-Electromagnetico.md) |
+> | **CH 172269** | Aparato de Electroicultura Subterráneo — Dispositivo en forma de U que elimina mastiles superficiales | [Ver](patents/Patents-updated/CH-172269-Aparato-Electroicultura.md) |
+> | **FR 764497** | Nuevo Aparato de Electroicultura — Variante mejorada del CH 172269 con red de distribución | [Ver](patents/Patents-updated/FR-764497-Nuevo-Aparato-Electroicultura.md) |
+> | **FR 684117** | Electromagneto Protector para Plantas Jóvenes — Protege semilleros y plantas delicadas | [Ver](patents/Patents-updated/FR-684117-Electromagneto-Protector-Plantas.md) |
+> | **CH 118648** | Recolector de Electricidad Atmosférica — Capta corrientes verticales del aire | [Ver](patents/Patents-updated/CH-118648-Recolector-Electricidad-Atmosferica.md) |
+> | **FR 552892** | Zapato Conductor — Pieza subterránea de dos puntas para corrientes este-oeste | [Ver](patents/Patents-updated/FR-552892-Zapato-Conductor.md) |
+> | **FR 628803** | Campana Electromagnética — Recipiente elevado que concentra energía sobre cultivos | [Ver](patents/Patents-updated/FR-628803-Campana-Electromagnetica.md) |
+> | **FR 630219** | Incubadora Electromagnética — Acelera eclosión de huevos con energía magnética | [Ver](patents/Patents-updated/FR-630219-Incubadora-Electromagnetica.md) |
+> | **FR 812689** | Pila Termo-electro-magnética — Genera electricidad continua a partir del calor | [Ver](patents/Patents-updated/FR-812689-Pila-Termo-Electro-Magnetica.md) |
+> | **FR 804141** | Iluminación Electromagnética — Lámpara sin electricidad usando magnetismo | [Ver](patents/Patents-updated/FR-804141-Iluminacion-Electromagnetica.md) |
 
 # ELECTROCULTURA
 
