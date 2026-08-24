@@ -1,6 +1,8 @@
 # ELECTROCULTURA
 
 **Por Mons. Justin Christofleau**
+
+*[p. 1]*
 Miembro de la Sociedad de Científicos e Inventores de Francia
 
 ALEX. TROUCHET & SON
@@ -14,6 +16,8 @@ JeBoys' Home, Westmead.
 # ELECTROCULTURA
 
 **Por MONS. JUSTIN CHRISTOFLEAU**
+
+*[p. 3]*
 Miembro de la Sociedad de Científicos e Inventores de Francia
 
 ---
@@ -21,6 +25,8 @@ Miembro de la Sociedad de Científicos e Inventores de Francia
 # Electrocultura
 
 **Por JUSTIN CHRISTOFLEAU,**
+
+*[p. 4]*
 Caballero del Mérito Agrícola, Medalla de Oro de la Sociedad de Fomento para la Industria Nacional, Miembro de la Sociedad de Agricultura, Miembro de la Sociedad de Científicos e Inventores de Francia, Miembro Fundador de la Asociación Nacional de Fabricantes e Inventores de Francia.
 
 ---
@@ -28,6 +34,8 @@ Caballero del Mérito Agrícola, Medalla de Oro de la Sociedad de Fomento para l
 ## ELECTROCULTURA
 
 ### EL LLAMAMIENTO DEL SR. J. CHRISTOFLEAU A LOS AGRICULTORES, VITICULTORES Y HORTICULTORES DEL MUNDO
+
+*[p. 5]*
 
 Falange laboriosa, a la que tengo el honor de pertenecer por mi nacimiento, me dirijo ahora a vosotros para alzar mi voz en favor de un gran invento que será, si me comprendéis, uno de los grandes factores de la resurrección y prosperidad del mundo entero, pues significa la intensificación de la producción de la tierra, el aumento de las cosechas en proporciones considerables, y la reducción al mínimo posible del trabajo manual relativo al cultivo y el ahorro de las inmensas sumas de dinero que se gastan anualmente en fertilizantes, reemplazándolos por este nuevo aparato en el que se condensan todas las fuerzas de la naturaleza.
 
@@ -37,9 +45,11 @@ Es decir: el magnetismo terrestre, las corrientes telúricas, la electricidad de
 
 ---
 
-[Imagen: Diagrama del aparato de electrocultura mostrando los cables vibratorios bajo la acción del viento]
+![Diagrama del aparato de electrocultura mostrando los cables vibratorios bajo la acción del viento](images/image6.png "Diagrama del aparato de electrocultura")
 
 ## ELECTROCULTURA
+
+*[p. 7]*
 
 La electrocultura es un método de aplicación de la electricidad atmosférica a la fertilización de la vida vegetal, y se ha desarrollado durante los últimos años hasta tal punto que hoy en día se practica en muchos países del mundo, a saber: Francia, Inglaterra, Canadá, Alemania, Suiza, Italia, Bélgica, Dinamarca, Suecia, etc. Su éxito ha sido tan notable que hay más de un millón de aparatos en uso en estos países y su aplicación se extiende a medida que sus beneficios se conocen mejor.
 
@@ -50,6 +60,8 @@ El aparato en cuestión se ilustra arriba.
 ---
 
 ## ELECTROCULTURA
+
+*[p. 8]*
 
 ### DESCRIPCIÓN
 
@@ -73,6 +85,8 @@ Toda esta energía eléctrica recolectada por el aparato es la electricidad posi
 
 ### NOTAS DE M. JUSTIN CHRISTOFLEAU
 
+*[p. 9]*
+
 Ya en 1749, el Abate Nollet, científico que parece haber sido el primero en notar los efectos de la electricidad en la vegetación, anunció que la electricidad contribuía a la **EVAPORACIÓN DEL SUELO**, facilitaba la germinación de las semillas y aumentaba la rapidez de la ascensión de la savia en la vegetación.
 
 En 1783, el Abate Bertholon no solo dio a conocer el papel de la electricidad atmosférica en la vegetación en una de sus obras, sino que hizo su aplicación práctica con un "electro-vegetómetro" que inventó.
@@ -90,6 +104,8 @@ Para que no se me acuse de invocar el testimonio de científicos muertos hace mu
 ---
 
 ### INSTRUCCIONES DE INSTALACIÓN
+
+*[p. 10]*
 
 1. Fije firmemente el aparato en la parte superior de un poste de 25 pies (7,6 m), y asegúrelo con una clavija de madera en el orificio de la faceta sur del aparato.
 2. Entierre el poste 5 pies (1,5 m) y oriente el puntero del aparato directamente al Sur (magnético) y la cabeza del aparato al Norte magnético. Esto es absolutamente esencial, ya que todo el funcionamiento del aparato depende de ello. (Véase la página 11).
@@ -111,6 +127,8 @@ Para que no se me acuse de invocar el testimonio de científicos muertos hace mu
 
 ### APLICACIÓN A VIDES CON ALAMBRES
 
+*[p. 12]*
+
 La electrificación de vides que están sobre alambres es muy simple y se ve considerablemente ayudada por los propios alambres, que se cargan de electricidad.
 
 Como el aparato influye en una franja de terreno de 14 pies (4,3 m) de ancho, si las hileras de vides están separadas 14 pies (4,3 m) o menos, es aconsejable colocar el poste con el aparato en el extremo Sur, equidistante entre las hileras, y pasar el cable en un surco recto por el centro de las hileras hasta un punto directamente al Norte (magnético) del aparato.
@@ -123,19 +141,23 @@ El cable gotero debe sobresalir 16 pulgadas (40 cm) por encima del alambre super
 
 De los dos métodos, el primero es el más aconsejable. En ambos casos, es esencial, por supuesto, que las hileras de vides corran directamente de Sur a Norte (magnético).
 
-[Imagen: Diagrama que muestra la aplicación del aparato a vides con alambres]
+![Diagrama que muestra la aplicación del aparato a vides con alambres](images/image12.png "Aplicación del aparato a vides con alambres")
 
 ---
 
 ### NOTA
 
+*[p. 14]*
+
 Como la electricidad llega mucho más allá del extremo donde se ha cortado el cable, y para evitar que esta fuga entre en un campo vecino, se puede establecer fácilmente una barrera enterrando una estaca en cada extremo y fijando el mismo calibre de cable y a la misma profundidad que el cable principal, a 6 pies (1,8 m) del límite Norte.
 
-[Imagen: Diagrama de barrera para evitar la fuga de electricidad]
+![Diagrama de barrera para evitar la fuga de electricidad](images/image13.png "Barrera para evitar fuga de electricidad")
 
 ---
 
 ### PARA VIDES QUE CORREN DE ESTE A OESTE
+
+*[p. 15]*
 
 Erga postes de 20 pies (6 m) sobre el suelo para soportar el aparato en el extremo Sur del viñedo; los postes separados 14 pies (4,3 m), con un poste tensor de 8 pies (2,4 m) directamente opuesto, cada aparato en el extremo Norte del campo.
 
@@ -149,19 +171,23 @@ Las vides electrificadas aumentarán la cosecha en una proporción considerable 
 
 ### APLICACIÓN A UNA HILERA DE ÁRBOLES
 
+*[p. 15]*
+
 Cuando se va a electrificar una hilera de árboles, sin importar su longitud, siempre que corra directamente de Sur a Norte, el aparato se coloca sobre un poste de 20 pies (6 m) sobre el suelo en el extremo Sur de los árboles, y como en el caso de las vides, si las hileras de árboles están separadas 14 pies (4,3 m) o menos, coloque el poste con el aparato equidistante entre las hileras en el extremo Sur, y pase el cable en el surco por el medio de las hileras en línea recta hasta un punto en el límite Norte. Si las hileras están separadas más de 14 pies (4,3 m), coloque el aparato y el poste cerca del comienzo de la hilera, y pase el cable en el surco hacia el Norte desde allí, pasando a pocos pies de los troncos de los árboles.
 
 Los árboles tratados de esta manera serán más vigorosos y crecerán más rápido, y la fruta producida es más grande, más dulce y madurará dos semanas antes que la de los árboles no electrificados. La fruta contiene más alcohol, se conservará mejor y, por lo tanto, será más adecuada para el comercio de exportación. Los cereales contendrán más carbohidratos.
 
-[Imagen: Diagrama de la aplicación del aparato a una hilera de árboles]
+![Diagrama de la aplicación del aparato a una hilera de árboles](images/image49.png "Aplicación del aparato a hilera de árboles")
 
 ---
 
 ### APLICACIÓN A ÁRBOLES AISLADOS
 
+*[p. 16]*
+
 **Electrificación de un Solo Árbol.** — Es muy fácil electrificar un solo árbol. El aparato se coloca a menos de tres pies (1 m) de él, estando el árbol al Norte del aparato. El cable galvanizado se entierra a 15 o 16 pulgadas (38-40 cm) en la base del árbol, y se vierten unos cubos de agua (preferiblemente agua de lluvia) donde está enterrado el cable. Después de unos meses, el árbol ganará un nuevo vigor y, si está enfermo, echará nuevos brotes y mejorará rápidamente.
 
-[Imagen: Diagrama de la electrificación de un solo árbol]
+![Diagrama de la electrificación de un solo árbol](images/image15.png "Electrificación de un solo árbol")
 
 ---
 
@@ -169,6 +195,8 @@ Los árboles tratados de esta manera serán más vigorosos y crecerán más ráp
 **Por GEORGE BLANCHARD**
 
 ### CHARLA CIENTÍFICA
+
+*[p. 17]*
 
 La omisión de una corrección en el texto de un folleto me hace afirmar que la electricidad mató "TODOS" los parásitos del suelo. Esta palabra "TODOS" es engañosa, al menos en lo que concierne a la electricidad de bajo voltaje, como la suministrada por el aparato Christofleau, pues las corrientes capaces de matar todos los parásitos también destruirían la vegetación.
 
@@ -184,7 +212,9 @@ El reciente trabajo científico de A. Lumière nos habla de líquidos orgánicos
 
 Sin embargo, vemos este mundo de infinitamente "pequeños" animados por un movimiento continuo debido a la atracción de los polos contrarios y a las repulsiones de los polos idénticos, y nos vemos forzados, de deducción en deducción, a considerar el fluido eléctrico como el verdadero fluido vital que regula la circulación de la savia como la de la sangre y realiza su tarea de intercambio favoreciendo todos los intercambios y la elaboración de los productos indispensables para el mantenimiento de la vida.
 
-[Imagen: Un borde de perejil cultivado con electrocultura]
+![Un borde de perejil cultivado con electrocultura](images/image20.png "Borde de perejil con electrocultura")
+
+*[p. 19]*
 
 Aunque están en el dominio de la hipótesis, es bueno meditar sobre las concepciones de Chardin y Lumière, pues no son contrarias a ningún principio científico y nadie las ha puesto en duda hasta ahora.
 
@@ -218,11 +248,15 @@ Uno de mis corresponsales, M. Fernand Frison, 56 Avenue de Cambrai, me contó un
 
 El 16 de agosto de 1925, di una conferencia en la Cornisa Agrícola de L'Isle-sur-le-Doubs, a la que asistieron los profesores de agricultura de esa región. Durante mi conferencia, cité los siguientes resultados, obtenidos en el lugar llamado "Croix de Mission", en una parcela de tierra que fue electrificada. La avena cosechada allí creció en promedio 4 pies (1,22 m) y tenía 54 granos por espiga. En la cosecha comparativa que no fue electrificada, la altura promedio de la avena era de 32 pulgadas (81 cm) y las espigas contenían solo 29 granos. Es necesario señalar que la cosecha de avena de ese año fue algo deficiente, y los agricultores que estaban presentes admiraron los resultados de la cosecha electrificada y rindieron homenaje a los hechos.
 
-[Imagen: Cultivo de perejil con electrocultura]
+![Cultivo de perejil con electrocultura](images/image38.png "Perejil con electrocultura")
+
+*[p. 20]*
 
 ---
 
 ### APLICACIÓN DE LA ELECTRICIDAD A LA VIDA VEGETAL
+
+*[p. 22]*
 **Por Mons. G. Blanchard**
 *(Traducido del francés)*
 
@@ -277,11 +311,19 @@ La electricidad atmosférica capturada por el aparato Christofleau se acumula en
 
 Los estragos de la sequía se reducen en gran medida, y explicaremos por qué: como es necesario tener agua o lluvia para descomponer los fertilizantes en el suelo y así suministrar a las plantas la corriente necesaria para su vitalidad, el aparato Christofleau suministra esta corriente lentamente, pero de forma continua, y, por lo tanto, suple a la lluvia del mismo modo que suple a los fertilizantes. Asimismo, la vegetación que crece en un suelo electromagnético es inmune a la pudrición por lluvias intensas, ya que los gérmenes de la podredumbre no pueden desarrollarse cuando están en contacto con las corrientes eléctricas. (N.B. Esto debería, por lo tanto, eliminar por completo la "roya"). Se ha observado que los cultivos influenciados resisten mucho más victoriosamente los efectos de las heladas. La prueba de la acumulación de electricidad en el suelo me fue señalada por un electricista de renombre que, después de leer mis artículos sobre electrocultura, aplicó corrientes eléctricas de débil intensidad a unas aspidistras enfermas mediante una corriente eléctrica débil de solo unos pocos "miliamperios" en el suelo donde estaba la planta. Cinco días después de detener la corriente, notó que el suelo había retenido toda la electricidad que le había introducido, y la planta se había vuelto más verde bajo la benéfica influencia de este fenómeno.
 
-[Imagen: Conjunto de nueve postes erigidos en el vivero del Sr. C. E. Pope, St. Martins. En la parte superior de cada uno se coloca uno de los aparatos]
+![Conjunto de nueve postes erigidos en el vivero del Sr. C. E. Pope, St. Martins. En la parte superior de cada uno se coloca uno de los aparatos](images/image24.png "Nueve postes con aparatos en el vivero")
 
-[Imagen: Vista en primer plano del aparato]
+*[p. 25]*
 
-Se me ha señalado que las corrientes eléctricas industriales podrían producir los mismos resultados que la electricidad capturada por el aparato Christofleau. Se hizo esta comparación y la ventaja de la electricidad atmosférica fue manifiesta: las corrientes industriales no alcanzaban el rendimiento dado por el proceso electromagnético. ¿Significa esto que la constitución y la calidad del fluido son diferentes en la corriente atmosférica y la corriente industrial? No, ciertamente no. Pero hay un punto en el que esencial e inmediatamente insistimos. Es sobre la extraordinaria diferencia que existe entre los efectos de las corrientes de **DÉBIL INTENSIDAD**, pero de aplicación continua, y aquellos de corrientes intensas, pero de aplicación limitada. Se han realizado experimentos utilizando corrientes de 110 voltios durante un tiempo limitado y renovando la aplicación cada día. Tal electrificación nunca ha podido mostrar un aumento de más del 25% al 30% en comparación con parcelas comparativas. Con el proceso Christofleau, sus efectos beneficiosos repercuten no solo en el desarrollo general de las plantas mismas, sino también, y especialmente, en el aumento del rendimiento y en el tamaño y la calidad excepcional de los cereales, verduras, frutas, tubérculos, vides, etc., que se vuelven más ricos en elementos útiles como almidón, azúcar, alcohol, etc., y aumentan no meramente un 25% o 30%, sino un 100% y un 200%, y a menudo más.
+![Vista en primer plano del aparato](images/image24.png "Vista detallada del aparato de electrocultura")
+
+*[p. 25]*
+
+Se me ha señalado que las corrientes eléctricas industriales podrían producir los mismos resultados que la electricidad capturada por el aparato Christofleau. Se hizo esta comparación y la ventaja de la electricidad atmosférica fue manifiesta: las corrientes industriales no alcanzaban el rendimiento dado por el proceso electromagnético.
+
+*[p. 26]*
+
+¿Significa esto que la constitución y la calidad del fluido son diferentes en la corriente atmosférica y la corriente industrial? No, ciertamente no. Pero hay un punto en el que esencial e inmediatamente insistimos. Es sobre la extraordinaria diferencia que existe entre los efectos de las corrientes de **DÉBIL INTENSIDAD**, pero de aplicación continua, y aquellos de corrientes intensas, pero de aplicación limitada. Se han realizado experimentos utilizando corrientes de 110 voltios durante un tiempo limitado y renovando la aplicación cada día. Tal electrificación nunca ha podido mostrar un aumento de más del 25% al 30% en comparación con parcelas comparativas. Con el proceso Christofleau, sus efectos beneficiosos repercuten no solo en el desarrollo general de las plantas mismas, sino también, y especialmente, en el aumento del rendimiento y en el tamaño y la calidad excepcional de los cereales, verduras, frutas, tubérculos, vides, etc., que se vuelven más ricos en elementos útiles como almidón, azúcar, alcohol, etc., y aumentan no meramente un 25% o 30%, sino un 100% y un 200%, y a menudo más.
 
 ¿A qué se puede atribuir esta aplastante superioridad a favor del proceso Christofleau? Sin duda a estos tres factores esenciales:
 
@@ -303,6 +345,8 @@ La electrocultura ha sido muy elogiada por muchos científicos, que han dado al 
 
 ### OPINIÓN DE LOS CIENTÍFICOS
 
+*[p. 29]*
+
 *Extracto de la **"Electro Revue"**, de enero de 1921. Artículo escrito y firmado por el célebre electricista, Dr. Foreau De Courmelles.*
 
 "La idea de aumentar el rendimiento de la agricultura mediante el uso de la electricidad, es decir, empleando este fluido para activar el crecimiento de las plantas, no es nueva.
@@ -321,11 +365,15 @@ La electrocultura ha sido muy elogiada por muchos científicos, que han dado al 
 
 "Estando bien versado en los hechos anteriores y siguiendo las leyes del magnetismo terrestre, M. Justin Christofleau ha inventado y puesto en uso práctico un aparato muy simple, que captura las corrientes telúricas, esas corrientes terrestres que dirigen la aguja de la brújula para indicar el Norte y el Sur. Este aparato se coloca sobre un poste de madera de 20 pies (6 m) de alto (al menos) y se coloca estrictamente según la dirección de la aguja de la brújula; las partes boreal y austral llevan las antenas Norte y Sur, de modo que la corriente magnética que viaja de Norte a Sur es capturada en su paso por las antenas del aparato. Un cable galvanizado conduce esta electricidad al suelo. El aire flotante, que está electrificado, electrifica también la punta de las antenas, y esta electricidad, que sigue el mismo curso que la corriente terrestre, añade su acción en las profundidades del suelo. El resultado es excelente, y esto no es sorprendente, y no queda más que propagar el invento. Esta doble electricidad no tiene límite; se pueden así recolectar los fluidos terrestres y aéreos por millas y millas y duplicar la producción sin aumentar el trabajo manual."
 
-[Imagen: Algunas fresas cultivadas con electrocultura]
+![Algunas fresas cultivadas con electrocultura](images/image29.png "Fresas cultivadas con electrocultura")
+
+*[p. 30]*
 
 ---
 
 ### INFORMES OFICIALES
+
+*[p. 31]*
 
 **Experimentos realizados en la Institución de Agricultura de Metz con el aparato de electrocultura.**
 
@@ -359,6 +407,8 @@ Estos experimentos merecen la atención de los agricultores, horticultores, arbo
 ---
 
 ### OPINIÓN DE LA PRENSA
+
+*[p. 32]*
 
 *Extracto del periódico **"Agriculture de Touraine"**, 26 de mayo de 1921.*
 
@@ -420,6 +470,8 @@ La agricultura había perdido sus mejores cerebros debido a los bajos rendimient
 
 ### LISTA DE PERIÓDICOS QUE HAN COMENTADO FAVORABLEMENTE EL PROCESO AGRÍCOLA CHRISTOFLEAU
 
+*[p. 37]*
+
 - "La Nature," 28 de marzo de 1921.
 - "Le Bonhomme Normand," 1 de abril de 1921.
 - "La Belgique Productrice," 1 de abril de 1921.
@@ -475,6 +527,8 @@ La agricultura había perdido sus mejores cerebros debido a los bajos rendimient
 
 ### NOTAS VARIAS
 
+*[p. 38]*
+
 En lugar de cultivos alternos en los centros trigueros donde la lluvia es escasa, debe practicarse el barbecho cada dos años. Mientras el suelo descansa, el aparato nunca está inactivo, sino que deposita constantemente electricidad y materia fertilizante en el suelo, y continúa su trabajo al año siguiente mientras el cultivo crece, funcionando así perpetuamente. Después de tres años, se pueden cosechar cultivos cada año, siempre que se permita que el suelo descanse un año cada cinco o seis años.
 
 Es evidente que no hay un solo hombre vivo hoy que pueda explicar por qué la electricidad hace crecer las plantas, porque nos enfrentamos aquí al gran misterio de la vida: solo podemos notar los efectos que la electricidad tiene sobre la vegetación. Las plantas son más fuertes, más sanas, más vigorosas, más verdes; las cosechas rinden más, las espigas son más grandes y más llenas, las verduras y frutas más grandes, más tempranas, más numerosas. En cuanto a las transformaciones químicas que tienen lugar en el suelo por la acción de la electricidad, debemos, en lo que respecta a la ciencia en su estado actual, contentarnos con observar los resultados beneficiosos y aprovecharlos. Si algún día se explica este misterio, tanto mejor.
@@ -492,7 +546,9 @@ Con la ayuda de los agricultores, una nueva era de prosperidad se acerca rápida
 
 Todo lo cultivado mediante electrocultura es más saludable para el consumo humano y para la salud general del público.
 
-[Imagen: Repollo de 11 pies (3,35 m) de circunferencia]
+![Repollo de 11 pies (3,35 m) de circunferencia](images/image39.png "Repollo de electrocultura")
+
+*[p. 40]*
 
 El agricultor sabio y progresista reconocerá fácilmente las virtudes del proceso de electrocultura y no perderá tiempo en instalar el aparato.
 
@@ -532,13 +588,17 @@ Con la ayuda de los agricultores, una nueva era de prosperidad se acerca rápida
 
 Se recomienda pintar el poste sobre el que se coloca el aparato para preservar la madera, teniendo cuidado de que no se ponga pintura sobre el aparato mismo ni sobre el cable.
 
-[Imagen: Diagrama que muestra el método de fijación del cable gotero a los cables principales cuando se usa un cable aéreo en vides — página 14]
+![Diagrama que muestra el método de fijación del cable gotero a los cables principales cuando se usa un cable aéreo en vides](images/image42.png "Método de fijación del cable gotero")
+
+*[p. 43]*
 
 Al unir los extremos de los cables, es esencial retorcerlos muy apretadamente durante unas 16 pulgadas (40 cm) y soldar los puntos de los extremos.
 
 ---
 
 ### PUNTOS A RECORDAR
+
+*[p. 44]*
 
 Si tiene dudas sobre algunos puntos, no dude en consultarlas. Sus preguntas serán respondidas completamente a su debido tiempo por su Agente local.
 
@@ -568,6 +628,8 @@ Los resultados obtenidos en el primer año de instalación del aparato eliminar�
 
 ### TESTIMONIOS
 
+*[p. 45]*
+
 **Experimento realizado por M. Roger Claret en su propiedad en Fleury d'Aube (Aube).**
 *(Testimonio del Oficial del Municipio)*
 
@@ -583,13 +645,19 @@ Y de todo lo anteriormente expuesto, he firmado la presente declaración.
 
 *Una "comporte" es un pequeño barril de madera utilizado para transportar la vendimia.
 
-[Imagen: Trébol electrificado por el proceso de electrocultura. Altura: 5 pies y 3 pulgadas (1,60 m). Cosechado en 1923]
+![Trébol electrificado por el proceso de electrocultura. Altura: 5 pies y 3 pulgadas (1,60 m). Cosechado en 1923](images/image45.png "Trébol electrificado")
 
-[Imagen: Un viejo peral cargado de fruta. Este árbol es tan viejo que, antes de ser rejuvenecido por el proceso de electrocultura, apenas tenía unas pocas hojas]
+*[p. 46]*
+
+![Un viejo peral cargado de fruta. Este árbol es tan viejo que, antes de ser rejuvenecido por el proceso de electrocultura, apenas tenía unas pocas hojas](images/image46.png "Viejo peral rejuvenecido con electrocultura")
+
+*[p. 47]*
 
 ---
 
 **Oakdale, via Camden, 4 de enero de 1927.**
+
+*[p. 48]*
 
 A Tylors (Australia) Limited,
 13 Bridge Street,
@@ -641,6 +709,8 @@ Collie, W.A., 11 de enero de 1927.
 
 **La Queue-les-Yvelines, 20 de julio de 1923.**
 
+*[p. 49]*
+
 Yo, el infrascrito, G. Etoc, concejal municipal, comerciante de productos en La Queue-les-Yvelines, declaro por la presente que durante los últimos cinco años he comprado cada año la cosecha de avena cultivada en un campo muy pequeño perteneciente a M. J. Christofleau. La producción de este pequeño campo ha aumentado cada año, y esta cosecha, que era solo de 120 a 150 gavillas, ha aumentado este año a 275 gavillas, más 25 gavillas que fueron retenidas por M. Christofleau, dando por lo tanto un total de 300 gavillas. La avena era de espléndida calidad. ¡Las cosechas se duplicaron desde que M. Christofleau vive en esa propiedad!
 
 *(Firmado)* **G. ETOC.**
@@ -663,6 +733,8 @@ Presidente de la Sociedad Hortícola de Montfort.
 ---
 
 **Cook Street, "Riverside," 30, NEDLANDS, W.A.**
+
+*[p. 50]*
 
 Al Sr. Trouchet, Químico, PERTH.
 
@@ -688,6 +760,8 @@ Ex Sargento, Black Watch.
 
 **Box 30, Dowerin, W.A., 13/6/27.**
 
+*[p. 51]*
+
 Sres. A. Trouchet & Son,
 Forrest Place,
 Perth.
@@ -701,11 +775,15 @@ Atentamente,
 
 Doodlakine, W.A.
 
-[Imagen: Avena cosechada en 1922 en un campo sin fertilizantes y sin riego, pero influenciado por el aparato de electrocultura]
+![Avena cosechada en 1922 en un campo sin fertilizantes y sin riego, pero influenciado por el aparato de electrocultura](images/image51.png "Avena cosechada en 1922")
+
+*[p. 52]*
 
 ---
 
 **OAKDALE, via CAMDEN, N.S.W., 4 de enero de 1927.**
+
+*[p. 53]*
 
 Tylors (Australia) Ltd.,
 13 Bridge Street,
@@ -730,6 +808,8 @@ Atentamente,
 
 **22 Molloy Street, Bunbury, W.A., 23 de mayo de 1927.**
 
+*[p. 53]*
+
 Sr. Trouchet,
 Padbury's Buildings,
 PERTH.
@@ -747,11 +827,15 @@ Atentamente,
 **L. ILLINGSWORTH,**
 Por la Srta. Higgie.
 
-[Imagen: Diagrama de aplicación del aparato a vides]
+![Diagrama de aplicación del aparato a vides](images/image53.png "Aplicación del aparato a vides")
+
+*[p. 54]*
 
 ---
 
 **Perth, 25 de marzo de 1927.**
+
+*[p. 55]*
 
 Sres. A. Trouchet & Son,
 PERTH.
@@ -781,6 +865,8 @@ Atentamente,
 
 **Iolanthe Street, Bassendean, W.A., 9/6/27.**
 
+*[p. 55]*
+
 Sres. A. Trouchet & Son,
 Forrest Place,
 Perth.
@@ -797,6 +883,8 @@ Atentamente,
 ---
 
 **Hack Street, GOSNELLS, 23 de febrero de 1927.**
+
+*[p. 56]*
 
 Sres. A. Trouchet & Son,
 PERTH.
@@ -852,6 +940,8 @@ Atentamente,
 
 **Steere Street, COLLIE, 11 de enero de 1927.**
 
+*[p. 57]*
+
 Sr. Alex. Trouchet,
 PERTH.
 
@@ -893,6 +983,8 @@ Atentamente,
 ---
 
 **Devon Road, BASSENDEAN, W.A., 5 de enero de 1927.**
+
+*[p. 58]*
 
 Sres. A. Trouchet & Son,
 Padbury's Buildings,
@@ -937,6 +1029,8 @@ Atentamente,
 
 **BRUNSWICK JUNCTION, W.A., 30 de mayo de 1927.**
 
+*[p. 58]*
+
 Sres. A. Trouchet & Son,
 PERTH.
 
@@ -951,6 +1045,8 @@ Atentamente,
 
 ### INFORMES SOBRE LOS RESULTADOS OBTENIDOS EN LA PROPIEDAD DEL SR. BURGESS, CULTIVADOR DE BANANAS, GYMPIE ROAD, ASPLEY, QUEENSLAND
 
+*[p. 59]*
+
 Visitamos al Sr. Burgess el 4 de enero. El Sr. Burgess tiene instalada una planta que había estado en funcionamiento exactamente dos (2) meses en la fecha de nuestra visita. El Sr. Burgess es notablemente enfático sobre los excelentes resultados obtenidos, incluso a esta fecha.
 
 Primero señaló una pequeña parcela de tierra muy pobre, que había sido formada a partir de los residuos de una curtiduría. Este es el primer año, en un período de cuatro (4) años, desde que incluso la hierba y las malas hierbas han crecido en esta pequeña parcela de tierra. Inmediatamente después de que se instaló la planta, y durante un clima extremadamente seco, el Sr. Burgess, como experimento, plantó 18 plantas de tomate que estaban gravemente infestadas de tizón, plantando al mismo tiempo algunas plantas de control fuera de la franja electrificada. El tizón eventualmente mató estas plantas de control. En la franja electrificada, sin embargo, el tallo principal se pudrió debido a los estragos del tizón, pero se emitieron nuevas raíces desde la porción madre del tallo, que ahora son plantas vigorosas y de aspecto saludable. El Sr. Burgess afirma que este resultado es asombroso, y no recuerda que una planta se haya recuperado jamás después de ser afectada por esta enfermedad.
@@ -964,6 +1060,8 @@ Comenzó sintiéndose muy escéptico sobre los resultados, pero ahora está conv
 ---
 
 ### PRECIO DEL APARATO
+
+*[p. 60]*
 
 **EL APARATO CUESTA £6.**
 
@@ -989,6 +1087,8 @@ Agentes Exclusivos para Australia, Nueva Zelanda, Java, Estrechos Settlements, E
 **Cultiva todo por Inalámbrico.**
 
 ### ¡LA MÁQUINA DE HACER DINERO!
+
+*[p. 62]*
 ### ¡LA MÁQUINA DE AHORRAR DINERO!
 
 **Un Nuevo Progreso Científico aplicado a la Vegetación**
@@ -1023,6 +1123,8 @@ Agentes Exclusivos para Australia, Nueva Zelanda, Java, Estrechos Settlements, E
 ---
 
 ### ELECTRIFIQUE SUS SEMILLAS
+
+*[p. 64]*
 
 **HACEMOS UNA ESPECIALIDAD DE LA ELECTRIFICACIÓN DE SEMILLAS.**
 
