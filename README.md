@@ -18,6 +18,9 @@ JeBoys' Home, Westmead.
 > 📖 **Guías rápidas:**
 > - [Electroculture For Dummies (English)](docs/electroculture-for-dummies.md)
 > - [Electroicultura Para Dummies (Español)](docs/electroculture-for-dummies-es.md)
+>
+> 🔬 **Patentes de Christofleau (versión actualizada con diagramas SVG):**
+> - [Ver todas las patentes actualizadas](patents/Patents-updated/README.md)
 
 # ELECTROCULTURA
 
