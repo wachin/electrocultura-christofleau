@@ -13,6 +13,8 @@ JeBoys' Home, Westmead.
 
 ---
 
+> **PDF original:** [Electroculture (Archive.org)](https://ia601400.us.archive.org/27/items/Electroculture_127/Christofleau-Electroculture_text.pdf)
+
 # ELECTROCULTURA
 
 **Por MONS. JUSTIN CHRISTOFLEAU**
