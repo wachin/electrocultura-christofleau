@@ -7,11 +7,12 @@
 ## 📋 Índice
 
 1. [Instalación de herramientas](#1-instalación-de-herramientas)
-2. [Estructura de archivos](#2-estructura-de-archivos)
-3. [Generar el archivo LaTeX](#3-generar-el-archivo-latex)
-4. [Compilar a PDF](#4-compilar-a-pdf)
-5. [Usar el agente de IA](#5-usar-el-agente-de-ia)
-6. [Solución de problemas](#6-solución-de-problemas)
+2. [Extraer imágenes de un PDF](#2-extraer-imágenes-de-un-pdf)
+3. [Estructura de archivos](#3-estructura-de-archivos-después-de-extraer-imágenes)
+4. [Generar el archivo LaTeX](#4-generar-el-archivo-latex)
+5. [Compilar a PDF](#5-compilar-a-pdf)
+6. [Usar el agente de IA](#6-usar-el-agente-de-ia)
+7. [Solución de problemas](#7-solución-de-problemas)
 
 ---
 
@@ -58,7 +59,67 @@ pdflatex --version | head -1
 
 ---
 
-## 2. Estructura de archivos
+## 2. Extraer imágenes de un PDF
+
+Antes de trabajar con el Markdown, necesitas extraer las imágenes del PDF original. Sigue estos pasos:
+
+### Paso 1: Convertir PDF a DOCX
+
+1. Ve a **[https://www.ilovepdf.com/es/pdf_a_word](https://www.ilovepdf.com/es/pdf_a_word)**
+2. Haz clic en **"Seleccionar archivo PDF"** y sube tu PDF
+3. Espera a que se complete la conversión
+4. Haz clic en **"Descargar DOCX"**
+
+### Paso 2: Extraer las imágenes del DOCX
+
+1. **Busca el archivo `.docx`** que descargaste
+2. **Crea una copia** del archivo (clic derecho → "Copiar", luego "Pegar")
+3. **Renombra la copia** cambiando la extensión de `.docx` a `.zip`
+   - Ejemplo: `paper.docx` → `paper.zip`
+4. **Extrae el ZIP:**
+   - **Windows:** Clic derecho → "Extraer todo" → "Extraer aquí"
+   - **Linux:** Clic derecho → "Extraer aquí" o usar `unzip paper.zip`
+5. **Busca las imágenes** en la carpeta extraída:
+   ```
+   word/
+   └── media/
+       ├── image1.jpeg
+       ├── image2.png
+       └── ...
+   ```
+6. **Copia las imágenes** a tu carpeta `images/`
+
+### Paso 3: Renombrar las imágenes (opcional)
+
+Para mejor organización, puedes renombrar las imágenes:
+
+```bash
+# Ejemplo: renombrar image1.jpeg a figure1-laser-rig.jpg
+cd images/
+mv image1.jpeg figure1-laser-rig.jpg
+```
+
+### Estructura resultante:
+
+```
+tu-carpeta/
+├── paper.pdf                    ← PDF original
+├── paper.docx                   ← DOCX descargado de ilovepdf
+├── paper.zip                    ← Copia del DOCX renombrada
+├── word/                        ← Carpeta extraída del ZIP
+│   └── media/
+│       ├── image1.jpeg          ← Imágenes originales
+│       └── ...
+├── images/                      ← Imágenes para el Markdown
+│   ├── image1.jpeg
+│   └── ...
+├── mi-paper-ES.md              ← Tu documento en Markdown
+└── ...
+```
+
+---
+
+## 3. Estructura de archivos (después de extraer imágenes)
 
 Tu carpeta debe tener esta estructura:
 
@@ -85,7 +146,7 @@ tu-carpeta/
 
 ---
 
-## 3. Generar el archivo LaTeX
+## 4. Generar el archivo LaTeX
 
 ### Método manual (recomendado para aprendizaje)
 
@@ -120,7 +181,7 @@ pandoc tu-paper-ES.md -o tu-paper-ES.tex \
 
 ---
 
-## 4. Compilar a PDF
+## 5. Compilar a PDF
 
 ### Método 1: Desde la terminal
 
@@ -158,7 +219,7 @@ Cambia `pdflatex` por `xelatex` en el campo "PdfLaTeX".
 
 ---
 
-## 5. Usar el agente de IA
+## 6. Usar el agente de IA
 
 ### Prompt 1: Generar el archivo LaTeX
 
@@ -228,7 +289,7 @@ Usa \clearpage y \onecolumn para que sea una página separada.
 
 ---
 
-## 6. Solución de problemas
+## 7. Solución de problemas
 
 ### Problema: "Unicode character not set up"
 
