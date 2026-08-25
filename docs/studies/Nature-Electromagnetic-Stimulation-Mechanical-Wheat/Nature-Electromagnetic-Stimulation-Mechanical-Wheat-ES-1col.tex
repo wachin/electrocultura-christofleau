@@ -3,8 +3,6 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  11pt,
-  letterpaper,
 ]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -38,7 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -66,17 +63,18 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifLuaTeX
-\usepackage[bidi=basic]{babel}
-\else
-\usepackage[bidi=default]{babel}
-\fi
-\babelprovide[main,import]{spanish}
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
+% Configuración de márgenes y diseño
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
+
 % Soporte para caracteres Unicode (modo una columna)
 \usepackage{newunicodechar}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ragged2e}
 
 % Definir caracteres Unicode problemáticos
 \newunicodechar{₀}{\ensuremath{_0}}
@@ -127,6 +125,16 @@
 \newunicodechar{≫}{\ensuremath{\gg}}
 \newunicodechar{∇}{\ensuremath{\nabla}}
 \newunicodechar{∂}{\ensuremath{\partial}}
+
+% Configuración para tablas
+\setlength{\LTpre}{\baselineskip}
+\setlength{\LTpost}{\baselineskip}
+\renewcommand{\arraystretch}{1.2}
+
+% Permitir que las tablas se ajusten al ancho de página
+\makeatletter
+\def\tabularxcolumn#1{m{#1}}
+\makeatother
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -134,7 +142,6 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdflang={es},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
