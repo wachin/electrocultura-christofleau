@@ -155,6 +155,77 @@ electrocultura-christofleau/
 
 ---
 
+## 🔍 Prompts valiosos para verificar la calidad
+
+Estos prompts son los más importantes del proyecto. Se usaron para **verificar que las conversiones de PDF a Markdown estuvieran completas y correctas**. Si vas a replicar este proceso, cópialos y usa los mismos:
+
+### Prompt 1: Verificar integridad del PDF vs Markdown
+
+> "Ahora por favor revisa este pdf: [ruta del PDF]
+> cuenta cuantas imagenes tiene, y muy minuciosamente revisa su contenido y comparalo con la conversión a markdown: [ruta del MD]
+> y si ves que le falte alguna imagen, o si le falta algo de texto colocaselo, o si vez que no se ha explicado alguna parte bien por causa del formato de dos columnas del archivo original pues adaptalo de la mejor manera para el markdown, también revisa sus tablas y demás contenido, pues debe quedar integramente convertido a markdown"
+
+**Qué hace este prompt:**
+- Pide al asistente que **cuente las imágenes** del PDF original
+- Pide que **compare contenido** entre PDF y Markdown
+- Pide que **corrija faltantes** de imágenes, texto o tablas
+- Pide que **adapte** el formato de doble columna a una sola columna
+- Pide que el resultado sea **íntegro** (sin pérdida de información)
+
+### Prompt 2: Verificar paridad EN vs ES
+
+> "ahora verifica la paridad con la traducción: [ruta del archivo ES]"
+
+**Qué hace este prompt:**
+- Pide que compare la versión en inglés (EN) con la traducción al español (ES)
+- Verifica que tengan **las mismas imágenes**
+- Verifica que tengan **las mismas secciones**
+- Verifica que tengan **las mismas tablas**
+- Verifica que tengan **las mismas referencias**
+- Detecta **diferencias** y las corrige
+
+### Prompt 3: Verificar que no falta nada
+
+> "pregunto si no falta ninguna palabra, ninguna tílde, ningún símbolo del pdf original?, porque todo el contenido del pdf original debe estar integro en el markdown"
+
+**Qué hace este prompt:**
+- Pide una **verificación exhaustiva** de integridad
+- Busca **palabras faltantes**, **tildes** y **símbolos**
+- Verifica que **todo el contenido** del PDF esté presente
+- Es el prompt más riguroso para asegurar calidad
+
+### Prompt 4: Corregir traducción incorrecta
+
+> "ahora verifica la paridad con la traducción: [ruta del ES]
+> [si el asistente encuentra problemas]
+> Continuar con la reescritura completa"
+
+**Qué hace este prompt:**
+- Detecta cuando la traducción ES **no corresponde** al EN
+- Identifica **problemas específicos**: imágenes faltantes, DOI erróneo, tablas rotas
+- Pide **reescribir completamente** la traducción incorrecta
+- Verifica que la nueva versión tenga **paridad exacta**
+
+### Ejemplo de problema detectado con estos prompts
+
+| Problema | Prompt que lo detectó | Solución |
+|----------|----------------------|----------|
+| Solo 44% de palabras del PDF en MD | Prompt 1 | Reescribir secciones faltantes |
+| DOI erróneo (331 en vez de 346) | Prompt 3 | Corregir DOI manualmente |
+| Traducción ES con contenido inventado | Prompt 2 | Reescribir traducción completa |
+| Imágenes faltantes (7 de 13) | Prompt 1 | Añadir imágenes faltantes |
+| Texto duplicado | Prompt 1 | Eliminar duplicados |
+| Tablas en formato roto de pandoc | Prompt 1 | Reformatear tablas |
+
+### Consejo: Usa estos prompts en este orden
+
+1. **Primero** Prompt 1 (verificar PDF vs MD)
+2. **Después** Prompt 3 (verificar que no falta nada)
+3. **Luego** Prompt 2 (verificar paridad EN vs ES)
+4. **Si hay problemas** Prompt 4 (corregir traducción)
+
+---
+
 ## 🛠️ Herramientas utilizadas
 
 ### Herramientas de conversión
