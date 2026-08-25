@@ -285,137 +285,269 @@ Visto a lo largo de tres siglos, el motivo de una "électricité vivifiante" per
 # 5. Referencias
 
 [1] Teofrasto. *De Lapidibus*. Oxford, At the Clarendon Press (1965).
+
 [2] Plinio el Viejo. *Historia Natural*. Libro 37. Traducido por D.E. Eichholz (1962).
+
 [3] J. Francis, J. Dingley. "Electroanaesthesia — del pez torpedo al TENS." *Anaesthesia* 70(1), 93–103 (2015).
+
 [4] A. Magnus, *De mineralibus*, Libro II. Clarendon Press: Oxford, 1967.
+
 [5] G. della Porta. *Magia naturalis* (1558/1589), Libro VII, cap. 16.
+
 [6] G. Cardano. *De subtilitate*, Libro VII. Lyon, 1663.
+
 [7] W. Gilbert. *De Magnete* (1600).
+
 [8] N. H. de V. Heathcote, "El globo de azufre de Guericke," *Ann. Sci.* 6(3), 293–305 (1950).
+
 [9] F. Hauksbee. *Experiencias Físico-Mecánicas sobre Varios Temas* (1709).
+
 [10] S. Gray. "Una carta a Cromwell Mortimer." *Philosophical Transactions* 37, 1731–32.
+
 [11] C.-F. Du Fay. "Electricidad Vitrea/Resinosa." *Nature* 144, 105 (1939).
+
 [12] J. L. Heilbron. "A propos de l'invention de la bouteille de Leyde." *Revue d'histoire des sciences* 19(2), 133–142 (1966).
+
 [13] C. Dorsman, C. A. Crommelin. "La invención de la botella de Leyden."
+
 [14] J. Priestley. *The History and Present State of Electricity*. Londres, 1767.
+
 [15] E. Nairne. *Experiencias sobre electricidad*. Londres, 1779.
+
 [16] W. D. Hackmann. "Las investigaciones del Dr. Martinus Van Marum." *Medical History* 16(1), 11–26 (1972).
+
 [17] J.-A. Nollet. *Cartas sobre la electricidad*. París, 1753.
+
 [18] J.-A. Nollet. *Ensayo sobre la Electricidad de los Cuerpos*. París, 1765.
+
 [19] B. Pike. *Catálogo Ilustrado Descriptivo de Pike*, 2ª ed., vol. 1, 1856, pp. 260, 269.
+
 [20] A. Ganot. *Tratado elemental de física experimental*, 9ª ed. (1860), pp. 567, 691.
+
 [21] B. Franklin. *Experiencias y observaciones sobre la electricidad*. Londres, 1751.
+
 [22] E. P. Krider. "Benjamin Franklin y los pararrayos." *Physics Today* 59(1), 42–48 (2006).
+
 [23] T. Lane. "Descripción de un electrómetro inventado por el Sr. Lane." *Phil. Trans. R. Soc.* 57, 451–460 (1767).
+
 [24] J.-A. Sigaud De La Fond. *Resumen histórico y experimental de los fenómenos eléctricos*. París, 1785.
+
 [25] *Philosophical Transactions*, vol. LXII, 1772, p. 359.
+
 [26] J. Lacki. "El Turista Físico. Ginebra." *Physics in Perspective* 9(2), 231–252 (2007).
+
 [27] C. A. Coulomb. *Memorias sobre la electricidad y el magnetismo*. París, 1785.
+
 [28] J. Priestley. *The History and Present State of Electricity*, 2ª ed. Londres, 1769.
+
 [29] T. Cavallo. *Un tratado completo de electricidad*, 3ª ed. Londres, 1786.
+
 [30] G. Beccaria. *Dell'elettricismo artificiale e naturale*. 1753.
+
 [31] Bertholon. *De l'électricité des végétaux*. París, 1783.
+
 [32] L. Fabbrizzi. "Extraño Caso del Señor Volta y el Señor Nicholson." *Angewandte* 58(18), 5810–5822 (2019).
+
 [33] J. C. Bose. *Electrofisiología Comparada*. Nueva York, 1907.
+
 [34] W. Crookes. "Sobre la materia radiante." *American Journal of Science* s3-18(106) (1879).
+
 [35] W. von Siemens. "Sobre la inducción electrostática." *Annalen der Physik* 178(9), 66–122 (1857).
+
 [36] M. Faraday. "Investigaciones experimentales en electricidad — quinta serie." *Philosophical Transactions* 123 (1833).
+
 [37] J. Burdon-Sanderson. "Nota sobre los Fenómenos Eléctricos que acompañan la Irritación de la Hoja de Dionaea muscipula." *Proc. Royal Society* (1873).
+
 [38] F. Paschen. "Sobre la diferencia de potencial requerida para la chispa en aire." *Annalen der Physik* (1889).
+
 [39] J. S. Townsend. "La conductividad producida en gases." *Nature* 62, 340–341 (1900).
+
 [40] J. S. Townsend. *La Teoría de Ionización de Gases por Colisión*. Londres, 1901.
+
 [41] A. W. Hofmann. "Dr. Heinrich Geissler." *Ber. Dtsch. Chem. Ges.* 12, 147–148 (1879).
+
 [42] I. Langmuir. "Oscilaciones en Gases Ionizados." *Proc. Natl. Acad. Sci.* (1928).
+
 [43] C. von Sonntag, U. von Gunten. *Química del ozono en tratamiento de agua y aguas residuales*. Iwa Publishing, 2012.
+
 [44] C. Gottschalk, J. A. Libra, A. Saupe. *Ozonación de agua y aguas residuales*. Wiley-VCH, 2010.
+
 [45] Kr. Birkeland. *Trans. Faraday Soc.* 2, 98–116 (1906).
+
 [46] A. M. W. Downing, T. P. Blunt. "Investigaciones sobre el efecto de la luz sobre Bacterias." *Proc. Royal Society of London* 26 (1878).
+
 [47] M. Luckiesh, L. Holladay. *Aplicaciones de Energía Germicida, Eritemal e Infrarroja*. Nueva York, 1946.
+
 [48] Rentschler, H. (1942) "Acción Bactericida de la Radiación Ultravioleta."
+
 [49] S. Lemström. *Electricidad en Agricultura y Horticultura*. Londres, 1904.
+
 [50] J. Christofleau. *Electroculture — Fertilización de tierras por la electricidad atmosférica*. 1925.
+
 [51] M. S. Kyi, J. Holton, G. L. Ridgway. "Evaluación de la eficacia de un sistema de esterilización por plasma gaseoso de H₂O₂ a baja temperatura." *J. Hospital Infection* 31(4), 275–284 (1995).
+
 [52] W. A. Rutala et al. "Evaluación comparativa de la actividad esporicida de nuevas tecnologías de esterilización a baja temperatura." *Am. J. Infection Control* 26(4), 393–398 (1998).
+
 [53] M. Laroussi. "Esterilización de materia contaminada con un plasma a presión atmosférica." *IEEE Trans. Plasma Science* 24(3), 1188–1191 (1996).
+
 [54] I. Adamovich et al. "La Hoja de Ruta del Plasma 2017." *J. Physics D: Applied Physics* 50(32), 323001 (2017).
+
 [55] P. Ranieri et al. "Agricultura plasma: Revisión." *Plasma Processes & Polymers* 18(1), 2000162 (2021).
+
 [56] D. B. Graves. "El papel emergente de las especies reactivas de oxígeno y nitrógeno." *J. Physics D: Applied Physics* 45(26), 263001 (2012).
+
 [57] D. Yan et al. "Mejorando la Germinación de Semillas con Plasma Atmosférico Frío." *Plasma* 5(1), 98–110 (2022).
+
 [58] M. A. Benabderrahm et al. "El tratamiento con plasma frío impulsa la germinación de cebada." *J. Cereal Science* 116, 103852 (2024).
+
 [59] K. S. Wong et al. "Agua Activada por Plasma: Propiedades Fisicoquímicas." *Processes* 11(7), 2213 (2023).
+
 [60] E. Cortese et al. "PAW Provoca Elevaciones Rápidas de Ca²⁺ en Arabidopsis." *Plants* 10(11), 2516 (2021).
+
 [61] S. M. E. Sultan et al. "El plasma atmosférico frío mejora plántulas de tomate." *BMC Plant Biology* 24, 420 (2024).
+
 [62] Y. Zambon et al. "El agua activada por plasma provoca respuestas de defensa en plantas." *Scientific Reports* 10, 19211 (2020).
+
 [63] Y. Gao et al. "Revisión sobre la formación de agua activada por plasma frío." *Food Research International* 157, 111246 (2022).
+
 [64] J. Šimečková et al. "Influencia del PAW sobre propiedades del suelo." *Water* 12(9), 2357 (2020).
+
 [65] B. A. Niemira. "Descontaminación de Alimentos con Plasma Frío." *Ann. Rev. Food Sci. Tech.* 3, 125–142 (2012).
+
 [66] N. N. Misra et al. "Tratamiento con plasma frío a presión atmosférica en empaque de fresas." *J. Food Engineering* 125, 131–138 (2014).
+
 [67] M. Bayati et al. "Cambios químicos y físicos inducidos por tratamiento con plasma frío." *Compr Rev Food Sci Food Saf* 23(4), e13376 (2024).
+
 [68] M. François, F. Fourmaux. "Nota sobre el Abbé Pierre Bertholon de Saint Lazare." CTHS.
+
 [69] L. Dulieu. "El movimiento científico montpellierés en el siglo XVIII." *Revue d'histoire des sciences* 11(3), 227–249 (1958).
+
 [70] M. l'Abbé Bertholon. *De l'électricité du corps humain*. París, 1780.
+
 [71] M. l'Abbé Bertholon, M. Goyer. *La nature considérée sous ses différents aspects*. París, 1787.
+
 [72] J. Priestley. "Una cuenta de un nuevo electrómetro, ideado por el Sr. William Henly." *Philosophical Transactions* 62 (1772).
+
 [73] A. Guillemin. *Electricidad y Magnetismo*. Londres, 1891.
+
 [74] C. A. Coulomb. *Memorias sobre la electricidad y el magnetismo*. Segunda memoria, pp. 577–611 (1785).
+
 [75] A. Martinez. "Replicación del Experimento de la Balanza de Torsión de Coulomb." *Arch. Hist. Exact Sci.* 60, 517–563 (2006).
+
 [76] M. B. Rubin. "La historia del ozono." *Bull. Hist. Chem.* 26(1), 40–56 (2001).
+
 [77] D. Tarasick et al. "Informe de Evaluación de Ozono Troposférico." *Elementa* 7:39 (2019).
+
 [78] J. Barth. "Johann Wilhelm Ritter y el descubrimiento de la radiación UV." *Hautarzt* 38(5), 301–303 (1987).
+
 [79] E. Kuffel et al. *Ingeniería de alto voltaje: fundamentos*. Butterworth-Heinemann, 2000.
+
 [80] R. A. Fisher. *El diseño de experimentos*. Hafner Press, 1971.
+
 [81] I. Chalmers et al. "Por qué el ensayo MRC de 1948 de estreptomicina usó asignación basada en números aleatorios." *J. Royal Society of Medicine* 104(9) (2011).
+
 [82] P. Bourke et al. "El Potencial del Plasma Frío para una Producción Alimentaria Segura y Sostenible." *Trends in Biotechnology* 36(6), 615–626 (2018).
+
 [83] F. F. Chen. *Introducción a la Física del Plasma y la Fusión Controlada*. Springer, 2019.
+
 [84] Y. P. Raizer. *Física de Descargas de Gas*. Springer, 1991.
+
 [85] M. A. Lieberman, A. J. Lichtenberg. *Principios de Descargas de Plasma y Procesamiento de Materiales*. Wiley, 2005.
+
 [86] L. C. Pitchford et al. "LXCat: una Plataforma de Acceso Abierto." *Plasma Processes & Polymers* 14(1–2) (2016).
+
 [87] F. Judée et al. "Activación de agua del grifo usando DBD." *Wat. Res.* 133, 47–59 (2018).
+
 [88] P. Bruggeman, C. Leys. "Plasmas no térmicos en y en contacto con líquidos." *J. Physics D* 42(5), 053001 (2009).
+
 [89] P. J. Bruggeman et al. "Interacciones plasma-líquido: Una revisión y hoja de ruta." *Plasma Sources Sci. Technol.* 25(5), 053002 (2016).
+
 [90] U. Kogelschatz. "Descargas de Barrera Dieléctrica." *Plasma Chemistry and Plasma Processing* 23, 1–46 (2003).
+
 [91] J. Winter et al. "Chorros de plasma a presión atmosférica: una visión general." *Plasma Sources Sci. Technol.* 24(6), 064001 (2015).
+
 [92] T. C. Manley. "Las Características Eléctricas de la Descarga del Ozonizador." *Trans. Electrochemical Society* 84(1) (1943).
+
 [93] H. Decauchy, T. Dufour. "Mecanismos de transmisión y reflexión múltiple de streamers guiados." *Plasma Sources Sci. Technol.* 31(11) (2022).
+
 [94] J. H. Kim et al. "Mediciones ópticas de temperaturas de gas en plasmas fríos RF a presión atmosférica." *Surface and Coatings Technology* 171, 211–215 (2003).
+
 [95] N. Masoud et al. "Mediciones de Temperaturas Rotacionales y Vibracionales en un C-DBD." *Contributions to Plasma Physics* 45(1), 32–39 (2005).
+
 [96] A. Herrmann et al. "Diseño Mejorado de Sonda Catalítica para Mapeo de Densidad de Radicales." *J. Phys. Chem. A* 128(46), 10080–10086 (2024).
+
 [97] R. R. Brandenburg. "Descargas de barrera dieléctrica: progreso en fuentes de plasma." *Plasma Sources Sci. Technol.* 26(5), 053001 (2017).
+
 [98] L. L. Alves et al. "Fundamentos de estándares de plasma." *Plasma Sources Sci. Technol.* 32(2) (2023).
+
 [99] J. R. Bolton, K. G. Linden. "Estandarización de Métodos para Determinación de Fluencia." *J. Environmental Engineering* 129(3).
+
 [100] D. Tsikas. "Análisis de nitrito y nitrato en fluidos biológicos." *J. Chromatography B* 851, 51–70 (2007).
+
 [101] J.-Y. Han et al. "Efectos del agua activada por burbuja de plasma sobre patógenos transmitidos por alimentos en tomates." *Food Control* 144, 109381 (2023).
+
 [102] M. M. Rahman et al. "Mecanismos y Señalización Asociados con la Mejora del Crecimiento en Trigo Mediante Plasma LPDBD." *Scientific Reports* 8, 10498 (2018).
+
 [103] N. Dawood. "Efectos del tratamiento con plasma de aire sobre la absorción de agua de semillas de trigo y cebada." *J. Taibah University For Science* 15(1), 1094–1100 (2021).
+
 [104] P. Starič et al. "Respuesta de Dos Variedades de Trigo a Plasma de Oxígeno de Brillo y Afterglow." *Plants* 10(8), 1728 (2021).
+
 [105] P. Starič et al. "La Influencia del Plasma Frío de Brillo y Afterglow sobre Semillas de Trigo." *Int. J. Mol. Sci.* 23(13), 7369 (2022).
+
 [106] S. Karmakar et al. "Impacto del plasma LFGD sobre superficie de semillas, germinación, crecimiento de maíz." *Heliyon* 7, e06458 (2021).
+
 [107] R. Molina et al. "Análisis fisicoquímico de superficie de semillas de trigo tratadas con DBD." *Plasma Processes & Polymers* 18(1), 2000086 (2021).
+
 [108] N. Recek et al. "Germinación de Semillas de Phaseolus vulgaris L. tras Plasma RF." *Int. J. Mol. Sci.* 22(13), 6672 (2021).
+
 [109] E. Bormashenko et al. "El Tratamiento con Plasma RF Frío Modifica la Humectabilidad y Velocidad de Germinación de Semillas." *Scientific Reports* 2, 741 (2012).
+
 [110] N. Khamsen et al. "Esterilización y Mejora de Germinación de Semillas de Arroz Mediante Plasma de Descarga Híbrida Atmosférica." *ACS Appl. Mater. Interfaces* 8(30), 19268–19275 (2016).
+
 [111] J. Mravlje et al. "Desarrollo de Tecnologías de Plasma Frío para Descontaminación Superficial de Patógenos Fúngicos en Semillas." *J. Fungi* 7(8), 650 (2021).
+
 [112] A. Mitra et al. "Inactivación de Microorganismos Superficiales por Plasma Atmosférico Frío." *Food and Bioprocess Technology* 7, 645–653 (2014).
+
 [113] P. Basaran et al. "Eliminación de Aspergillus parasiticus de superficie de nueces con LPCP." *Food Microbiology* 25, 626–632 (2008).
+
 [114] K. Homa et al. "Estrategias de Tratamiento con Plasma Frío para Fusarium oxysporum en Albahaca Dulce." *HortScience* 56(1), 42–51 (2020).
+
 [115] J. Mravlje et al. "El Plasma Frío Afecta la Germinación y la Estructura de la Comunidad Fúngica de Semillas de Trigo Sarraceno." *Plants* 10(5), 851 (2021).
+
 [116] G. Grainge et al. "Mecanismos moleculares de liberación de dormancia de semillas por agua activada con plasma gaseoso." *J. Experimental Botany* 73(12), 4065–4078 (2022).
+
 [117] G. Grainge et al. "Impacto del Agua Activada con Plasma Gaseoso sobre Mecanismos de Dormancia Fotodependiente en Semillas de Nicotiana tabacum." *Int. J. Mol. Sci.* 23(12), 6709 (2022).
+
 [118] L. Ling et al. "El tratamiento con plasma frío mejora la germinación de semillas de colza bajo estrés por sequía." *Scientific Reports* 5, 13033 (2015).
+
 [119] J.-Y. Bian et al. "El plasma no térmico mejora la germinación de semillas de arroz bajo estrés por baja temperatura." *Applied Biological Chemistry* 67(2) (2024).
+
 [120] K. Sayahi et al. "Evaluando el impacto del Plasma Frío sobre la soja." *BMC Biotechnology* 24, 93 (2024).
+
 [121] K. Kučerová et al. "Efectos del agua activada por plasma sobre el trigo." *Plasma Processes & Polymers* 16(3), 1800131 (2019).
+
 [122] B. Šerá et al. "Tratamiento con Plasma de Arco Deslizante de Granos de Maíz." *Agronomy* 11(10), 2066 (2021).
+
 [123] B. Adhikari et al. "Riego con Agua Activada por Plasma Atmosférico Frío en Plántulas de Tomate." *Scientific Reports* 9, 16080 (2019).
+
 [124] F. M. Abarghuei et al. "Una Aplicación de CAP para Mejorar Rasgos de Albahaca." *Plants* 10(10), 2088 (2021).
+
 [125] L. Sivachandiran, A. Khacef. "Germinación mejorada de semillas y crecimiento de plantas por plasma de aire frío a presión atmosférica." *RSC Advances* 7, 1822 (2017).
+
 [126] S. Zhang, A. Rousseau, T. Dufour. "Promoviendo la germinación de lenteja con agua activada por plasma." *RSC Advances* 7, 31244 (2017).
+
 [127] J. Perner et al. "El tratamiento con plasma frío influye en los parámetros fisiológicos del mijo." *Photosynthetica* 62(1), 126–137 (2024).
+
 [128] F. Bussmann et al. "Efectos a Largo Plazo del Agua Tratada con CAP sobre Hordeum vulgare." *J Plant Growth Regul* 42, 3274–3290 (2023).
+
 [129] K. Panngom et al. "El Tratamiento con Plasma No Térmico Reduce la Viabilidad Fúngica." *PLoS ONE* 9(6), e99300 (2014).
+
 [130] S. M. Perez et al. "El agua activada por plasma como inductor de resistencia contra mancha bacteriana del tomate." *PLoS ONE* 14(5), e0217788 (2019).
+
 [131] P. J. Savi et al. "El riego con agua activada por plasma aumenta la mortalidad de ácaros araña en tomate." *Scientific Reports* 15, 22118 (2025).
+
 [132] M. Veerana et al. "El plasma no térmico mejora el crecimiento y la tolerancia a la salinidad de bok choy." *Frontiers in Plant Science* 15, 1445791 (2024).
+
 [133] Z. Lukacova et al. "El Efecto del PAW sobre Maíz bajo Estrés por Arsénico." *Plants* 10(9), 1899 (2021).
 
 ---

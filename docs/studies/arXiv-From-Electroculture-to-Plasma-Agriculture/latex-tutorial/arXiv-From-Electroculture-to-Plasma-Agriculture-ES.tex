@@ -3,9 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  10pt,
-  letterpaper,
-  twocolumn]{article}
+]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -38,7 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=2cm,bottom=2cm,left=1.8cm,right=1.8cm,columnsep=0.6cm]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -66,22 +63,18 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifLuaTeX
-\usepackage[bidi=basic]{babel}
-\else
-\usepackage[bidi=default]{babel}
-\fi
-\babelprovide[main,import]{spanish}
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
-% Solución para longtable en modo dos columnas
-\usepackage{etoolbox}
-\BeforeBeginEnvironment{longtable}{\onecolumn}
-\AfterEndEnvironment{longtable}{\twocolumn}
+% Configuración de márgenes y diseño
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
 
-% Soporte para caracteres Unicode
+% Soporte para caracteres Unicode (modo una columna)
 \usepackage{newunicodechar}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ragged2e}
 
 % Definir caracteres Unicode problemáticos
 \newunicodechar{₀}{\ensuremath{_0}}
@@ -128,92 +121,20 @@
 \newunicodechar{↓}{\ensuremath{\downarrow}}
 \newunicodechar{±}{\ensuremath{\pm}}
 \newunicodechar{÷}{\ensuremath{\div}}
-\newunicodechar{√}{\ensuremath{\sqrt{}}}
 \newunicodechar{≪}{\ensuremath{\ll}}
 \newunicodechar{≫}{\ensuremath{\gg}}
-\newunicodechar{≪}{\ensuremath{\ll}}
-\newunicodechar{∑}{\ensuremath{\sum}}
-\newunicodechar{∏}{\ensuremath{\prod}}
-\newunicodechar{∫}{\ensuremath{\int}}
-\newunicodechar{∂}{\ensuremath{\partial}}
 \newunicodechar{∇}{\ensuremath{\nabla}}
-\newunicodechar{∈}{\ensuremath{\in}}
-\newunicodechar{∉}{\ensuremath{\notin}}
-\newunicodechar{⊂}{\ensuremath{\subset}}
-\newunicodechar{⊃}{\ensuremath{\supset}}
-\newunicodechar{∪}{\ensuremath{\cup}}
-\newunicodechar{∩}{\ensuremath{\cap}}
-\newunicodechar{∅}{\ensuremath{\emptyset}}
-\newunicodechar{∀}{\ensuremath{\forall}}
-\newunicodechar{∃}{\ensuremath{\exists}}
-\newunicodechar{¬}{\ensuremath{\neg}}
-\newunicodechar{∧}{\ensuremath{\land}}
-\newunicodechar{∨}{\ensuremath{\lor}}
-\newunicodechar{⇒}{\ensuremath{\Rightarrow}}
-\newunicodechar{⇔}{\ensuremath{\Leftrightarrow}}
-\newunicodechar{⊤}{\ensuremath{\top}}
-\newunicodechar{⊥}{\ensuremath{\bot}}
-\newunicodechar{⊢}{\ensuremath{\vdash}}
-\newunicodechar{⊨}{\ensuremath{\models}}
-\newunicodechar{⊆}{\ensuremath{\subseteq}}
-\newunicodechar{⊇}{\ensuremath{\supseteq}}
-\newunicodechar{≡}{\ensuremath{\equiv}}
-\newunicodechar{≅}{\ensuremath{\cong}}
-\newunicodechar{∼}{\ensuremath{\sim}}
-\newunicodechar{∽}{\ensuremath{\backsim}}
-\newunicodechar{≺}{\ensuremath{\prec}}
-\newunicodechar{≻}{\ensuremath{\succ}}
-\newunicodechar{≼}{\ensuremath{\preceq}}
-\newunicodechar{≽}{\ensuremath{\succeq}}
-\newunicodechar{⊥}{\ensuremath{\perp}}
-\newunicodechar{∥}{\ensuremath{\parallel}}
-\newunicodechar{∦}{\ensuremath{\nparallel}}
-\newunicodechar{∠}{\ensuremath{\angle}}
-\newunicodechar{∡}{\ensuremath{\measuredangle}}
-\newunicodechar{∢}{\ensuremath{\sphericalangle}}
-\newunicodechar{△}{\ensuremath{\triangle}}
-\newunicodechar{▴}{\ensuremath{\triangle}}
-\newunicodechar{▾}{\ensuremath{\triangledown}}
-\newunicodechar{▷}{\ensuremath{\triangleright}}
-\newunicodechar{◁}{\ensuremath{\triangleleft}}
-\newunicodechar{◯}{\ensuremath{\bigcirc}}
-\newunicodechar{●}{\ensuremath{\bullet}}
-\newunicodechar{○}{\ensuremath{\circ}}
-\newunicodechar{▪}{\ensuremath{\blacktriangle}}
-\newunicodechar{▫}{\ensuremath{\vartriangle}}
-\newunicodechar{★}{\ensuremath{\star}}
-\newunicodechar{☆}{\ensuremath{\bigstar}}
-\newunicodechar{♭}{\ensuremath{\flat}}
-\newunicodechar{♮}{\ensuremath{\natural}}
-\newunicodechar{♯}{\ensuremath{\sharp}}
-\newunicodechar{℘}{\ensuremath{\wp}}
-\newunicodechar{ℏ}{\ensuremath{\hbar}}
-\newunicodechar{ℓ}{\ensuremath{\ell}}
-\newunicodechar{ℜ}{\ensuremath{\Re}}
-\newunicodechar{ℑ}{\ensuremath{\Im}}
-\newunicodechar{ℵ}{\ensuremath{\aleph}}
-\newunicodechar{ℶ}{\ensuremath{\beth}}
-\newunicodechar{ℷ}{\ensuremath{\gimel}}
-\newunicodechar{ℸ}{\ensuremath{\daleth}}
-\newunicodechar{ℹ}{\ensuremath{\imath}}
-\newunicodechar{ℐ}{\ensuremath{\mathcal{I}}}
-\newunicodechar{ℑ}{\ensuremath{\mathcal{J}}}
-\newunicodechar{ℝ}{\ensuremath{\mathbb{R}}}
-\newunicodechar{ℂ}{\ensuremath{\mathbb{C}}}
-\newunicodechar{ℍ}{\ensuremath{\mathbb{H}}}
-\newunicodechar{ℚ}{\ensuremath{\mathbb{Q}}}
-\newunicodechar{ℤ}{\ensuremath{\mathbb{Z}}}
-\newunicodechar{ℕ}{\ensuremath{\mathbb{N}}}
-\newunicodechar{↺}{\ensuremath{\circlearrowleft}}
-\newunicodechar{↻}{\ensuremath{\circlearrowright}}
-\newunicodechar{↺}{\ensuremath{\leftarrowtail}}
-\newunicodechar{↻}{\ensuremath{\rightarrowtail}}
-\newunicodechar{↺}{\ensuremath{\looparrowleft}}
-\newunicodechar{↻}{\ensuremath{\looparrowright}}
-\newunicodechar{↺}{\ensuremath{\curvearrowleft}}
-\newunicodechar{↻}{\ensuremath{\curvearrowright}}
-\newunicodechar{↺}{\ensuremath{\circlearrowleft}}
-\newunicodechar{↻}{\ensuremath{\circlearrowright}}
+\newunicodechar{∂}{\ensuremath{\partial}}
+
+% Configuración para tablas
+\setlength{\LTpre}{\baselineskip}
+\setlength{\LTpost}{\baselineskip}
+\renewcommand{\arraystretch}{1.2}
+
+% Permitir que las tablas se ajusten al ancho de página
+\makeatletter
+\def\tabularxcolumn#1{m{#1}}
+\makeatother
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -221,7 +142,6 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdflang={es},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
@@ -1058,253 +978,444 @@ insumo, rastreables y potencialmente más resilientes.
 \section{5. Referencias}\label{referencias}
 
 {[}1{]} Teofrasto. \emph{De Lapidibus}. Oxford, At the Clarendon Press
-(1965). {[}2{]} Plinio el Viejo. \emph{Historia Natural}. Libro 37.
-Traducido por D.E. Eichholz (1962). {[}3{]} J. Francis, J. Dingley.
-``Electroanaesthesia --- del pez torpedo al TENS.'' \emph{Anaesthesia}
-70(1), 93--103 (2015). {[}4{]} A. Magnus, \emph{De mineralibus}, Libro
-II. Clarendon Press: Oxford, 1967. {[}5{]} G. della Porta. \emph{Magia
-naturalis} (1558/1589), Libro VII, cap. 16. {[}6{]} G. Cardano. \emph{De
-subtilitate}, Libro VII. Lyon, 1663. {[}7{]} W. Gilbert. \emph{De
-Magnete} (1600). {[}8{]} N. H. de V. Heathcote, ``El globo de azufre de
-Guericke,'' \emph{Ann. Sci.} 6(3), 293--305 (1950). {[}9{]} F. Hauksbee.
-\emph{Experiencias Físico-Mecánicas sobre Varios Temas} (1709). {[}10{]}
-S. Gray. ``Una carta a Cromwell Mortimer.'' \emph{Philosophical
-Transactions} 37, 1731--32. {[}11{]} C.-F. Du Fay. ``Electricidad
-Vitrea/Resinosa.'' \emph{Nature} 144, 105 (1939). {[}12{]} J. L.
-Heilbron. ``A propos de l'invention de la bouteille de Leyde.''
-\emph{Revue d'histoire des sciences} 19(2), 133--142 (1966). {[}13{]} C.
-Dorsman, C. A. Crommelin. ``La invención de la botella de Leyden.''
+(1965).
+
+{[}2{]} Plinio el Viejo. \emph{Historia Natural}. Libro 37. Traducido
+por D.E. Eichholz (1962).
+
+{[}3{]} J. Francis, J. Dingley. ``Electroanaesthesia --- del pez torpedo
+al TENS.'' \emph{Anaesthesia} 70(1), 93--103 (2015).
+
+{[}4{]} A. Magnus, \emph{De mineralibus}, Libro II. Clarendon Press:
+Oxford, 1967.
+
+{[}5{]} G. della Porta. \emph{Magia naturalis} (1558/1589), Libro VII,
+cap. 16.
+
+{[}6{]} G. Cardano. \emph{De subtilitate}, Libro VII. Lyon, 1663.
+
+{[}7{]} W. Gilbert. \emph{De Magnete} (1600).
+
+{[}8{]} N. H. de V. Heathcote, ``El globo de azufre de Guericke,''
+\emph{Ann. Sci.} 6(3), 293--305 (1950).
+
+{[}9{]} F. Hauksbee. \emph{Experiencias Físico-Mecánicas sobre Varios
+Temas} (1709).
+
+{[}10{]} S. Gray. ``Una carta a Cromwell Mortimer.'' \emph{Philosophical
+Transactions} 37, 1731--32.
+
+{[}11{]} C.-F. Du Fay. ``Electricidad Vitrea/Resinosa.'' \emph{Nature}
+144, 105 (1939).
+
+{[}12{]} J. L. Heilbron. ``A propos de l'invention de la bouteille de
+Leyde.'' \emph{Revue d'histoire des sciences} 19(2), 133--142 (1966).
+
+{[}13{]} C. Dorsman, C. A. Crommelin. ``La invención de la botella de
+Leyden.''
+
 {[}14{]} J. Priestley. \emph{The History and Present State of
-Electricity}. Londres, 1767. {[}15{]} E. Nairne. \emph{Experiencias
-sobre electricidad}. Londres, 1779. {[}16{]} W. D. Hackmann. ``Las
-investigaciones del Dr.~Martinus Van Marum.'' \emph{Medical History}
-16(1), 11--26 (1972). {[}17{]} J.-A. Nollet. \emph{Cartas sobre la
-electricidad}. París, 1753. {[}18{]} J.-A. Nollet. \emph{Ensayo sobre la
-Electricidad de los Cuerpos}. París, 1765. {[}19{]} B. Pike.
-\emph{Catálogo Ilustrado Descriptivo de Pike}, 2ª ed., vol.~1, 1856,
-pp.~260, 269. {[}20{]} A. Ganot. \emph{Tratado elemental de física
-experimental}, 9ª ed.~(1860), pp.~567, 691. {[}21{]} B. Franklin.
-\emph{Experiencias y observaciones sobre la electricidad}. Londres,
-1751. {[}22{]} E. P. Krider. ``Benjamin Franklin y los pararrayos.''
-\emph{Physics Today} 59(1), 42--48 (2006). {[}23{]} T. Lane.
-``Descripción de un electrómetro inventado por el Sr.~Lane.''
-\emph{Phil. Trans. R. Soc.} 57, 451--460 (1767). {[}24{]} J.-A. Sigaud
-De La Fond. \emph{Resumen histórico y experimental de los fenómenos
-eléctricos}. París, 1785. {[}25{]} \emph{Philosophical Transactions},
-vol.~LXII, 1772, p.~359. {[}26{]} J. Lacki. ``El Turista Físico.
-Ginebra.'' \emph{Physics in Perspective} 9(2), 231--252 (2007). {[}27{]}
-C. A. Coulomb. \emph{Memorias sobre la electricidad y el magnetismo}.
-París, 1785. {[}28{]} J. Priestley. \emph{The History and Present State
-of Electricity}, 2ª ed.~Londres, 1769. {[}29{]} T. Cavallo. \emph{Un
-tratado completo de electricidad}, 3ª ed.~Londres, 1786. {[}30{]} G.
-Beccaria. \emph{Dell'elettricismo artificiale e naturale}. 1753.
+Electricity}. Londres, 1767.
+
+{[}15{]} E. Nairne. \emph{Experiencias sobre electricidad}. Londres,
+1779.
+
+{[}16{]} W. D. Hackmann. ``Las investigaciones del Dr.~Martinus Van
+Marum.'' \emph{Medical History} 16(1), 11--26 (1972).
+
+{[}17{]} J.-A. Nollet. \emph{Cartas sobre la electricidad}. París, 1753.
+
+{[}18{]} J.-A. Nollet. \emph{Ensayo sobre la Electricidad de los
+Cuerpos}. París, 1765.
+
+{[}19{]} B. Pike. \emph{Catálogo Ilustrado Descriptivo de Pike}, 2ª ed.,
+vol.~1, 1856, pp.~260, 269.
+
+{[}20{]} A. Ganot. \emph{Tratado elemental de física experimental}, 9ª
+ed.~(1860), pp.~567, 691.
+
+{[}21{]} B. Franklin. \emph{Experiencias y observaciones sobre la
+electricidad}. Londres, 1751.
+
+{[}22{]} E. P. Krider. ``Benjamin Franklin y los pararrayos.''
+\emph{Physics Today} 59(1), 42--48 (2006).
+
+{[}23{]} T. Lane. ``Descripción de un electrómetro inventado por el
+Sr.~Lane.'' \emph{Phil. Trans. R. Soc.} 57, 451--460 (1767).
+
+{[}24{]} J.-A. Sigaud De La Fond. \emph{Resumen histórico y experimental
+de los fenómenos eléctricos}. París, 1785.
+
+{[}25{]} \emph{Philosophical Transactions}, vol.~LXII, 1772, p.~359.
+
+{[}26{]} J. Lacki. ``El Turista Físico. Ginebra.'' \emph{Physics in
+Perspective} 9(2), 231--252 (2007).
+
+{[}27{]} C. A. Coulomb. \emph{Memorias sobre la electricidad y el
+magnetismo}. París, 1785.
+
+{[}28{]} J. Priestley. \emph{The History and Present State of
+Electricity}, 2ª ed.~Londres, 1769.
+
+{[}29{]} T. Cavallo. \emph{Un tratado completo de electricidad}, 3ª
+ed.~Londres, 1786.
+
+{[}30{]} G. Beccaria. \emph{Dell'elettricismo artificiale e naturale}.
+1753.
+
 {[}31{]} Bertholon. \emph{De l'électricité des végétaux}. París, 1783.
+
 {[}32{]} L. Fabbrizzi. ``Extraño Caso del Señor Volta y el Señor
-Nicholson.'' \emph{Angewandte} 58(18), 5810--5822 (2019). {[}33{]} J. C.
-Bose. \emph{Electrofisiología Comparada}. Nueva York, 1907. {[}34{]} W.
-Crookes. ``Sobre la materia radiante.'' \emph{American Journal of
-Science} s3-18(106) (1879). {[}35{]} W. von Siemens. ``Sobre la
-inducción electrostática.'' \emph{Annalen der Physik} 178(9), 66--122
-(1857). {[}36{]} M. Faraday. ``Investigaciones experimentales en
-electricidad --- quinta serie.'' \emph{Philosophical Transactions} 123
-(1833). {[}37{]} J. Burdon-Sanderson. ``Nota sobre los Fenómenos
-Eléctricos que acompañan la Irritación de la Hoja de Dionaea
-muscipula.'' \emph{Proc. Royal Society} (1873). {[}38{]} F. Paschen.
-``Sobre la diferencia de potencial requerida para la chispa en aire.''
-\emph{Annalen der Physik} (1889). {[}39{]} J. S. Townsend. ``La
-conductividad producida en gases.'' \emph{Nature} 62, 340--341 (1900).
+Nicholson.'' \emph{Angewandte} 58(18), 5810--5822 (2019).
+
+{[}33{]} J. C. Bose. \emph{Electrofisiología Comparada}. Nueva York,
+1907.
+
+{[}34{]} W. Crookes. ``Sobre la materia radiante.'' \emph{American
+Journal of Science} s3-18(106) (1879).
+
+{[}35{]} W. von Siemens. ``Sobre la inducción electrostática.''
+\emph{Annalen der Physik} 178(9), 66--122 (1857).
+
+{[}36{]} M. Faraday. ``Investigaciones experimentales en electricidad
+--- quinta serie.'' \emph{Philosophical Transactions} 123 (1833).
+
+{[}37{]} J. Burdon-Sanderson. ``Nota sobre los Fenómenos Eléctricos que
+acompañan la Irritación de la Hoja de Dionaea muscipula.'' \emph{Proc.
+Royal Society} (1873).
+
+{[}38{]} F. Paschen. ``Sobre la diferencia de potencial requerida para
+la chispa en aire.'' \emph{Annalen der Physik} (1889).
+
+{[}39{]} J. S. Townsend. ``La conductividad producida en gases.''
+\emph{Nature} 62, 340--341 (1900).
+
 {[}40{]} J. S. Townsend. \emph{La Teoría de Ionización de Gases por
-Colisión}. Londres, 1901. {[}41{]} A. W. Hofmann. ``Dr.~Heinrich
-Geissler.'' \emph{Ber. Dtsch. Chem. Ges.} 12, 147--148 (1879). {[}42{]}
-I. Langmuir. ``Oscilaciones en Gases Ionizados.'' \emph{Proc. Natl.
-Acad. Sci.} (1928). {[}43{]} C. von Sonntag, U. von Gunten.
-\emph{Química del ozono en tratamiento de agua y aguas residuales}. Iwa
-Publishing, 2012. {[}44{]} C. Gottschalk, J. A. Libra, A. Saupe.
-\emph{Ozonación de agua y aguas residuales}. Wiley-VCH, 2010. {[}45{]}
-Kr. Birkeland. \emph{Trans. Faraday Soc.} 2, 98--116 (1906). {[}46{]} A.
-M. W. Downing, T. P. Blunt. ``Investigaciones sobre el efecto de la luz
-sobre Bacterias.'' \emph{Proc. Royal Society of London} 26 (1878).
+Colisión}. Londres, 1901.
+
+{[}41{]} A. W. Hofmann. ``Dr.~Heinrich Geissler.'' \emph{Ber. Dtsch.
+Chem. Ges.} 12, 147--148 (1879).
+
+{[}42{]} I. Langmuir. ``Oscilaciones en Gases Ionizados.'' \emph{Proc.
+Natl. Acad. Sci.} (1928).
+
+{[}43{]} C. von Sonntag, U. von Gunten. \emph{Química del ozono en
+tratamiento de agua y aguas residuales}. Iwa Publishing, 2012.
+
+{[}44{]} C. Gottschalk, J. A. Libra, A. Saupe. \emph{Ozonación de agua y
+aguas residuales}. Wiley-VCH, 2010.
+
+{[}45{]} Kr. Birkeland. \emph{Trans. Faraday Soc.} 2, 98--116 (1906).
+
+{[}46{]} A. M. W. Downing, T. P. Blunt. ``Investigaciones sobre el
+efecto de la luz sobre Bacterias.'' \emph{Proc. Royal Society of London}
+26 (1878).
+
 {[}47{]} M. Luckiesh, L. Holladay. \emph{Aplicaciones de Energía
-Germicida, Eritemal e Infrarroja}. Nueva York, 1946. {[}48{]}
-Rentschler, H. (1942) ``Acción Bactericida de la Radiación
-Ultravioleta.'' {[}49{]} S. Lemström. \emph{Electricidad en Agricultura
-y Horticultura}. Londres, 1904. {[}50{]} J. Christofleau.
-\emph{Electroculture --- Fertilización de tierras por la electricidad
-atmosférica}. 1925. {[}51{]} M. S. Kyi, J. Holton, G. L. Ridgway.
-``Evaluación de la eficacia de un sistema de esterilización por plasma
-gaseoso de H₂O₂ a baja temperatura.'' \emph{J. Hospital Infection}
-31(4), 275--284 (1995). {[}52{]} W. A. Rutala et al.~``Evaluación
-comparativa de la actividad esporicida de nuevas tecnologías de
-esterilización a baja temperatura.'' \emph{Am. J. Infection Control}
-26(4), 393--398 (1998). {[}53{]} M. Laroussi. ``Esterilización de
-materia contaminada con un plasma a presión atmosférica.'' \emph{IEEE
-Trans. Plasma Science} 24(3), 1188--1191 (1996). {[}54{]} I. Adamovich
-et al.~``La Hoja de Ruta del Plasma 2017.'' \emph{J. Physics D: Applied
-Physics} 50(32), 323001 (2017). {[}55{]} P. Ranieri et al.~``Agricultura
-plasma: Revisión.'' \emph{Plasma Processes \& Polymers} 18(1), 2000162
-(2021). {[}56{]} D. B. Graves. ``El papel emergente de las especies
-reactivas de oxígeno y nitrógeno.'' \emph{J. Physics D: Applied Physics}
-45(26), 263001 (2012). {[}57{]} D. Yan et al.~``Mejorando la Germinación
-de Semillas con Plasma Atmosférico Frío.'' \emph{Plasma} 5(1), 98--110
-(2022). {[}58{]} M. A. Benabderrahm et al.~``El tratamiento con plasma
-frío impulsa la germinación de cebada.'' \emph{J. Cereal Science} 116,
-103852 (2024). {[}59{]} K. S. Wong et al.~``Agua Activada por Plasma:
-Propiedades Fisicoquímicas.'' \emph{Processes} 11(7), 2213 (2023).
+Germicida, Eritemal e Infrarroja}. Nueva York, 1946.
+
+{[}48{]} Rentschler, H. (1942) ``Acción Bactericida de la Radiación
+Ultravioleta.''
+
+{[}49{]} S. Lemström. \emph{Electricidad en Agricultura y Horticultura}.
+Londres, 1904.
+
+{[}50{]} J. Christofleau. \emph{Electroculture --- Fertilización de
+tierras por la electricidad atmosférica}. 1925.
+
+{[}51{]} M. S. Kyi, J. Holton, G. L. Ridgway. ``Evaluación de la
+eficacia de un sistema de esterilización por plasma gaseoso de H₂O₂ a
+baja temperatura.'' \emph{J. Hospital Infection} 31(4), 275--284 (1995).
+
+{[}52{]} W. A. Rutala et al.~``Evaluación comparativa de la actividad
+esporicida de nuevas tecnologías de esterilización a baja temperatura.''
+\emph{Am. J. Infection Control} 26(4), 393--398 (1998).
+
+{[}53{]} M. Laroussi. ``Esterilización de materia contaminada con un
+plasma a presión atmosférica.'' \emph{IEEE Trans. Plasma Science} 24(3),
+1188--1191 (1996).
+
+{[}54{]} I. Adamovich et al.~``La Hoja de Ruta del Plasma 2017.''
+\emph{J. Physics D: Applied Physics} 50(32), 323001 (2017).
+
+{[}55{]} P. Ranieri et al.~``Agricultura plasma: Revisión.''
+\emph{Plasma Processes \& Polymers} 18(1), 2000162 (2021).
+
+{[}56{]} D. B. Graves. ``El papel emergente de las especies reactivas de
+oxígeno y nitrógeno.'' \emph{J. Physics D: Applied Physics} 45(26),
+263001 (2012).
+
+{[}57{]} D. Yan et al.~``Mejorando la Germinación de Semillas con Plasma
+Atmosférico Frío.'' \emph{Plasma} 5(1), 98--110 (2022).
+
+{[}58{]} M. A. Benabderrahm et al.~``El tratamiento con plasma frío
+impulsa la germinación de cebada.'' \emph{J. Cereal Science} 116, 103852
+(2024).
+
+{[}59{]} K. S. Wong et al.~``Agua Activada por Plasma: Propiedades
+Fisicoquímicas.'' \emph{Processes} 11(7), 2213 (2023).
+
 {[}60{]} E. Cortese et al.~``PAW Provoca Elevaciones Rápidas de Ca²⁺ en
-Arabidopsis.'' \emph{Plants} 10(11), 2516 (2021). {[}61{]} S. M. E.
-Sultan et al.~``El plasma atmosférico frío mejora plántulas de tomate.''
-\emph{BMC Plant Biology} 24, 420 (2024). {[}62{]} Y. Zambon et al.~``El
-agua activada por plasma provoca respuestas de defensa en plantas.''
-\emph{Scientific Reports} 10, 19211 (2020). {[}63{]} Y. Gao et
-al.~``Revisión sobre la formación de agua activada por plasma frío.''
-\emph{Food Research International} 157, 111246 (2022). {[}64{]} J.
-Šimečková et al.~``Influencia del PAW sobre propiedades del suelo.''
-\emph{Water} 12(9), 2357 (2020). {[}65{]} B. A. Niemira.
-``Descontaminación de Alimentos con Plasma Frío.'' \emph{Ann. Rev.~Food
-Sci. Tech.} 3, 125--142 (2012). {[}66{]} N. N. Misra et
-al.~``Tratamiento con plasma frío a presión atmosférica en empaque de
-fresas.'' \emph{J. Food Engineering} 125, 131--138 (2014). {[}67{]} M.
-Bayati et al.~``Cambios químicos y físicos inducidos por tratamiento con
-plasma frío.'' \emph{Compr Rev Food Sci Food Saf} 23(4), e13376 (2024).
+Arabidopsis.'' \emph{Plants} 10(11), 2516 (2021).
+
+{[}61{]} S. M. E. Sultan et al.~``El plasma atmosférico frío mejora
+plántulas de tomate.'' \emph{BMC Plant Biology} 24, 420 (2024).
+
+{[}62{]} Y. Zambon et al.~``El agua activada por plasma provoca
+respuestas de defensa en plantas.'' \emph{Scientific Reports} 10, 19211
+(2020).
+
+{[}63{]} Y. Gao et al.~``Revisión sobre la formación de agua activada
+por plasma frío.'' \emph{Food Research International} 157, 111246
+(2022).
+
+{[}64{]} J. Šimečková et al.~``Influencia del PAW sobre propiedades del
+suelo.'' \emph{Water} 12(9), 2357 (2020).
+
+{[}65{]} B. A. Niemira. ``Descontaminación de Alimentos con Plasma
+Frío.'' \emph{Ann. Rev.~Food Sci. Tech.} 3, 125--142 (2012).
+
+{[}66{]} N. N. Misra et al.~``Tratamiento con plasma frío a presión
+atmosférica en empaque de fresas.'' \emph{J. Food Engineering} 125,
+131--138 (2014).
+
+{[}67{]} M. Bayati et al.~``Cambios químicos y físicos inducidos por
+tratamiento con plasma frío.'' \emph{Compr Rev Food Sci Food Saf} 23(4),
+e13376 (2024).
+
 {[}68{]} M. François, F. Fourmaux. ``Nota sobre el Abbé Pierre Bertholon
-de Saint Lazare.'' CTHS. {[}69{]} L. Dulieu. ``El movimiento científico
-montpellierés en el siglo XVIII.'' \emph{Revue d'histoire des sciences}
-11(3), 227--249 (1958). {[}70{]} M. l'Abbé Bertholon. \emph{De
-l'électricité du corps humain}. París, 1780. {[}71{]} M. l'Abbé
-Bertholon, M. Goyer. \emph{La nature considérée sous ses différents
-aspects}. París, 1787. {[}72{]} J. Priestley. ``Una cuenta de un nuevo
-electrómetro, ideado por el Sr.~William Henly.'' \emph{Philosophical
-Transactions} 62 (1772). {[}73{]} A. Guillemin. \emph{Electricidad y
-Magnetismo}. Londres, 1891. {[}74{]} C. A. Coulomb. \emph{Memorias sobre
-la electricidad y el magnetismo}. Segunda memoria, pp.~577--611 (1785).
+de Saint Lazare.'' CTHS.
+
+{[}69{]} L. Dulieu. ``El movimiento científico montpellierés en el siglo
+XVIII.'' \emph{Revue d'histoire des sciences} 11(3), 227--249 (1958).
+
+{[}70{]} M. l'Abbé Bertholon. \emph{De l'électricité du corps humain}.
+París, 1780.
+
+{[}71{]} M. l'Abbé Bertholon, M. Goyer. \emph{La nature considérée sous
+ses différents aspects}. París, 1787.
+
+{[}72{]} J. Priestley. ``Una cuenta de un nuevo electrómetro, ideado por
+el Sr.~William Henly.'' \emph{Philosophical Transactions} 62 (1772).
+
+{[}73{]} A. Guillemin. \emph{Electricidad y Magnetismo}. Londres, 1891.
+
+{[}74{]} C. A. Coulomb. \emph{Memorias sobre la electricidad y el
+magnetismo}. Segunda memoria, pp.~577--611 (1785).
+
 {[}75{]} A. Martinez. ``Replicación del Experimento de la Balanza de
 Torsión de Coulomb.'' \emph{Arch. Hist. Exact Sci.} 60, 517--563 (2006).
+
 {[}76{]} M. B. Rubin. ``La historia del ozono.'' \emph{Bull. Hist.
-Chem.} 26(1), 40--56 (2001). {[}77{]} D. Tarasick et al.~``Informe de
-Evaluación de Ozono Troposférico.'' \emph{Elementa} 7:39 (2019).
+Chem.} 26(1), 40--56 (2001).
+
+{[}77{]} D. Tarasick et al.~``Informe de Evaluación de Ozono
+Troposférico.'' \emph{Elementa} 7:39 (2019).
+
 {[}78{]} J. Barth. ``Johann Wilhelm Ritter y el descubrimiento de la
-radiación UV.'' \emph{Hautarzt} 38(5), 301--303 (1987). {[}79{]} E.
-Kuffel et al.~\emph{Ingeniería de alto voltaje: fundamentos}.
-Butterworth-Heinemann, 2000. {[}80{]} R. A. Fisher. \emph{El diseño de
-experimentos}. Hafner Press, 1971. {[}81{]} I. Chalmers et al.~``Por qué
-el ensayo MRC de 1948 de estreptomicina usó asignación basada en números
-aleatorios.'' \emph{J. Royal Society of Medicine} 104(9) (2011).
+radiación UV.'' \emph{Hautarzt} 38(5), 301--303 (1987).
+
+{[}79{]} E. Kuffel et al.~\emph{Ingeniería de alto voltaje:
+fundamentos}. Butterworth-Heinemann, 2000.
+
+{[}80{]} R. A. Fisher. \emph{El diseño de experimentos}. Hafner Press,
+1971.
+
+{[}81{]} I. Chalmers et al.~``Por qué el ensayo MRC de 1948 de
+estreptomicina usó asignación basada en números aleatorios.'' \emph{J.
+Royal Society of Medicine} 104(9) (2011).
+
 {[}82{]} P. Bourke et al.~``El Potencial del Plasma Frío para una
 Producción Alimentaria Segura y Sostenible.'' \emph{Trends in
-Biotechnology} 36(6), 615--626 (2018). {[}83{]} F. F. Chen.
-\emph{Introducción a la Física del Plasma y la Fusión Controlada}.
-Springer, 2019. {[}84{]} Y. P. Raizer. \emph{Física de Descargas de
-Gas}. Springer, 1991. {[}85{]} M. A. Lieberman, A. J. Lichtenberg.
-\emph{Principios de Descargas de Plasma y Procesamiento de Materiales}.
-Wiley, 2005. {[}86{]} L. C. Pitchford et al.~``LXCat: una Plataforma de
-Acceso Abierto.'' \emph{Plasma Processes \& Polymers} 14(1--2) (2016).
+Biotechnology} 36(6), 615--626 (2018).
+
+{[}83{]} F. F. Chen. \emph{Introducción a la Física del Plasma y la
+Fusión Controlada}. Springer, 2019.
+
+{[}84{]} Y. P. Raizer. \emph{Física de Descargas de Gas}. Springer,
+1991.
+
+{[}85{]} M. A. Lieberman, A. J. Lichtenberg. \emph{Principios de
+Descargas de Plasma y Procesamiento de Materiales}. Wiley, 2005.
+
+{[}86{]} L. C. Pitchford et al.~``LXCat: una Plataforma de Acceso
+Abierto.'' \emph{Plasma Processes \& Polymers} 14(1--2) (2016).
+
 {[}87{]} F. Judée et al.~``Activación de agua del grifo usando DBD.''
-\emph{Wat. Res.} 133, 47--59 (2018). {[}88{]} P. Bruggeman, C. Leys.
-``Plasmas no térmicos en y en contacto con líquidos.'' \emph{J. Physics
-D} 42(5), 053001 (2009). {[}89{]} P. J. Bruggeman et al.~``Interacciones
-plasma-líquido: Una revisión y hoja de ruta.'' \emph{Plasma Sources Sci.
-Technol.} 25(5), 053002 (2016). {[}90{]} U. Kogelschatz. ``Descargas de
-Barrera Dieléctrica.'' \emph{Plasma Chemistry and Plasma Processing} 23,
-1--46 (2003). {[}91{]} J. Winter et al.~``Chorros de plasma a presión
-atmosférica: una visión general.'' \emph{Plasma Sources Sci. Technol.}
-24(6), 064001 (2015). {[}92{]} T. C. Manley. ``Las Características
-Eléctricas de la Descarga del Ozonizador.'' \emph{Trans. Electrochemical
-Society} 84(1) (1943). {[}93{]} H. Decauchy, T. Dufour. ``Mecanismos de
-transmisión y reflexión múltiple de streamers guiados.'' \emph{Plasma
-Sources Sci. Technol.} 31(11) (2022). {[}94{]} J. H. Kim et
-al.~``Mediciones ópticas de temperaturas de gas en plasmas fríos RF a
-presión atmosférica.'' \emph{Surface and Coatings Technology} 171,
-211--215 (2003). {[}95{]} N. Masoud et al.~``Mediciones de Temperaturas
-Rotacionales y Vibracionales en un C-DBD.'' \emph{Contributions to
-Plasma Physics} 45(1), 32--39 (2005). {[}96{]} A. Herrmann et
-al.~``Diseño Mejorado de Sonda Catalítica para Mapeo de Densidad de
-Radicales.'' \emph{J. Phys. Chem. A} 128(46), 10080--10086 (2024).
+\emph{Wat. Res.} 133, 47--59 (2018).
+
+{[}88{]} P. Bruggeman, C. Leys. ``Plasmas no térmicos en y en contacto
+con líquidos.'' \emph{J. Physics D} 42(5), 053001 (2009).
+
+{[}89{]} P. J. Bruggeman et al.~``Interacciones plasma-líquido: Una
+revisión y hoja de ruta.'' \emph{Plasma Sources Sci. Technol.} 25(5),
+053002 (2016).
+
+{[}90{]} U. Kogelschatz. ``Descargas de Barrera Dieléctrica.''
+\emph{Plasma Chemistry and Plasma Processing} 23, 1--46 (2003).
+
+{[}91{]} J. Winter et al.~``Chorros de plasma a presión atmosférica: una
+visión general.'' \emph{Plasma Sources Sci. Technol.} 24(6), 064001
+(2015).
+
+{[}92{]} T. C. Manley. ``Las Características Eléctricas de la Descarga
+del Ozonizador.'' \emph{Trans. Electrochemical Society} 84(1) (1943).
+
+{[}93{]} H. Decauchy, T. Dufour. ``Mecanismos de transmisión y reflexión
+múltiple de streamers guiados.'' \emph{Plasma Sources Sci. Technol.}
+31(11) (2022).
+
+{[}94{]} J. H. Kim et al.~``Mediciones ópticas de temperaturas de gas en
+plasmas fríos RF a presión atmosférica.'' \emph{Surface and Coatings
+Technology} 171, 211--215 (2003).
+
+{[}95{]} N. Masoud et al.~``Mediciones de Temperaturas Rotacionales y
+Vibracionales en un C-DBD.'' \emph{Contributions to Plasma Physics}
+45(1), 32--39 (2005).
+
+{[}96{]} A. Herrmann et al.~``Diseño Mejorado de Sonda Catalítica para
+Mapeo de Densidad de Radicales.'' \emph{J. Phys. Chem. A} 128(46),
+10080--10086 (2024).
+
 {[}97{]} R. R. Brandenburg. ``Descargas de barrera dieléctrica: progreso
 en fuentes de plasma.'' \emph{Plasma Sources Sci. Technol.} 26(5),
-053001 (2017). {[}98{]} L. L. Alves et al.~``Fundamentos de estándares
-de plasma.'' \emph{Plasma Sources Sci. Technol.} 32(2) (2023). {[}99{]}
-J. R. Bolton, K. G. Linden. ``Estandarización de Métodos para
+053001 (2017).
+
+{[}98{]} L. L. Alves et al.~``Fundamentos de estándares de plasma.''
+\emph{Plasma Sources Sci. Technol.} 32(2) (2023).
+
+{[}99{]} J. R. Bolton, K. G. Linden. ``Estandarización de Métodos para
 Determinación de Fluencia.'' \emph{J. Environmental Engineering} 129(3).
+
 {[}100{]} D. Tsikas. ``Análisis de nitrito y nitrato en fluidos
-biológicos.'' \emph{J. Chromatography B} 851, 51--70 (2007). {[}101{]}
-J.-Y. Han et al.~``Efectos del agua activada por burbuja de plasma sobre
-patógenos transmitidos por alimentos en tomates.'' \emph{Food Control}
-144, 109381 (2023). {[}102{]} M. M. Rahman et al.~``Mecanismos y
-Señalización Asociados con la Mejora del Crecimiento en Trigo Mediante
-Plasma LPDBD.'' \emph{Scientific Reports} 8, 10498 (2018). {[}103{]} N.
-Dawood. ``Efectos del tratamiento con plasma de aire sobre la absorción
-de agua de semillas de trigo y cebada.'' \emph{J. Taibah University For
-Science} 15(1), 1094--1100 (2021). {[}104{]} P. Starič et
-al.~``Respuesta de Dos Variedades de Trigo a Plasma de Oxígeno de Brillo
-y Afterglow.'' \emph{Plants} 10(8), 1728 (2021). {[}105{]} P. Starič et
-al.~``La Influencia del Plasma Frío de Brillo y Afterglow sobre Semillas
-de Trigo.'' \emph{Int. J. Mol. Sci.} 23(13), 7369 (2022). {[}106{]} S.
-Karmakar et al.~``Impacto del plasma LFGD sobre superficie de semillas,
-germinación, crecimiento de maíz.'' \emph{Heliyon} 7, e06458 (2021).
+biológicos.'' \emph{J. Chromatography B} 851, 51--70 (2007).
+
+{[}101{]} J.-Y. Han et al.~``Efectos del agua activada por burbuja de
+plasma sobre patógenos transmitidos por alimentos en tomates.''
+\emph{Food Control} 144, 109381 (2023).
+
+{[}102{]} M. M. Rahman et al.~``Mecanismos y Señalización Asociados con
+la Mejora del Crecimiento en Trigo Mediante Plasma LPDBD.''
+\emph{Scientific Reports} 8, 10498 (2018).
+
+{[}103{]} N. Dawood. ``Efectos del tratamiento con plasma de aire sobre
+la absorción de agua de semillas de trigo y cebada.'' \emph{J. Taibah
+University For Science} 15(1), 1094--1100 (2021).
+
+{[}104{]} P. Starič et al.~``Respuesta de Dos Variedades de Trigo a
+Plasma de Oxígeno de Brillo y Afterglow.'' \emph{Plants} 10(8), 1728
+(2021).
+
+{[}105{]} P. Starič et al.~``La Influencia del Plasma Frío de Brillo y
+Afterglow sobre Semillas de Trigo.'' \emph{Int. J. Mol. Sci.} 23(13),
+7369 (2022).
+
+{[}106{]} S. Karmakar et al.~``Impacto del plasma LFGD sobre superficie
+de semillas, germinación, crecimiento de maíz.'' \emph{Heliyon} 7,
+e06458 (2021).
+
 {[}107{]} R. Molina et al.~``Análisis fisicoquímico de superficie de
 semillas de trigo tratadas con DBD.'' \emph{Plasma Processes \&
-Polymers} 18(1), 2000086 (2021). {[}108{]} N. Recek et al.~``Germinación
-de Semillas de Phaseolus vulgaris L. tras Plasma RF.'' \emph{Int. J.
-Mol. Sci.} 22(13), 6672 (2021). {[}109{]} E. Bormashenko et al.~``El
-Tratamiento con Plasma RF Frío Modifica la Humectabilidad y Velocidad de
-Germinación de Semillas.'' \emph{Scientific Reports} 2, 741 (2012).
+Polymers} 18(1), 2000086 (2021).
+
+{[}108{]} N. Recek et al.~``Germinación de Semillas de Phaseolus
+vulgaris L. tras Plasma RF.'' \emph{Int. J. Mol. Sci.} 22(13), 6672
+(2021).
+
+{[}109{]} E. Bormashenko et al.~``El Tratamiento con Plasma RF Frío
+Modifica la Humectabilidad y Velocidad de Germinación de Semillas.''
+\emph{Scientific Reports} 2, 741 (2012).
+
 {[}110{]} N. Khamsen et al.~``Esterilización y Mejora de Germinación de
 Semillas de Arroz Mediante Plasma de Descarga Híbrida Atmosférica.''
-\emph{ACS Appl. Mater. Interfaces} 8(30), 19268--19275 (2016). {[}111{]}
-J. Mravlje et al.~``Desarrollo de Tecnologías de Plasma Frío para
-Descontaminación Superficial de Patógenos Fúngicos en Semillas.''
-\emph{J. Fungi} 7(8), 650 (2021). {[}112{]} A. Mitra et
-al.~``Inactivación de Microorganismos Superficiales por Plasma
-Atmosférico Frío.'' \emph{Food and Bioprocess Technology} 7, 645--653
-(2014). {[}113{]} P. Basaran et al.~``Eliminación de Aspergillus
-parasiticus de superficie de nueces con LPCP.'' \emph{Food Microbiology}
-25, 626--632 (2008). {[}114{]} K. Homa et al.~``Estrategias de
-Tratamiento con Plasma Frío para Fusarium oxysporum en Albahaca Dulce.''
-\emph{HortScience} 56(1), 42--51 (2020). {[}115{]} J. Mravlje et
-al.~``El Plasma Frío Afecta la Germinación y la Estructura de la
-Comunidad Fúngica de Semillas de Trigo Sarraceno.'' \emph{Plants} 10(5),
-851 (2021). {[}116{]} G. Grainge et al.~``Mecanismos moleculares de
-liberación de dormancia de semillas por agua activada con plasma
-gaseoso.'' \emph{J. Experimental Botany} 73(12), 4065--4078 (2022).
+\emph{ACS Appl. Mater. Interfaces} 8(30), 19268--19275 (2016).
+
+{[}111{]} J. Mravlje et al.~``Desarrollo de Tecnologías de Plasma Frío
+para Descontaminación Superficial de Patógenos Fúngicos en Semillas.''
+\emph{J. Fungi} 7(8), 650 (2021).
+
+{[}112{]} A. Mitra et al.~``Inactivación de Microorganismos
+Superficiales por Plasma Atmosférico Frío.'' \emph{Food and Bioprocess
+Technology} 7, 645--653 (2014).
+
+{[}113{]} P. Basaran et al.~``Eliminación de Aspergillus parasiticus de
+superficie de nueces con LPCP.'' \emph{Food Microbiology} 25, 626--632
+(2008).
+
+{[}114{]} K. Homa et al.~``Estrategias de Tratamiento con Plasma Frío
+para Fusarium oxysporum en Albahaca Dulce.'' \emph{HortScience} 56(1),
+42--51 (2020).
+
+{[}115{]} J. Mravlje et al.~``El Plasma Frío Afecta la Germinación y la
+Estructura de la Comunidad Fúngica de Semillas de Trigo Sarraceno.''
+\emph{Plants} 10(5), 851 (2021).
+
+{[}116{]} G. Grainge et al.~``Mecanismos moleculares de liberación de
+dormancia de semillas por agua activada con plasma gaseoso.'' \emph{J.
+Experimental Botany} 73(12), 4065--4078 (2022).
+
 {[}117{]} G. Grainge et al.~``Impacto del Agua Activada con Plasma
 Gaseoso sobre Mecanismos de Dormancia Fotodependiente en Semillas de
 Nicotiana tabacum.'' \emph{Int. J. Mol. Sci.} 23(12), 6709 (2022).
+
 {[}118{]} L. Ling et al.~``El tratamiento con plasma frío mejora la
 germinación de semillas de colza bajo estrés por sequía.''
-\emph{Scientific Reports} 5, 13033 (2015). {[}119{]} J.-Y. Bian et
-al.~``El plasma no térmico mejora la germinación de semillas de arroz
-bajo estrés por baja temperatura.'' \emph{Applied Biological Chemistry}
-67(2) (2024). {[}120{]} K. Sayahi et al.~``Evaluando el impacto del
-Plasma Frío sobre la soja.'' \emph{BMC Biotechnology} 24, 93 (2024).
+\emph{Scientific Reports} 5, 13033 (2015).
+
+{[}119{]} J.-Y. Bian et al.~``El plasma no térmico mejora la germinación
+de semillas de arroz bajo estrés por baja temperatura.'' \emph{Applied
+Biological Chemistry} 67(2) (2024).
+
+{[}120{]} K. Sayahi et al.~``Evaluando el impacto del Plasma Frío sobre
+la soja.'' \emph{BMC Biotechnology} 24, 93 (2024).
+
 {[}121{]} K. Kučerová et al.~``Efectos del agua activada por plasma
 sobre el trigo.'' \emph{Plasma Processes \& Polymers} 16(3), 1800131
-(2019). {[}122{]} B. Šerá et al.~``Tratamiento con Plasma de Arco
-Deslizante de Granos de Maíz.'' \emph{Agronomy} 11(10), 2066 (2021).
+(2019).
+
+{[}122{]} B. Šerá et al.~``Tratamiento con Plasma de Arco Deslizante de
+Granos de Maíz.'' \emph{Agronomy} 11(10), 2066 (2021).
+
 {[}123{]} B. Adhikari et al.~``Riego con Agua Activada por Plasma
 Atmosférico Frío en Plántulas de Tomate.'' \emph{Scientific Reports} 9,
-16080 (2019). {[}124{]} F. M. Abarghuei et al.~``Una Aplicación de CAP
-para Mejorar Rasgos de Albahaca.'' \emph{Plants} 10(10), 2088 (2021).
+16080 (2019).
+
+{[}124{]} F. M. Abarghuei et al.~``Una Aplicación de CAP para Mejorar
+Rasgos de Albahaca.'' \emph{Plants} 10(10), 2088 (2021).
+
 {[}125{]} L. Sivachandiran, A. Khacef. ``Germinación mejorada de
 semillas y crecimiento de plantas por plasma de aire frío a presión
-atmosférica.'' \emph{RSC Advances} 7, 1822 (2017). {[}126{]} S. Zhang,
-A. Rousseau, T. Dufour. ``Promoviendo la germinación de lenteja con agua
-activada por plasma.'' \emph{RSC Advances} 7, 31244 (2017). {[}127{]} J.
-Perner et al.~``El tratamiento con plasma frío influye en los parámetros
-fisiológicos del mijo.'' \emph{Photosynthetica} 62(1), 126--137 (2024).
+atmosférica.'' \emph{RSC Advances} 7, 1822 (2017).
+
+{[}126{]} S. Zhang, A. Rousseau, T. Dufour. ``Promoviendo la germinación
+de lenteja con agua activada por plasma.'' \emph{RSC Advances} 7, 31244
+(2017).
+
+{[}127{]} J. Perner et al.~``El tratamiento con plasma frío influye en
+los parámetros fisiológicos del mijo.'' \emph{Photosynthetica} 62(1),
+126--137 (2024).
+
 {[}128{]} F. Bussmann et al.~``Efectos a Largo Plazo del Agua Tratada
 con CAP sobre Hordeum vulgare.'' \emph{J Plant Growth Regul} 42,
-3274--3290 (2023). {[}129{]} K. Panngom et al.~``El Tratamiento con
-Plasma No Térmico Reduce la Viabilidad Fúngica.'' \emph{PLoS ONE} 9(6),
-e99300 (2014). {[}130{]} S. M. Perez et al.~``El agua activada por
-plasma como inductor de resistencia contra mancha bacteriana del
-tomate.'' \emph{PLoS ONE} 14(5), e0217788 (2019). {[}131{]} P. J. Savi
-et al.~``El riego con agua activada por plasma aumenta la mortalidad de
-ácaros araña en tomate.'' \emph{Scientific Reports} 15, 22118 (2025).
+3274--3290 (2023).
+
+{[}129{]} K. Panngom et al.~``El Tratamiento con Plasma No Térmico
+Reduce la Viabilidad Fúngica.'' \emph{PLoS ONE} 9(6), e99300 (2014).
+
+{[}130{]} S. M. Perez et al.~``El agua activada por plasma como inductor
+de resistencia contra mancha bacteriana del tomate.'' \emph{PLoS ONE}
+14(5), e0217788 (2019).
+
+{[}131{]} P. J. Savi et al.~``El riego con agua activada por plasma
+aumenta la mortalidad de ácaros araña en tomate.'' \emph{Scientific
+Reports} 15, 22118 (2025).
+
 {[}132{]} M. Veerana et al.~``El plasma no térmico mejora el crecimiento
 y la tolerancia a la salinidad de bok choy.'' \emph{Frontiers in Plant
-Science} 15, 1445791 (2024). {[}133{]} Z. Lukacova et al.~``El Efecto
-del PAW sobre Maíz bajo Estrés por Arsénico.'' \emph{Plants} 10(9), 1899
-(2021).
+Science} 15, 1445791 (2024).
+
+{[}133{]} Z. Lukacova et al.~``El Efecto del PAW sobre Maíz bajo Estrés
+por Arsénico.'' \emph{Plants} 10(9), 1899 (2021).
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1318,50 +1429,3 @@ del PAW sobre Maíz bajo Estrés por Arsénico.'' \emph{Plants} 10(9), 1899
 \end{quote}
 
 \end{document}
-
-% ============================================================
-% INFORMACIÓN DEL REPOSITORIO (página final separada)
-% ============================================================
-\clearpage
-\onecolumn
-\thispagestyle{empty}
-
-\vspace*{\fill}
-
-\begin{center}
-\rule{\textwidth}{1pt}
-
-\vspace{0.5cm}
-
-{\Large\textbf{Documento compilado con FreeBuff}}
-
-\vspace{0.3cm}
-
-{\normalsize\textit{https://freebuff.com}}
-
-\vspace{0.8cm}
-
-\textbf{Repositorio:}\\[0.2cm]
-\href{https://github.com/wachin/electrocultura-christofleau}{github.com/wachin/electrocultura-christofleau}
-
-\vspace{0.5cm}
-
-\textbf{Paper original en inglés (descargado de arXiv):}\\[0.2cm]
-\href{https://arxiv.org/pdf/2505.06968}{https://arxiv.org/pdf/2505.06968}
-
-\vspace{0.5cm}
-
-\textbf{PDF original en inglés (disponible en este repositorio):}\\[0.2cm]
-\texttt{arXiv-From-Electroculture-to-Plasma-Agriculture.pdf}
-
-\vspace{0.5cm}
-
-\textbf{DOI:}\\[0.2cm]
-\href{https://doi.org/10.5802/crmeca.331}{10.5802/crmeca.331}
-
-\vspace{0.8cm}
-
-\rule{\textwidth}{1pt}
-\end{center}
-
-\vspace*{\fill}
