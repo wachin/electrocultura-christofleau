@@ -13,7 +13,7 @@
 
 > **Estimulación electromagnética.** Las hojas crecieron a partir de semillas sometidas a tratamiento previo a la siembra: C (control---semillas no estimuladas); L1 y L5---semillas estimuladas con luz láser con 1 y 5 minutos de exposición, respectivamente; y F1 y F5---semillas estimuladas con un campo magnético con 1 y 5 minutos de exposición, respectivamente.
 
-> ![](./images/image1.png)
+> ![](./images/figure1-laser-rig.jpg)
 
 > **Figura 1.** Dispositivo diseñado para estimulación láser de semillas. Foto de Agata Dziwulska-Hunek.
 
@@ -144,13 +144,13 @@ y masa de la hoja y resistencia a la tensión (Figura [7]). Los valores positivo
 
 > Los valores del tiempo de vida de la fluorescencia de la clorofila y el contenido de pigmentos fueron notablemente reducidos en las plantas de alfalfa experimentales en relación con el control, lo que puede haberse debido a los factores electromagnéticos/estresogénicos utilizados. Esto evidencia el envejecimiento de las plantas de alfalfa.
 
-> ![](./images/image23.png)
+> ![](./images/image20.png)
 
 > **Figura 6.** Gráfico de dispersión con histograma para correlación entre carotenoides y clorofila *a* + *b*.
 
 > Coeficiente de correlación: r = **0,71894**
 
-> ![](./images/image24.png)
+> ![](./images/image21.png)
 
 > **Figura 7.** Gráfico de dispersión con histograma para correlación entre fuerza de ruptura y masa de hoja.
 
