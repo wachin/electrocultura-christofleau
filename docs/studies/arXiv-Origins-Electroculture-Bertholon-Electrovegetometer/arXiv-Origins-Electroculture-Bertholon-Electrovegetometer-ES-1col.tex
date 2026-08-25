@@ -1,0 +1,1997 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  letterpaper,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{spanish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+% Soporte para caracteres Unicode (modo una columna)
+\usepackage{newunicodechar}
+
+% Definir caracteres Unicode problemáticos
+\newunicodechar{₀}{\ensuremath{_0}}
+\newunicodechar{₁}{\ensuremath{_1}}
+\newunicodechar{₂}{\ensuremath{_2}}
+\newunicodechar{₃}{\ensuremath{_3}}
+\newunicodechar{₄}{\ensuremath{_4}}
+\newunicodechar{₅}{\ensuremath{_5}}
+\newunicodechar{₆}{\ensuremath{_6}}
+\newunicodechar{₇}{\ensuremath{_7}}
+\newunicodechar{₈}{\ensuremath{_8}}
+\newunicodechar{₉}{\ensuremath{_9}}
+\newunicodechar{⁺}{\ensuremath{^+}}
+\newunicodechar{⁻}{\ensuremath{^-}}
+\newunicodechar{°}{\textdegree}
+\newunicodechar{×}{\texttimes}
+\newunicodechar{·}{\textperiodcentered}
+\newunicodechar{–}{\textendash}
+\newunicodechar{—}{\textemdash}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{φ}{\ensuremath{\phi}}
+\newunicodechar{ω}{\ensuremath{\omega}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{←}{\ensuremath{\leftarrow}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{↑}{\ensuremath{\uparrow}}
+\newunicodechar{↓}{\ensuremath{\downarrow}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{÷}{\ensuremath{\div}}
+\newunicodechar{≪}{\ensuremath{\ll}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{∇}{\ensuremath{\nabla}}
+\newunicodechar{∂}{\ensuremath{\partial}}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={es},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{En los orígenes de la electrocultura: Un modelado retrodictivo
+del electrovegetómetro de Bertholon del siglo XVIII en el régimen
+pre-corona}\label{en-los-oruxedgenes-de-la-electrocultura-un-modelado-retrodictivo-del-electrovegetuxf3metro-de-bertholon-del-siglo-xviii-en-el-ruxe9gimen-pre-corona}
+
+\textbf{Autor:} T. Dufour\\
+\textbf{Afiliación:} LPP, Sorbonne Université, CNRS, École
+Polytechnique, Université Paris-Sud, Observatoire de Paris, Université
+Paris-Saclay, PSL Research University, 4 Place Jussieu, 75252 Paris,
+France\\
+\textbf{Revista:} Compte-Rendus Mécanique de l'Académie des Sciences,
+Volumen 354 (2026), pp.~117-139\\
+\textbf{DOI:} \url{https://doi.org/10.5802/crmeca.346}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Resumen}\label{resumen}
+
+El electrovegetómetro de Pierre-Nicolas Bertholon del siglo XVIII fue
+concebido para aprovechar ``atmospheric electricity'' for plant growth,
+yet its physical capabilities have never been quantified within the
+context of today's understanding of the Earth's atmospheric electric
+system. This study addresses the lack of quantitative assessment of such
+historical ``electroculture'' device and its plausible influence on the
+near-canopy electrical environment. It aims to reinterpret Bertholon's
+apparatus using contemporary atmospheric electrodynamics, asking under
+which realistic fair-weather and condiciones de tormenta a purely
+passive collector-distributor could generate fields and ion fluxes of
+physical significance. A two-dimensional, quasi-steady ohmic model has
+been developed in which the atmosphere is a resistive column carrying
+the global conduction current, the metal structure is a floating
+conductor supported by leaky wooden insulators and space-charge and
+corona are excluded so that all results describe pre-onset upper bounds.
+The simulations show that in fair weather the single upper point and the
+lower multi-point crown of the electrovegetometer enhance the background
+field by two to three orders of magnitude, yet only within
+millimetric-centimetric regions around the tips and with total currents
+limited to the pA-nA·m⁻² range. Bajo forzamiento de tormenta, peak
+fields at the crown reach 10⁵-10⁶ V·m⁻¹, approaching or exceeding
+empirical corona-onset thresholds, while remaining largely insensitive
+to uncertainties in apex angle or collector geometry as long as an
+elevated mast is present. These results make Bertholon's reports of
+luminous ``aigrettes'' physically plausible, but suggest that any
+fair-weather agronomic impact was subtle and highly localized and that
+modern ``electroculture'' claims require careful, coupled electrostatic
+and biological studies beyond the pre-corona regime.
+
+\textbf{Keywords:} Electroculture, electrovegetometer, plasma
+agriculture, Bertholon
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introducción}\label{introducciuxf3n}
+
+\subsection{Un impulso interdisciplinario: desde el coloquio de
+Montpellier hasta el presente
+estudio}\label{un-impulso-interdisciplinario-desde-el-coloquio-de-montpellier-hasta-el-presente-estudio}
+
+The present study was initiated in the aftermath of the French
+colloquium \emph{« Hommage à Pierre Bertholon, savant et électricien des
+Lumières »}, held in Montpellier in October 2023 under the patronage of
+UNESCO. This event gathered historians of science, physicists,
+atmospheric-electricity specialists and scholars of 18th-century natural
+philosophy, communities that rarely interact even though their
+combination holds unsuspected and significant interdisciplinary
+potential. Discussions with participants during and after the meeting
+revealed a shared interest in reassessing Bertholon's electrovegetometer
+using the tools of modern atmospheric electrodynamics, while remaining
+faithful to its historical context and material constraints. The present
+article is therefore partly a product of this interdisciplinary
+encounter, illustrating the scientific value of such colloquia in
+bridging distinct research cultures and stimulating new lines of inquiry
+across disciplinary boundaries.
+
+\subsection{Encuadre histórico}\label{encuadre-histuxf3rico}
+
+To situate this renewed interest within its original scientific context,
+it is necessary to revisit the historical foundations of Bertholon's
+work. In 1783, Pierre-Nicolas Bertholon de Saint-Lazare, commonly known
+as Abbé Bertholon, published \emph{De}
+
+\emph{l'électricité des végétaux}, a treatise in which he asserted that
+``atmospheric electricity'' acts continuously on plants and might be
+harnessed to improve germination, growth, flowering and fruiting
+{[}Bertholon, 1783{]}. His key practical proposal, the
+electrovegetometer (\emph{électro-végétomètre)}, was a passive apparatus
+intended to collect charge from the atmosphere and redistribute it
+gently over crops through ``aigrettes lumineuses'': a historical French
+expression that can be understood today as faint, luminous corona
+discharges.
+
+Although Bertholon interpreted the operation of his apparatus through
+the 18th-century notion of an ``electric fluid'', the physical principle
+he was appealing to can be expressed clearly in modern electrodynamic
+terms: sharp conductors immersed in an ambient electric field can act as
+sources (or sinks) of space charge, modifying local ion densities and
+weak airflows and thereby altering the microphysical environment near
+leaves and soil. In Bertholon's descriptions, the electrovegetometer
+consisted essentially of a vertical, insulated mast that elevated a
+collecting structure into the atmospheric electric field. A conductive
+path brought the intercepted charge down to a distribution arm, which
+terminated in a crown of fine points suspended over crop rows. The
+points were intended to release charge via non-disruptive discharges,
+subtly modifying the potential gradient and charge environment around
+the canopy.
+
+Bertholon described two closely related configurations of this
+electrovegetometer:
+
+\begin{itemize}
+\tightlist
+\item
+  The Configuration I ``single-point rod, articulated arm''
+  (\textbf{Figure 1a}), combined a relatively simple collector with a
+  mechanically
+\end{itemize}
+
+\begin{quote}
+versatile diffuser. A tall wooden mast, carefully insulated from the
+soil by tar, resins and glass elements, carried a single iron point at
+its head, shielded by a tin funnel to favour upward collection. A
+suspended chain conducted the intercepted ``electric fluid'' to a small
+iron disk where the collected charge was expected to accumulate before
+being redistributed. From there, a hinged metal arm, horizontally
+supported on insulated trestles, could be swung over selected rows of
+crops. At its far end, a crown of fine points could release charge as a
+diffuse corona just above the canopy. A removable grounding chain
+allowed the whole device to be neutralized when the air was judged
+``overcharged''.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The Configuration II ``multi-point crown, rotating and extendable
+  arm'' (\textbf{Figure 1b}) is characterized by a crown of sharp points
+  mounted on a resin-treated, glass-insulated hub,
+\end{itemize}
+
+\begin{quote}
+to increase the effective collection area of \emph{electrical fluid}
+while maintaining high insulation. A bent lever and chain connected this
+hub to a rotary, telescopic arm that could sweep a full circle and be
+extended or retracted to adjust the treated footprint. As in
+Configuration I, a terminal crown of points was expected to diffuse
+charge gently onto the vegetation.
+\end{quote}
+
+\begin{quote}
+In both configurations, the apparatus was entirely passive: it neither
+measured voltage nor current and it injected no external power. Since
+modern concepts such as electrical potential, current and standardized
+units were not yet available, Bertholon reasoned qualitatively with
+notions of ``more'' or ``less'' electricity. The individual components
+of each configuration are detailed in Table 1.
+\end{quote}
+
+\begin{quote}
+\includegraphics{./images/image1.jpeg}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 1. Bertholon's electrovegetometer, a passive
+apparatus intended to channel ``atmospheric electricity'' toward crops.
+(a) Configuration I, featuring a single-point rod collector (E) at the
+mast head and an articulated arm that distributed charge through a
+multi-point crown (N). (b) Configuration II, equipped with a multi-point
+crown collector (E), a rotating and extendable arm and a larger
+treatment footprint terminating by a multi-point crown distributor (N).
+A neutralization device (Z), shown in the inset of (b), could provide
+safety and on/off control. Adapted from {[}Bertholon, 1783{]}.}}
+\end{quote}
+
+\textbf{Tabla 1. Comparison between the design and operation of
+Bertholon's electrovegetometer (Figure 1): Configuration I and
+Configuration II.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0703}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4141}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5156}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Característica
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Configuration I (single-point rod, articulated arm)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Configuration II (multi-point crown, rotating \& extendable arm)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Propósito} & Passive capture → Insulated conduction → Gentle
+diffusion over crops (no measurement) & Same \\
+\textbf{Mástil / Base} & Wooden mast (A-B): buried section fire-dried,
+tarred, wrapped in charcoal dust/cement, then masonry footing;
+above-ground part painted/bitumen-coated & Mast (A-B) with
+resin-saturated head cylinder (C) treated with tar/pitch/turpentine \\
+\textbf{Aislamiento superior} & Thick glass tube packed with bituminous
+mastic (D); second glass insulator downstream (H) & Insulated rotary
+interface via resin insert (D) and glass/mastic sleeve (H) \\
+\textbf{Colector (en la cabeza del mástil)} & Single-point rod (E)
+mounted in D; protected by a tinplate funnel (F) & Multipoint crown (E)
+to maximize charge capture \\
+\textbf{Ruta de conducción (vertical)} & Conducting chain (G) suspended
+from E, guided through H to prevent leakage & Bent iron lever (C)
+carrying chain (G) to the arm interface \\
+\textbf{Regulación / buffer} & Chain terminates at iron disk (K) acting
+as a small ``condenser/regulator'' & No separate disk; regulation
+implicit (focus on mobility and reach) \\
+\textbf{Brazo horizontal} & Articulated conductor arm (K-L-M-N) hinged
+at L and Q, supported on insulating trestles (O, P) with stretched silk
+cords & Telescoping conductor arm (L-M) with telescoping conductor (Q),
+supported on insulating trestle (P) \\
+\textbf{Difusor terminal} & Crown of sharp metal points (N, R),
+releasing non-disruptive corona & Crown of sharp metal points \\
+\textbf{Movilidad / cobertura} & Arm swings on hinges (L, Q) to cover a
+sector (row/strip) & Full 360° rotation; extend/retract to vary reach \\
+\textbf{Neutralización} & Chain between K and ground to bleed charge &
+Same \\
+\textbf{Seguridad} & ``C-shaped exciter'' (copper/iron frame with glass
+handle + trailing ground chain) & Same \\
+\end{longtable}
+
+\subsection{De las ideas de la Ilustración a la electrodinámica
+atmosférica
+moderna}\label{de-las-ideas-de-la-ilustraciuxf3n-a-la-electrodinuxe1mica-atmosfuxe9rica-moderna}
+
+By the late 18th century, several essential aspects of atmospheric
+electricity were already recognised. Experiments by Stephen Gray and
+Charles François de Cisternay Du Fay had already distinguished
+conductors from insulators and introduced the idea of two opposite
+electrical states, later renamed ``positive'' and ``negative''
+{[}Bailey, 2001{]}. Benjamin Franklin synthesised these ideas, defined
+the polarity convention and argued, on the basis of laboratory
+similarities and field experiments, that lightning was an electrical
+discharge of the same nature as sparks from machines {[}Williams,
+2009{]}. His proposals were confirmed in France by Dalibard and Le
+Monnier who utilized elevated and well-insulated iron conductors to draw
+sparks during thunderstorms, hence confirming that storm clouds carry
+electrical charge {[}Winkler et al., 1898{]}. Soon afterwards,
+systematic electroscope measurements by John Canton in London and
+Giambattista Beccaria in Turin showed that even cloudless air was rarely
+neutral: slow ``silent'' discharges, diurnal variations of the field and
+luminous glows such as sailors' St Elmo's fire revealed that the lower
+atmosphere was persistently electrified {[}Herbert, 2012{]}. From a
+modern standpoint, St Elmo's fire was understood as a low-current corona
+discharge from sharp conductors in a strong ambient field {[}McGinness,
+2025{]}. Yet these 18th-century insights were local and qualitative. A
+quantitative, global framework, in which thunderstorms, fair-weather
+regions and the ionosphere are coupled through a single atmospheric
+electric circuit, emerged only in the early 20th century, particularly
+
+through C. T. R. Wilson's work and later syntheses of the ``global
+atmospheric electrical circuit'' {[}Aplin, 2008{]}.
+
+Modern atmospheric electrodynamics frames these phenomena in terms of
+the global electric circuit (GEC). The Earth-ionosphere system behaves
+as a leaky spherical capacitor: thunderstorms and electrified clouds
+maintain the ionosphere at roughly +250/+300 kV relative to the surface,
+while ``fair-weather'' regions close the circuit through the weak
+electrical conductivity of the air {[}Tinsley, 2007{]}, {[}Mareev,
+2014{]}. Under clear undisturbed conditions, the atmospheric column
+carries a small, nearly steady downward conduction current density,
+described locally by Ohm's law:
+
+\begin{quote}
+𝐽\textsubscript{𝑧}(𝑧) = 𝜎(𝑧) 𝐸\textsubscript{𝑧}(𝑧) \{1\}
+\end{quote}
+
+where σ(z) is the electrical conductivity and Ez(z) the vertical
+electric field (taken positive upward). Near the surface, typical values
+are E0,atm ≈ −100 to −150 V.m⁻¹ and J0,atm ≈ −1 to −3 pA.m⁻² {[}Guha,
+2010{]}. Conductivity increases by many orders of magnitude with
+altitude (from about 10⁻¹⁴ S.m⁻¹ near the ground to 10⁻⁷ S.m⁻¹ in the
+lower thermosphere), so that \textbar 𝐸\textsubscript{𝑧}\textbar{}
+decreases correspondingly and the potential V(z) rises from 0 V at the
+ground toward the ionospheric level of a few ×10⁵ V {[}Kudintseva,
+2016{]}.
+
+Under disturbed or stormy conditions, this simple vertical structure is
+strongly modified. Charge separation in thunderclouds produces large
+quasi-static fields at the surface (up to several kV.m⁻¹), enhances ion
+production and alters the conductivity profile {[}Kundt, 1999{]}. The
+vertical current density can increase into
+
+the nA.m⁻² range and strong, locally variable fields develop near sharp
+objects, creating conditions favourable for corona discharges and
+leaders {[}Standler, 1979{]}. These disturbed states form the storm
+branch of the global circuit are crucial for interpreting how a
+protruding conductor, such as Bertholon's electrovegetometer, might
+experience both modest fair-weather forcing and episodic, much stronger
+storm-time forcing.
+
+\textbf{Tabla 2. Idealized near-surface regimes used as atmospheric
+boundary conditions.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1803}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3934}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4262}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Parámetro
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Condiciones de tiempo despejado
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Condiciones de tormenta
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Dirección del campo eléctrico} & Downward (negative) & Upward
+(positive) \\
+\textbf{Campo eléctrico vertical E₀,atm} & −100 → −150 V·m⁻¹ & +1 → +10
+kV·m⁻¹ \\
+\textbf{Potencial eléctrico V(z)} & Increases with altitude (dV/dz =
+−E\_z \textgreater{} 0) & Decreases with altitude (dV/dz = −E\_z
+\textless{} 0) \\
+\textbf{V(1m)} & +100 V → +150 V & −1 kV → −10 kV \\
+\textbf{V(10m)} & +1000 V → +1500 V & −10 kV → −100 kV \\
+\textbf{Conductividad en superficie σ(0)} & (1-5) × 10⁻¹⁴ S·m⁻¹ & (1-10)
+× 10⁻¹² S·m⁻¹ \\
+\textbf{Variación de σ con la altura (0-20 m)} & Increases gradually
+(≈10×) due to ionization by cosmic rays and radioactivity & Increases
+sharply (≈100×) near ground due to field-induced ionization and space
+charge \\
+\textbf{Densidad de corriente de conducción J} & ≈ −2 pA·m⁻² (downward,
+negative) & +0.1 → +10 nA·m⁻² (upward, positive) \\
+\textbf{Referencia de potencial superficial V(0)} & 0 V (by convention)
+& 0 V (by convention) \\
+\textbf{Campo eléctrico de ruptura (Ebd)} & ≈ 3.0 MV·m⁻¹ & 2.5-2.8
+MV·m⁻¹ \\
+\end{longtable}
+
+Owing to its limited height (\textbf{Figure 1}), Bertholon's apparatus
+can only interact with the lowest few meters of the atmosphere, where
+the idealised one-dimensional GEC picture breaks down and local
+processes dominate. Topography, aerosol loading, vegetation, humidity,
+surface conductivity and proximity to storm charge all influence the
+local electric field. For a passive collector-distributor such as the
+electrovegetometer, this near-surface layer controls both the magnitude
+of intercepted current and the likelihood of initiating discharges at
+the tips. For clarity, two idealized regimes can be distinguished, as
+summarized in Table 2:
+
+\begin{itemize}
+\item
+  Fair-weather (``sunny'') conditions, representing undisturbed
+  atmospheric states with weak fields and very small conduction
+  currents;
+\item
+  Stormy-weather conditions, representing periods beneath electrified
+  clouds or near active storm cells, where fields and currents can
+  increase by orders of magnitude.
+\end{itemize}
+
+\subsection{Brecha de conocimiento y preguntas de
+investigación}\label{brecha-de-conocimiento-y-preguntas-de-investigaciuxf3n}
+
+Historical accounts describe Bertholon's electrovegetometer as a purely
+passive apparatus: the ambient atmospheric conduction
+
+current was collected on a sharp upper point and redistributed through a
+conductor by a lower crown of points, without any external power source
+or means of regulating or measuring the electrical state. What remains
+uncertain is whether such a passive configuration could, even in
+principle, generate ion or charge fluxes large enough to have physical
+significance at canopy height. No previous study has embedded the
+electrovegetometer explicitly in the framework of the global atmospheric
+electric circuit, with realistic fair-weather and storm-time fields,
+currents and conductivity profiles, nor quantified how far from the tips
+its influence on the electrical microenvironment of crops can extend.
+
+A second gap concerns the absence of a systematic distinction between
+fair-weather and storm-affected regimes. Modern atmospheric electricity
+recognises that typical condiciones de tiempo despejado
+(e.g.~𝐸\textsubscript{0,𝑎𝑡𝑚} ≈ −120 𝑘𝑉. 𝑚\textsuperscript{−1},
+𝐽\textsubscript{0,𝑎𝑡𝑚} ≈ −2 𝑝𝐴. 𝑚\textsuperscript{−2}) are associated
+with weak, quasi-steady conduction currents, whereas storm-time
+conditions can support much stronger and more structured electric
+fields. Yet, existing historiographical and experimental discussions of
+the electrovegetometer do not quantify how these regimes would
+differentially drive a floating metal structure, nor do they estimate
+límites superiores pre-corona on the fields and currents attainable at
+the upper collector and the lower crown. This makes it difficult to
+judge whether historical reports of luminous ``aigrettes'' correspond to
+fields that plausibly exceed diffuse-corona onset thresholds.
+
+Finally, the electrodynamic consequences of geometric uncertainty remain
+unexplored. Historical engravings constrain the general architecture of
+the electrovegetometer but not the precise mast height, arm length, tip
+spacing or apex angles. It is therefore unknown how strongly the
+background column current can be concentrated into the canopy layer by a
+realistic crown, over what distance above the soil the enhanced electric
+field and current density persist (e.g.~within the first 0.2-0.5 m) and
+how sensitive these quantities are to collector and mast geometry.
+
+The present work addresses these gaps by developing a simplified
+two-dimensional conduction model of the air-device system, in which the
+electrovegetometer is treated as a floating metal structure polarised by
+the global electric circuit. Within this pre-corona, ohmic framework, we
+calculate the potential, electric field and current density around
+idealised reconstructions of Bertholon's device under both fair-weather
+and storm-like forcing, for several plausible combinations of mast
+height, arm length and tip spacing. The simulations quantify (i) the
+maximum local fields and enhancement factors at single-point and
+multi-point collectors, (ii) the concentration of background column
+current into the canopy layer and the resulting vertical and horizontal
+gradients of \textbar 𝐸\textbar{} and \textbar 𝐽\textbar{} and (iii) the
+atmospheric and geometric conditions under which the computed fields
+approach or exceed empirical diffuse-corona onset criteria. Because
+space-charge accumulation and ionisation feedback are not modelled,
+these results should be interpreted as controlled, pre-onset upper
+bounds rather than predictions of discharge behaviour.
+
+These considerations lead to the following research questions:
+
+\begin{quote}
+- Under realistic fair-weather forcing, what potentials, electric-field
+magnitudes and current densities are established around the upper
+collector and lower crown and
+\end{quote}
+
+\begin{quote}
+over what length scales do these perturbations decay above the canopy?
+\end{quote}
+
+\begin{quote}
+equation \{5\}, where 𝜎\textsubscript{0}
+\end{quote}
+
+\begin{quote}
+= {[}𝐽0,atm{]} is determined by the imposed
+\end{quote}
+
+\begin{quote}
+𝐸0,atm
+\end{quote}
+
+\begin{itemize}
+\item
+  Under enhanced background fields representing pre-storm or
+  storm-affected conditions, can a purely passive electrovegetometer
+  reach electric-field levels at its tips that approach diffuse-corona
+  onset thresholds, making historical luminous ``aigrettes'' physically
+  plausible?
+\item
+  How do field enhancement, current concentration into the canopy layer
+  and proximity to corona-onset thresholds depend on mast height, arm
+  length, tip spacing and collector design within the range consistent
+  with historical descriptions?
+\end{itemize}
+
+\section{Modelo}\label{modelo}
+
+All numerical computations were performed using GNU Octave (version
+10.3.0), employing custom scripts for the finite-difference
+discretization, relaxation scheme, and post-processing.
+
+\subsection{Supuestos físicos y
+alcance}\label{supuestos-fuxedsicos-y-alcance}
+
+The electrostatic environment around Bertholon's electrovegetometer is
+modeled as a quasi-steady, ohmic atmosphere carrying the global weather
+conduction current. The key assumptions are as follows:
+
+near-surface atmospheric electric field 𝐸\textsubscript{0,atm} and the
+
+corresponding column current density 𝐽\textsubscript{0,atm}.
+\textbf{Figure 2a} displays the resulting isopotential structure for
+values of 𝐸\textsubscript{0,atm} ranging from −0.4 𝑘𝑉.
+𝑚\textsuperscript{−1}to 10 𝑘𝑉. 𝑚\textsuperscript{−1}. Two physically
+distinct atmospheric regimes appear in this range and are therefore
+considered in the simulations:
+
+\begin{itemize}
+\tightlist
+\item
+  Fair-weather conditions, characterized by 𝐸\textsubscript{0,atm} ≈
+\end{itemize}
+
+\begin{quote}
+−120𝑉. 𝑚\textsuperscript{−1} and 𝐽\textsubscript{0,atm} ≈ −2 𝑝𝐴.
+𝑚\textsuperscript{−2}, yielding weak potential gradients and gently
+curved isopotentials (left side of \textbf{Figure 2a}).
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Stormy-weather conditions, associated with much stronger positive
+  electric fields, here represented by 𝐸\textsubscript{0,atm} =
+\end{itemize}
+
+\begin{quote}
++5𝑘𝑉. 𝑚\textsuperscript{−1} and 𝐽\textsubscript{0,atm} = 5𝑛𝐴.
+𝑚\textsuperscript{−2}, which produce steep potential drops with altitude
+and tightly packed isopotentials (right side of \textbf{Figure 2a}).
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  A conductivity scale height of 𝐻\textsubscript{𝜎} = 6𝑘𝑚 is adopted. In
+  a vertically uniform atmospheric column, current conservation \{6\}
+  then leads to the electric-field profile of equation \{7\}. Through
+  Gauss's law, the corresponding diagnostic space-charge density is
+  given by equation \{8\}.
+\end{itemize}
+
+∇⃗→ ⋅ {[}𝜎(𝑥, 𝑧) ∇⃗→𝑉(𝑥, 𝑧){]} = 0 \{2\}
+
+𝐸⃗→ = −∇⃗→𝑉 \{3\}
+
+𝐽→ = 𝜎𝐸⃗→ \{4\}
+
+\begin{itemize}
+\tightlist
+\item
+  The atmosphere behaves as a linear, resistive medium characterized by
+  a prescribed conductivity σ(x, z), dominated
+\end{itemize}
+
+𝜎air
+
+(𝑧) = 𝜎\textsubscript{0}
+
+\begin{quote}
+{[}𝑧{]}
+\end{quote}
+
+exp ( ) \{5\}
+
+\begin{quote}
+𝐻\textsubscript{𝜎}
+\end{quote}
+
+\begin{quote}
+by its altitude dependence σ(z).
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The vertical conduction current is approximately conserved
+\end{itemize}
+
+\begin{quote}
+𝐽\textsubscript{𝑧}(𝑧) = 𝜎(𝑧). 𝐸\textsubscript{𝑧}(𝑧) =
+𝐽\textsubscript{0,𝑎𝑡𝑚} \{6\}
+\end{quote}
+
+\begin{quote}
+(∇⃗→. →J = 0) in the absence of sources or sinks. Space charge ρ and
+ionization feedback are not explicitly resolved; instead, their net
+effect on conductivity is encoded in σ(z).
+\end{quote}
+
+\begin{quote}
+𝐸\textsubscript{𝑧}(𝑧) = −𝐸\textsubscript{0,𝑎𝑡𝑚}
+\end{quote}
+
+𝑑𝐸\textsubscript{𝑧}
+
+\begin{quote}
+𝑧
+\end{quote}
+
+exp (− ) \{7\}
+
+𝐻
+
+\begin{quote}
+𝜎
+\end{quote}
+
+\begin{quote}
+𝐸\textsubscript{𝑧}(𝑧)
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The metallic parts of the device are treated as perfect conductors,
+  each connected metallic region being
+\end{itemize}
+
+\begin{quote}
+𝜌(𝑧) = 𝜀\textsubscript{0} 𝑑𝑧 = −𝜀\textsubscript{0}
+\end{quote}
+
+\begin{quote}
+𝐻\textsubscript{𝜎}
+\end{quote}
+
+\begin{quote}
+\{8\}
+\end{quote}
+
+\begin{quote}
+equipotential. The structure is electrically floating: no external
+voltage is imposed, and its potential adjusts self-consistently under
+the imposed global-circuit forcing.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The ground is represented as a conducting, equipotential boundary. The
+  crop canopy is not explicitly resolved (fields are evaluated in the
+  air above a flat ground), so fine-scale field
+\end{itemize}
+
+\begin{quote}
+The space charge density 𝜌(𝑧) is not explicitly solved. Instead, σ(z) is
+prescribed and the solver remains purely ohmic and pre-corona. For
+storm-like surrogate cases, the same form is considered although the
+magnitudes of \textbar 𝐸\textsubscript{0,𝑎𝑡𝑚}\textbar,
+\textbar 𝐽\textsubscript{0,𝑎𝑡𝑚}\textbar{} and 𝜎\textsubscript{0} are
+increased to match the idealized values in the ``storm-like'' regime.
+The solid
+\end{quote}
+
+\begin{quote}
+regions are air with 𝜎\textsubscript{air}(𝑧) given by equation \{5\},
+wood supports
+\end{quote}
+
+\begin{quote}
+distortions by individual plants are neglected.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The problem is solved in two-dimensional {[}Cartesian /
+\end{itemize}
+
+\begin{quote}
+with 𝜎\textsubscript{wood}
+\end{quote}
+
+≈ 10\textsuperscript{−15} 𝑆. 𝑚\textsuperscript{−1}(strongly insulating
+but not perfectly)
+
+\begin{quote}
+7 −1
+\end{quote}
+
+\begin{quote}
+axisymmetric{]} geometry, assuming invariance in the out-of-plane
+direction.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The wooden supports are represented as weak conductors (very low
+  σwood) that can leak current but are highly resistiv²e compared to
+  metal.
+\end{itemize}
+
+\subsection{Ecuaciones gobernantes y perfil de
+conductividad}\label{ecuaciones-gobernantes-y-perfil-de-conductividad}
+
+The electric potential 𝑉(𝑥, 𝑧) satisfies the stationary conduction
+equation \{2\} throughout all materials, while the electric field and
+current density follow from equations \{3\} and \{4\}. The atmosphere is
+described using the altitude-dependent conductivity profile of
+
+and metal conductor: 𝜎\textsubscript{metal} = 1 × 10 𝑆. 𝑚 . Owing to
+this
+
+strong conductivity mismatch, the metallic structure is treated as a
+single floating conductor with an effectively uniform internal
+potential.
+
+\subsection{Geometría y dominio
+computacional}\label{geometruxeda-y-dominio-computacional}
+
+The problem is solved in two dimensions over 𝑥 ∈ {[}−0.4, 2.0{]} 𝑚 and 𝑧
+∈ {[}0.0, 4.0{]} 𝑚 on a uniform grid of 𝑁\textsubscript{𝑥} = 6000,
+𝑁\textsubscript{𝑧} = 10 000 nodes (Δx = Δz = 400 µm). This 2D
+formulation represents an infinitely long structure in the out-of-plane
+direction; results are therefore cross-sections with unit depth.
+
+The Bertholon-type apparatus is modeled as shown in \textbf{Figure 2b}.
+A wooden vertical mast, 2.0 m high and 0.15 m wide, forms the central
+support. A short horizontal wooden element is placed at
+
+𝑧 = 1.5 m and two wooden feet, each 0.5 m high and 1.5 cm thick, provide
+support at ground level beneath the conductor. The metallic conductor is
+represented by an L-shaped structure with triangular tips. At the top, a
+0.30-m-high, 0.02-m-wide triangular tip located at 𝑧 = 2.2 m serves as
+the upper single-point collector, with an apex angle of 4°. From the
+base of this tip, a vertical metallic segment extends 1.70 m downward
+with a thickness of
+
+0.02 m. This segment connects to a horizontal arm 1.50 m long
+
+positioned approximately 0.5 m above the ground. At the end of this arm,
+a terminal crown composed of five triangular points (each 0.30 m high
+and 0.02 m at the base) is arranged with angular orientations of −40°,
+−20°, 0°, +20° and +40° relative to the vertical. This stylized geometry
+corresponds to sharp apex radii of order 1 mm.
+
+\begin{quote}
+\includegraphics{./images/image2.jpeg}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 2. (a) Electric potential}} 𝑽(𝑬𝒛, 𝒛)
+\textbf{\emph{in the atmosphere above the ground, shown as colored
+contours (in kV) and black isopotential lines. The horizontal axis
+represents the imposed vertical electric field}} 𝑬𝒛\textbf{\emph{,
+ranging from fair-weather values (}}𝑬𝒛 \textless{} 𝟎\textbf{\emph{) to
+storm-time values (}}𝑬𝒛 \textgreater{} 𝟎\textbf{\emph{). The two white
+vertical lines correspond to the fair-weather and stormy-weather
+atmospheric conditions for this study. (b) Geometrical model of
+Bertholon's electrovegetometer as implemented in configuration I, which
+includes the wooden insulating mast and supports (brown), the conductive
+L-shaped structure (red) and the multi-point crown. The computational
+domain represents a 2 m × 4 m vertical cross-section of the surrounding
+atmosphere.}}
+\end{quote}
+
+\subsection{Boundary conditions and
+numerical}\label{boundary-conditions-and-numerical}
+
+\subsection{Condiciones de contorno e implementación
+numérica}\label{condiciones-de-contorno-e-implementaciuxf3n-numuxe9rica}
+
+\begin{quote}
+implementation
+\end{quote}
+
+The top and bottom boundaries enforce the imposed vertical current
+density 𝐽\textsubscript{0,𝑎𝑡𝑚} following equations \{9\} and \{10\}
+while lateral boundaries are symmetric, as expressed by equation \{11\}.
+
+The governing equation \{2\} is discretized on a two-dimensional
+
+five-point finite-difference stencil. To ensure continuity of the
+current density across sharp changes in conductivity, the conductivity
+at each cell face is computed with equation \{12\} which provides the
+harmonic mean between adjacent cells. This averaging scheme preserves
+flux conservation and numerical
+
+𝜕𝑉
+
+\textbar{}
+
+𝜕𝑧
+
+𝑧=0
+
+\begin{quote}
+= − 𝐽0,𝑎𝑡𝑚 \{9\}
+\end{quote}
+
+\begin{quote}
+𝜎(0)
+\end{quote}
+
+\begin{quote}
+stability in regions where materials of very different conductivities
+meet (e.g., air/wood or air/metal interfaces). The resulting
+\end{quote}
+
+\begin{quote}
+discrete system is solved by Jacobi relaxation, in which the
+\end{quote}
+
+{[}𝜕𝑉{]}
+
+\textbar{}
+
+𝜕𝑧
+
+𝑧=𝐻
+
+\begin{quote}
+{[}𝐽0,𝑎𝑡𝑚{]}
+\end{quote}
+
+\begin{quote}
+= − 𝜎(𝐻)
+\end{quote}
+
+\{10\}
+
+\begin{quote}
+potential at node (𝑖, 𝑗) is updated iteratively according to equation
+\end{quote}
+
+\begin{quote}
+\{13\} with boundary updates and gauge enforcement after each
+\end{quote}
+
+𝜕𝑉
+
+\textbar{}
+
+𝜕𝑥
+
+left/right
+
+= 0 \{11\}
+
+\begin{quote}
+sweep.
+\end{quote}
+
+\begin{quote}
+{[}2𝜎\textsubscript{1}𝜎\textsubscript{2}{]}
+\end{quote}
+
+\begin{quote}
+𝜎 =
+\end{quote}
+
+\begin{quote}
+\{12\}
+\end{quote}
+
+One air node is fixed at 𝑉 = 0 to set the reference potential. This
+choice enforces the column current but does not impose a perfectly
+equipotential Earth at z = 0; near-ground potentials can
+
+\begin{quote}
+(𝑛+1)
+\end{quote}
+
+𝑉
+
+\begin{quote}
+𝑖,𝑗
+\end{quote}
+
+\begin{quote}
+face
+\end{quote}
+
+𝜎\textsubscript{1} + 𝜎\textsubscript{2} + 𝜀
+
+therefore vary horizontally, an approximation acceptable here but not
+exact.
+
+\begin{quote}
+𝜎𝑒𝑉𝑖,𝑗+1 + 𝜎𝑤𝑉𝑖,𝑗−1 + 𝜎𝑛𝑉𝑖+1,𝑗 + 𝜎𝑠𝑉𝑖−1,𝑗
+\end{quote}
+
+\begin{quote}
+= 𝜎 + 𝜎 + 𝜎 + 𝜎
+\end{quote}
+
+𝑒 𝑤 𝑛 𝑠
+
+\{13\}
+
+Initialization uses the analytic fair-weather profile in equation \{14\}
+and metal regions are seeded with the average potential of neighbouring
+air cells. Iterations stop once the equation \{15\} is satisfied or when
+2000 iterations are reached. This criterion yields good agreement with
+the 1D analytic column and current conservation (top vs bottom flux
+differ by \textless0.01\%), but peak fields remain somewhat sensitive to
+grid resolution and tip geometry. They should be interpreted as
+approximate pre-corona values rather than fully converged quantities.
+Iterations continue until the maximum change In V between two successive
+steps falls below a prescribed tolerance, ensuring convergence of the
+electrostatic potential field.
+
+\section{Resultados}\label{resultados}
+
+\subsection{Condiciones de tiempo despejado
+(``soleado'')}\label{condiciones-de-tiempo-despejado-soleado}
+
+Here, we examine Configuration I of the electrovegetometer
+(\textbf{Figure 1a}), which consists of a conductive L-shaped structure
+combining a single-point collector at the upper extremity with a
+five-point crown near ground level. The response of this geometry is
+evaluated under fair-weather forcing, characterized by an imposed
+downward conduction current 𝐽\textsubscript{0,𝑎𝑡𝑚} ≈ −2 𝑝𝐴.
+𝑚\textsuperscript{−2} and a background electric field
+𝐸\textsubscript{0,𝑎𝑡𝑚} ≈ −120𝑉. 𝑚\textsuperscript{−1} applied at the
+lower boundary.
+
+𝑉(0)
+
+(𝑧) = 𝐸\textsubscript{0,atm}𝐻\textsubscript{𝜎} (1 − 𝑒
+
+\begin{quote}
+{[}𝑧{]}
+\end{quote}
+
+\begin{quote}
+𝐻𝜎) \{14\}
+\end{quote}
+
+−
+
+\begin{quote}
+The steady-state potential, electric-field magnitude and current-density
+magnitude in the vicinity of the upper single-point
+\end{quote}
+
+\begin{quote}
+Max\textbar 𝑉\textsuperscript{(𝑛+1)} − 𝑉\textsuperscript{(𝑛)}\textbar{}
+\textless{} 10\textsuperscript{−3} \{15\}
+\end{quote}
+
+Electric field and current density are computed after convergence using
+centered finite differences. The horizontal and vertical components of
+the electric field follow directly from the potential gradients
+(Equations \{16\}-\{17\}) and the field magnitude is obtained from
+equation \{18\}. The current-density components are then derived from
+Ohm's law (Equations \{19\}-\{20\}) using the local conductivity and the
+total current-density magnitude is computed from Equation \{21\}. These
+quantities are visualized in units of kV.m⁻¹ for the electric field and
+pA.m⁻² or nA.m⁻² for the current density, with solid regions masked.
+
+\begin{quote}
+𝐸 = − 𝜕𝑉 \{16\}
+\end{quote}
+
+\begin{quote}
+\textsuperscript{𝑥} 𝜕𝑥
+\end{quote}
+
+collector are shown in \textbf{Figure 3}. \textbf{Figure 3a} illustrates
+that the atmospheric potential ranges from approximately 260 to 305 V
+over the vertical extent of the domain. Near the metallic point, the
+potential drops sharply to ≈260-265 V, whereas the surrounding air at
+the same altitude lies around 290-300 V. This 30-40 V lateral depression
+is tightly confined to a region only a few mm wide, forming a narrow
+potential funnel aligned with the tapered geometry of the rod. Because
+the conductor is electrically floating, its potential (≈240 V at the
+base of the point) emerges self-consistently as the value required to
+satisfy the imposed column current. Outside the immediate tip region,
+equipotential contours relax back to their nearly uniform fair-weather
+spacing.
+
+\textbf{Figure 3b} reveals the resulting electric-field enhancement. The
+gradient associated with the 30-40 V drop over sub-cm distances produces
+local fields exceeding 20 𝑘𝑉. 𝑚\textsuperscript{−1} with the simulation
+
+𝐸\textsubscript{𝑧}
+
+\begin{quote}
+𝜕𝑉
+\end{quote}
+
+\begin{quote}
+= − 𝜕𝑧
+\end{quote}
+
+\{17\}
+
+\begin{quote}
+giving a peak value of 𝐸\textsubscript{max} = 20.9 𝑘𝑉.
+𝑚\textsuperscript{−1}. This corresponds to an enhancement factor of
+roughly:
+\end{quote}
+
+\begin{quote}
+\textbar 𝐸\textbar{} = √𝐸\textsuperscript{2} + 𝐸\textsuperscript{2}
+\{18\}
+\end{quote}
+
+𝐸max
+
+2.1 × 10\textsuperscript{4}
+
+\begin{quote}
+𝑥 𝑧
+\end{quote}
+
+\begin{quote}
+𝜕𝑉
+\end{quote}
+
+𝐽 = −𝜎.
+
+\{19\}
+
+\textbar 𝐸0,𝑎𝑡𝑚\textbar{}
+
+≈ 1.2 × 10\textsuperscript{2} ∼ 175
+
+\begin{quote}
+\textsuperscript{𝑥} 𝜕𝑥
+\end{quote}
+
+\begin{quote}
+𝜕𝑉
+\end{quote}
+
+\begin{quote}
+𝐽\textsubscript{𝑧} = −𝜎. 𝜕𝑧 \{20\}
+\end{quote}
+
+𝑥 𝑧
+
+\begin{quote}
+\textbar 𝐽\textbar{} = √𝐽\textsuperscript{2} + 𝐽\textsuperscript{2}
+\{21\}
+\end{quote}
+
+\begin{quote}
+This value is purely due to geometric concentration at the apex.
+\end{quote}
+
+\begin{quote}
+The elevated field decays rapidly: within 1 cm of the tip it falls to
+the kV/m range and within a few cm it returns to ambient fair-weather
+values.
+\end{quote}
+
+\begin{quote}
+\textbf{Figure 3c} shows the associated current-density magnitude. The
+strongest currents are confined to a narrow axial plume emerging from
+the single-point rod, with a peak of 𝐽\textsubscript{max} = 1.36 𝑛𝐴.
+𝑚\textsuperscript{−2}. This value is consistent with Ohm's law 𝐽 = 𝜎𝐸,
+using the local fair-weather surface conductivity 𝜎\textsubscript{0} ≈
+1.7 × 10\textsuperscript{−14} 𝑆. 𝑚\textsuperscript{−1}. Although small
+in absolute terms, such a current corresponds to a microscopic flux of:
+\end{quote}
+
+\begin{quote}
+𝑁̇ ≈ {[}𝐽max{]} ≈ 8 × 10\textsuperscript{9}
+charges.s\textsuperscript{−1}.pm\textsuperscript{−2},
+\end{quote}
+
+𝑒
+
+\begin{quote}
+showing that even nanoampere currents involve billions of charge
+carriers per second. As expected in the ohmic, pre-corona regime, the
+spatial pattern of \textbar 𝐽\textbar{} mirrors that of
+\textbar 𝐸\textbar{} and merges smoothly into the background atmospheric
+current 𝐽\textsubscript{0,𝑎𝑡𝑚} ≈ −2 𝑝𝐴. 𝑚\textsuperscript{−2} over cm
+scales.
+\end{quote}
+
+\begin{quote}
+\includegraphics{./images/image3.jpeg}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 3. Pre-corona response of the upper single-point
+rod collector (apex angle}} θ \textbf{\emph{= 4°) under fair-weather
+forcing (}}𝑬𝟎,𝒂𝒕𝒎 ≈ −𝟏𝟐𝟎𝑽. 𝒎\textsuperscript{−𝟏}\textbf{\emph{,}} 𝑱𝟎,𝒂𝒕𝒎
+≈
+\end{quote}
+
+\begin{quote}
+−𝟐𝒑𝑨. 𝒎\textsuperscript{−𝟐}\textbf{\emph{). (a) Steady potential V}}
+𝒔\textbf{\emph{howing strong equipotential compression near the floating
+metal apex. (b) Electric-field magnitude}}
+\textbar 𝑬\textbar{}\textbf{\emph{with geometric enhancement to}} 𝑬𝒎𝒂𝒙 =
+𝟐𝟎. 𝟗 𝒌𝑽. 𝒎\textsuperscript{−𝟏}\textbf{\emph{. (c) Current-density
+magnitude}} \textbar 𝑱\textbar{} \textbf{\emph{peaking at}} 𝑱𝒎𝒂𝒙 = 𝟏. 𝟑𝟔
+𝒏𝑨. 𝒎\textsuperscript{−𝟐} \textbf{\emph{and relaxing to the background
+within centimeters.}}
+\end{quote}
+
+\includegraphics{./images/image4.jpeg}
+
+\begin{quote}
+\textbf{\emph{Figura 4. Pre-corona response of the lower five-point
+crown under fair-weather forcing (}}𝑬𝟎,𝒂𝒕𝒎 ≈ −𝟏𝟐𝟎𝑽.
+𝒎\textsuperscript{−𝟏}\textbf{\emph{,}} 𝑱𝟎,𝒂𝒕𝒎 ≈ −𝟐𝒑𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{) with apex angle}} θ
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{= 4°. (a,b) Potential V showing local depressions around
+each apex and a narrow, deep potential funnel at the central tip. (c,d)
+Electric-field magnitude}}
+\end{quote}
+
+\begin{quote}
+\textbar 𝑬\textbar{} \textbf{\emph{forming five interacting high-field
+lobes, with a localized maximum}} 𝑬𝒎𝒂𝒙 = 𝟖𝟎. 𝟗 𝒌𝑽.
+𝒎\textsuperscript{−𝟏}\textbf{\emph{. (e,f) Current-density magnitude}}
+\textbar 𝑱\textbar{} \textbf{\emph{revealing five focused conduction
+channels and a peak}} 𝑱𝒎𝒂𝒙 = 𝟏. 𝟑𝟒 𝒏𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{. All values remain within the
+linear, conduction-dominated regime.}}
+\end{quote}
+
+The steady-state potential, electric-field magnitude and current-density
+magnitude surrounding the lower multi-point crown are represented in
+\textbf{Figure 4}. At the scale of the entire crown (\textbf{Figure
+4a}), each of the five metallic points produces a distinct depression in
+the potential field. These local ``funnels,'' typically 20-40 V deeper
+than the surrounding air at the same height, merge into a single broader
+perturbation a few cm away from the crown. The zoom near the central
+point (\textbf{Figure 4b}) shows a narrow, vertically elongated
+potential channel whose minimum lies around 250-260 V, corresponding to
+a lateral potential drop of 30-40 V over mm-
+
+to-cm scales. This results from both the sharp curvature of the central
+apex and the lateral confinement imposed by neighboring points of the
+crown.
+
+The electric-field magnitude (\textbf{Figure 4c} and especially 4d)
+exhibits five distinct high-field lobes, one per apex. Their
+superposition forms a structured envelope rather than isolated maxima,
+reflecting strong inter-point interactions. Within the central zoom
+(\textbf{Figure 4d}) the field reaches 𝐸\textsubscript{𝑚𝑎𝑥} ≈ 80.9 𝑘𝑉.
+𝑚\textsuperscript{−1} , nearly 700 times the ambient fair-weather field.
+This field drops to a few kV/m within about 1 cm, returning to
+near-ambient values within
+
+several cm. The enhancement remains at least one order of magnitude
+below typical corona-onset thresholds for sharp conductors at ground
+pressure, confirming operation in the pre-corona, ohmic regime.
+
+The current-density maps (\textbf{Figures 4e} and \textbf{4f}) indicate
+the structure of the electric field. Each point of the crown generates a
+narrow current plume that diffuses downward and merges with the
+background conduction current. The central apex again produces the
+highest value, 𝐽\textsubscript{max} ≈ 1.34 𝑛𝐴. 𝑚\textsuperscript{−2}
+which corresponds to a microscopic flux similar to that estimated at the
+single-point rod collector, \emph{i.e.} 𝑁̇ ≈ 8 ×
+10\textsuperscript{9}𝑐ℎ𝑎𝑟𝑔𝑒𝑠. 𝑠\textsuperscript{−1}.
+𝑚\textsuperscript{−2}. Because the conductivity varies only weakly
+within the 5-15 cm region surrounding the crown, the structure of
+\textbar 𝐽\textbar{} is governed almost entirely by geometric field
+shaping rather than atmospheric stratification.
+
+Bajo forzamiento de tiempo despejado, all simulated fields remain well
+below air-breakdown thresholds, confirming operation in a linear, ohmic
+pre-corona regime. Field enhancement arises solely from geometric
+concentration at the metallic points, producing smooth, monotonic
+patterns of electric field and current density consistent with 𝐽 = 𝜎𝐸.
+These results define a quantitative baseline for potentials, enhancement
+factors and conduction plumes, against which stronger forcing can be
+compared. We now examine how the geometry responds under idealized
+condiciones de tormenta, where ambient fields increase dramatically.
+
+\subsection{Condiciones de tiempo
+tormentoso}\label{condiciones-de-tiempo-tormentoso}
+
+The response of the upper single-point rod is studied under an idealized
+storm-like forcing, using the parameters of Table 2. The background
+electric field is increased to 𝐸\textsubscript{0,atm} ≈ 5000 𝑉.
+𝑚\textsuperscript{−1} and the imposed conduction current reverses
+direction, reaching
+
+𝐽\textsubscript{0,𝑎𝑡𝑚} ≈ +5 𝑛𝐴. 𝑚\textsuperscript{−2}. This
+configuration provides a linear surrogate for storm-enhanced fields
+without explicitly modelling cloud charge, space charge or the
+three-dimensional electrostatic structure of thunderclouds. As a
+consequence, the fields obtained near the points represent upper bounds
+on the pre-corona state; a real atmosphere would transition to
+space-charge-dominated corona before such fields are maintained.
+
+\textbf{Figure 5} shows the steady potential, electric-field magnitude
+and current-density magnitude around the upper tip for this storm-like
+scenario. The potential well around the apex (\textbf{Figure 5a}) is
+significantly deeper and more compressed than under fair weather,
+reflecting both the stronger forcing and the higher upward current.
+Local potential near the single point's apex fall below −12 𝑘𝑉, compared
+with the −260 𝑉 range seen previously, indicating an order-of-magnitude
+intensification of the gradients. The resulting electric field
+(\textbf{Figure 5b}) reaches a peak of 𝐸\textsubscript{𝑚𝑎𝑥} ≈ 735 𝑘𝑉.
+𝑚\textsuperscript{−1} localized to a sub-cm region. This value is still
+below canonical breakdown estimates for air at ground pressure (∼ 2.5 −
+2.8 𝑀𝑉. 𝑚\textsuperscript{−1}) but it falls within the lower range of
+empirical corona-onset measurements for sharp conductors under humid or
+pre-storm conditions. Within 1 cm of the apex, the field drops to a few
+hundred kV/m and returns to background values within a few cm,
+preserving the strongly localized enhancement pattern observed in fair
+weather.
+
+The corresponding current-density magnitude (\textbf{Figure 5c}) peaks
+at
+
+𝐽\textsubscript{𝑚𝑎𝑥} ≈ 5.4 µ𝐴. 𝑚\textsuperscript{−2} consistent with the
+scaling 𝐽 = 𝜎𝐸, given the elevated conductivity at the tip's altitude.
+This represents an increase of nearly three orders of magnitude relative
+to fair-weather values (∼ 1.36 𝑛𝐴. 𝑚\textsuperscript{−2}), yet the
+spatial structure remains a narrow axial plume diffusing smoothly into
+the background upward current.
+
+Despite the large absolute fields and currents, the computed solution
+retains the qualitative signature of a linear conduction regime:
+equipotential surfaces continue to converge monotonically,
+\textbar 𝐸\textbar{} increases smoothly toward the apex and no field
+clamping or plateau forms. This behaviour indicates that, within the
+limitations of a space-charge-free model, the system remains
+mathematically ohmic even at intensities where a real atmosphere would
+have already initiated corona. The results should therefore be
+interpreted as a near-threshold pre-corona state, with physical
+discharge onset inferred from external criteria, not from deviations
+within the simulated fields.
+
+The response of the five-point crown distributor under storm-like
+forcing is shown in \textbf{Figure 6}. Compared with the fair-weather
+case, the stronger background field and reversed conduction current
+produce a markedly deeper and more confined potential well around each
+apex. On the scale of the full crown (\textbf{Figure 6a}), equipotential
+surfaces collapse tightly around all five metallic points, with local
+potentials in the zoom region (\textbf{Figure 6b}) falling to around −10
+𝑘𝑉. As in the previous single-point rod, these minima form narrow,
+vertically elongated channels, but the lateral confinement imposed by
+neighbouring peaks sharpens the gradients even further.
+
+The corresponding electric-field magnitude (\textbf{Figures 6c-6d})
+displays a set of 5 high-field lobes. Their superposition produces a
+structured envelope of enhanced field, with the central peak reaching
+𝐸\textsubscript{max} ≈ 2845 𝑘𝑉. 𝑚\textsuperscript{−1}. This value is
+roughly 40 times larger than the storm-like single-point rod maximum and
+lies squarely within the empirical breakdown range for humid air at
+ground level. It also exceeds typical diffuse-corona onset estimates for
+sharp conductors. Because the model is strictly linear and excludes
+space-charge or ionization processes, these simulated fields should be
+interpreted as upper bounds on the pre-discharge state; a real
+atmosphere would begin corona formation and field clamping before such
+values were sustained. Spatially, the enhancement remains confined to a
+sub-cm region around the apex, decaying to the 100-of-kV/m range within
+\textasciitilde1 cm and to background levels within a few cm.
+
+The current-density maps (\textbf{Figures 6e-6f}) reproduce this
+structure. A sharply focused axial jet emerges from each point, with the
+central one producing 𝐽\textsubscript{max} ≈ 5.4 µ𝐴.
+𝑚\textsuperscript{−2}, over three orders of magnitude above its
+fair-weather counterpart and consistent with the elevated
+𝐸\textsubscript{max} through 𝐽 = 𝜎𝐸. Although extremely large for a
+conduction-only model, the spatial pattern remains smooth and monotonic,
+without the field clamping or non-linear features that would accompany
+real corona onset.
+
+Taken together, these results show that the multi-point crown acts as an
+exceptionally efficient field concentrator under storm-like
+
+forcing, much more so than the upper single-point collector. However,
+because the model neglects space charge, ionization and discharge
+physics, the predicted MV/m-scale peaks represent idealized upper limits
+rather than realistic operational values; in
+
+practice, corona, streamer activity and associated charge regulation
+would intervene well before the simulated fields could be reached.
+
+\begin{quote}
+\includegraphics{./images/image5.jpeg}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 5. Response of the single-point rod collector under
+idealized storm-like forcing (}}𝑬𝟎,𝒂𝒕𝒎 ≈ 𝟓 𝒌𝑽.
+𝒎\textsuperscript{−𝟏}\textbf{\emph{,}} 𝑱𝟎,𝒂𝒕𝒎 ≈ 𝟓 𝒏𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{). (a) Steady potential V showing
+deep compression of equipotentials near the floating metal apex. (b)
+Electric-field magnitude}} \textbar 𝑬\textbar{} \textbf{\emph{reaching}}
+𝑬𝒎𝒂𝒙 = 𝟕𝟑𝟓 𝒌𝑽. 𝒎\textsuperscript{−𝟏}\textbf{\emph{, approaching
+empirical corona-onset ranges. (c) Current-density magnitude}}
+\textbar 𝑱\textbar{} \textbf{\emph{peaking at}} 𝑱𝒎𝒂𝒙 = 𝟓. 𝟒 µ𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{. Values represent límites superiores
+pre-corona within the linear, space-charge-free model.}}
+\end{quote}
+
+\includegraphics{./images/image6.jpeg}
+
+\begin{quote}
+\textbf{\emph{Figura 6. Response of the lower five-point crown under
+idealized storm-like forcing (}}𝑬𝟎,𝒂𝒕𝒎 ≈ 𝟓 𝒌𝑽.
+𝒎\textsuperscript{−𝟏}\textbf{\emph{,}} 𝑱𝟎,𝒂𝒕𝒎 ≈ 𝟓 𝒏𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{) with apex angle}} θ \textbf{\emph{=
+4°. (a,b) Potential V showing a deeply collapsed well and strong
+confinement of equipotentials around each apex. (c,d) Electric-field
+magnitude}} \textbar 𝑬\textbar{} \textbf{\emph{with a localized
+maximum}} 𝑬𝒎𝒂𝒙 = 𝟐. 𝟖𝟒 𝑴𝑽. 𝒎\textsuperscript{−𝟏}\textbf{\emph{,
+approaching empirical breakdown ranges. (e,f) Current-density
+magnitude}} \textbar 𝑱\textbar{} \textbf{\emph{peaking at}} 𝑱𝒎𝒂𝒙 = 𝟐. 𝟖
+µ𝑨. 𝒎\textsuperscript{−𝟐}\textbf{\emph{. These values represent
+upper-bound, pre-discharge fields within the linear, space-charge-free
+model.}}
+\end{quote}
+
+\subsection{Influencia del ángulo de
+vértice}\label{influencia-del-uxe1ngulo-de-vuxe9rtice}
+
+To evaluate the sensitivity of the electrovegetometer response to the
+sharpness of Bertholon's upper collector, a parametric sweep is achieved
+for different values of the apex angle θ of the single-point rod,
+keeping all other geometric and atmospheric parameters unchanged. The
+angle θ is defined here as the full opening angle of the triangular tip
+in the 2-D configuration (\textbf{Figure 2b}). Values from 2° to 90°
+(blunt, right-angle wedge) were explored. For each θ, the maximum
+electric-field magnitude (Emax) is extracted from the air adjacent to
+the upper tip and to the lower crown. Besides, the maximum conduction
+current density (Jmax) is also extracted in those same regions. The
+results are summarized in \textbf{Figure 7}.
+
+\textbf{Figure 7a} shows that the peak field near the single-point rod
+decreases monotonically as the tip is blunted. Under fair-weather
+forcing (red triangles), Emax drops from roughly 20 kV/m for very sharp
+apices to 13 kV/m at 90°. The dependence is smooth and relatively weak:
+over the entire 0-90° range, the variation remains within a factor ≲1.5.
+The same trend holds under storm-like forcing (blue triangles), with
+Emax decreasing from 800 kV/m for acute tips to 450 kV/m for the
+bluntest wedge. Thus, sharpening
+
+the apex enhances the local field, but only at the tens-of-percent level
+for realistic angles. This mild angular sensitivity is expected in a
+floating-conductor configuration dominated by large-scale column
+forcing: changing θ modifies the local curvature, hence the geometric
+amplification factor, but the overall potential of the metal adjusts
+self-consistently to satisfy the imposed atmospheric conduction current.
+In other words, the tip sharpness controls how a nearly fixed potential
+drop is concentrated into mm-cm gradients, rather than changing the
+global voltage available to the structure.
+
+For comparison, \textbf{Figure 7a} also reports the maximum field at the
+five-point crown (stars). In both atmospheric regimes, the crown peak
+field remains essentially constant as θ varies. Under fair weather, it
+stays near 80 kV/m and under storm-like forcing near 2700-3000 kV/m.
+This insensitivity indicates that the lower crown is controlled almost
+entirely by its own apex geometry and by the ambient forcing, with only
+negligible coupling to the sharpness of the distant upper collector.
+Practically, this means that uncertainties in the historical
+manufacturing of the top point do not propagate into the near-canopy
+field enhancement produced by the terminal crown.
+
+\begin{quote}
+\includegraphics{./images/image7.png}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 7. (a) Maximum electric field}} 𝑬𝒎𝒂𝒙
+\textbf{\emph{and (b) current density}} 𝑱𝒎𝒂𝒙 \textbf{\emph{as functions
+of apex angle for the upper collector, under fair-weather (red) and
+storm-like (blue) forcing. Fair-weather values show weak dependence on
+tip geometry, whereas condiciones de tormenta produce strong geometric
+amplification. The lower crown achieves the highest fields (}}𝟐. 𝟖 𝑴𝑽.
+𝒎\textsuperscript{−𝟏}\textbf{\emph{) and currents (}}𝟓 𝒎𝑨.
+𝒎\textsuperscript{−𝟐}\textbf{\emph{), representing upper-bound
+pre-discharge estimates in the linear ohmic model.}}
+\end{quote}
+
+The corresponding maxima in conduction current density are shown in
+\textbf{Figure 7b}. As predicted by the ohmic relation, Jmax near the
+upper tip follows the same monotonic decrease with θ as Emax. In fair
+weather (red triangles), the peak current density decreases gently
+(again by less than a factor of two) between sharp and blunt apices. In
+condiciones de tormenta (blue triangles) the same reduction occurs, but
+at values that are three orders of magnitude higher
+
+than in fair weather, reflecting the imposed increase in both background
+field and conductivity. As for the electric field, the crown current
+maxima (stars) are essentially flat with θ, confirming that the lower
+distributor behaviour is decoupled from the collector sharpness in this
+pre-corona regime.
+
+An additional feature of \textbf{Figure 7b} is that, under storm-like
+forcing, the upper tip exhibits a larger Jmax than the crown even though
+the crown reaches higher Emax. This reversal arises from conductivity
+stratification: the upper collector operates at higher altitude where
+σ(z) is larger, so a given field produces a proportionally larger
+conduction current. In contrast, the crown's stronger field sits in a
+lower-σ layer and therefore carries a smaller ohmic current density
+despite its higher geometric amplification.
+
+Altogether, the apex-angle sweep shows that the pre-corona predictions
+for the upper collector are robust to plausible uncertainties in tip
+sharpness. Whether the 18th-century metal point was needle-sharp or
+moderately blunt changes Emax and Jmax only by a modest factor, rather
+than by orders of magnitude. Therefore, the qualitative conclusions
+drawn from the baseline θ
+
+≈ 4° geometry (namely that fair-weather operation remains safely
+sub-coronal while storm-time forcing can push the tip toward onset
+ranges) do not depend critically on an exact reconstruction of point
+shape. The strong enhancement produced by the multi-point crown, on the
+other hand, is governed by the crown's own sharpness and spacing and is
+effectively independent of the collector angle. Finally, it should be
+recalled that these angular trends are obtained in a 2-D wedge
+approximation. A fully 3-D conical tip would yield different absolute
+amplification factors, but the monotonic, weak sensitivity to θ is
+expected to persist, since it reflects the floating-potential adjustment
+and the localization of the potential drop rather than any peculiarity
+of the 2-D geometry.
+
+\subsection{Influencia de la geometría del
+conductor}\label{influencia-de-la-geometruxeda-del-conductor}
+
+Configuration I of the electrovegetometer appears effective under
+storm-time conditions but essentially inactive in fair weather. To
+explore whether alternative geometries could improve its fair-weather
+response, four variants of the conductor layout were examined:
+
+\begin{itemize}
+\item
+  The configuration I with single-point rod collector and crown
+  distributor
+\item
+  The configuration II: the single upper point is replaced by a small
+  crown of sharp tips mounted at the mast head, while the lower
+  distributor remains unchanged.
+\item
+  The extended configuration I: it retains a single upper point but
+  extends the metallic mast by approximately 1 m, so that the tip now
+  protrudes higher into the atmospheric column. The lower crown and
+  supports are unchanged. This
+\end{itemize}
+
+\begin{quote}
+configuration does not correspond to a specific historical drawing but
+serves to test the sensitivity of the device to collector height and to
+the associated changes in background potential and conductivity.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The isolated crown configuration: the entire metallic mast-arm
+  assembly is removed so as to leave only the five-point crown at canopy
+  height. This ``minimal'' configuration provides a control case in
+  which the crown interacts directly with the ambient field without any
+  guidance or concentration by an elevated conductor.
+\end{itemize}
+
+For the four configurations, the maximum electric field values obtained
+at the lower crown are presented in \textbf{Figure 8a} under
+fair-weather and storm-like forcing. In fair weather, all configurations
+yield nearly identical peak fields of order 10\textsuperscript{2}
+kV.m\textsuperscript{−1}, indicating that the local crown geometry
+dominates field enhancement and that the presence, shape or height of
+the upper collector has only a minor influence in the weak-field regime.
+Bajo forzamiento de tormenta, however, the three mast-bearing
+configurations (I, II and extended-I) all reach comparable peak fields
+of about 2.5-3 × 10\textsuperscript{3} kV.m\textsuperscript{−1}, whereas
+the crown-only configuration remains significantly lower (roughly one
+half of that value). This contrast shows that the elevated metallic mast
+efficiently funnels the storm-enhanced column potential into the crown
+region, but that replacing a single-point collector by a multi-point
+collector or modestly extending its height does not materially change
+the local maximum field at the distributor.
+
+The corresponding maxima in conduction current density,
+𝐽\textsubscript{max}, are shown in \textbf{Figure 8c} on a logarithmic
+scale. In condiciones de tiempo despejado, all four configurations
+cluster around 𝐽\textsubscript{max} ≈ 10\textsuperscript{−3}
+𝜇A.m\textsuperscript{−2}, confirming that the weak, sub-coronal currents
+are essentially set by the ambient atmospheric conduction current and by
+the crown geometry. When storm-like forcing is applied,
+
+𝐽\textsubscript{max}increases by nearly three orders of magnitude,
+reaching a few
+
+𝜇A.m\textsuperscript{−2} for the three mast-bearing configurations,
+while the crown-only case again remains lower by about a factor of two.
+The parallel behaviour of 𝐸\textsubscript{max} and 𝐽\textsubscript{max}
+across the four configurations is consistent with the ohmic scaling 𝐽 =
+𝜎𝐸and confirms that the main role of the mast and upper collector is to
+increase the amount of background current intercepted and channelled
+through the crown, rather than to introduce strong qualitative
+differences between the specific collector designs.
+
+\begin{quote}
+\includegraphics{./images/image8.jpeg}
+\end{quote}
+
+\begin{quote}
+\textbf{\emph{Figura 8. (a) Four distinct geometries of the
+electrovegetometer used in the simulations. Brown regions denote wooden
+supports, red lines metallic conductors. (b) Maximum electric field at
+the lower crown distributor, Emax, under fair-weather and storm-like
+forcing, showing that all mast-bearing configurations produce similar
+peak fields while the crown-only case remains lower in the storm regime.
+(c) Corresponding maximum conduction current density, Jmax, on a
+logarithmic scale, illustrating the three-order-of-magnitude increase
+from fair to storm conditions and the enhanced currents obtained when an
+elevated metallic mast is present.}}
+\end{quote}
+
+\section{Discusión}\label{discusiuxf3n}
+
+The simulations presented above provide a first quantitative bridge
+between Bertholon's qualitative description of his electrovegetometer
+and modern concepts of the global atmospheric electric circuit and
+pre-corona field enhancement. Several points emerge regarding (i) the
+physical plausibility of Bertholon's original narrative, (ii) the
+expected magnitude and localisation of electrical effects near the
+canopy and (iii) the limitations of the present modelling framework and
+its implications for both historical interpretation and modern
+``electroculture'' claims.
+
+\subsection{Operación en tiempo despejado: enhance localizado pero
+moderado}\label{operaciuxf3n-en-tiempo-despejado-enhance-localizado-pero-moderado}
+
+Bajo forzamiento de tiempo despejado, the reconstructed
+electrovegetometer behaves as a weak perturbation of the global
+conduction current. The upper collector and lower crown both generate
+strong local field enhancements (by two to three orders of magnitude
+relative to the ambient ≈10² V.m⁻¹ field) but these enhanced regions
+remain confined to mm-cm neighbourhoods around the tips. The single
+upper point concentrates the background potential drop into a narrow
+funnel and attains peak fields of order a few ×10⁴ V.m⁻¹, while the
+five-point crown reaches about 8×10⁴ V.m⁻¹ near the central apex.
+
+From a purely electrodynamic standpoint, these fields are high enough to
+significantly distort ion trajectories and to locally increase
+ionisation and attachment rates, if the atmosphere is already weakly
+ionised. However, the associated ohmic current densities remain in the
+pA.m⁻² to low-nA.m⁻² range, only
+
+moderately above the background conduction current. The total current
+that can be channeled through a realistic crown footprint therefore
+remains extremely small.
+
+For the plant microenvironment, this implies that, in undisturbed
+weather, the device could plausibly create narrow ``hot spots'' of
+enhanced field and ion flux immediately around each tip, but these
+perturbations would decay to near-background values over distances
+comparable to or smaller than, typical leaf and canopy length scales.
+Any direct electrodynamic forcing on plant tissue (through induced
+surface charges, field-driven ion flows at the leaf boundary layer or
+modification of aerosol deposition patterns) would thus be highly
+localised and likely intermittent.
+
+Consequently, the fair-weather regime appears compatible with
+Bertholon's qualitative idea of a continuous but ``gentle'' influence of
+atmospheric electricity, yet the present results suggest that this
+influence is physically subtle: the electrovegetometer does not act as a
+strong injector of charge or as a significant sink/source in the global
+circuit. Rather, it reshapes the local pre-existing conduction current
+into narrow plumes without greatly increasing its magnitude.
+
+\subsection{Forzamiento de tormenta y la plausibilidad de ``aigrettes''
+luminosas}\label{forzamiento-de-tormenta-y-la-plausibilidad-de-aigrettes-luminosas}
+
+Under idealised storm-like forcing, the same geometry operates in a very
+different regime. When the background field and conductivity are
+increased to values representative of pre-storm or storm-affected
+conditions, the upper point and lower crown can reach peak electric
+fields ranging from several 10⁵ V.m⁻¹ up to the MV.m⁻¹ scale in the
+linear model. These levels are comparable to or exceed, empirical
+corona-onset thresholds for sharp conductors
+
+at ground pressure and approach conventional breakdown estimates.
+
+It is important to emphasise that, because the model neglects space
+charge and ionisation feedback, these MV.m⁻¹-scale values should be
+interpreted as \emph{upper bounds} on the pre-corona state rather than
+as realistic sustained fields: in a real atmosphere, corona would be
+triggered earlier and the resulting space charge would partially screen
+the tips, limiting further field growth. Nonetheless, the fact that the
+ohmic pre-corona solution naturally approaches corona-onset thresholds
+under enhanced GEC forcing is significant. It provides a quantitative
+rationale for Bertholon's reports of faint luminous glows (``aigrettes
+lumineuses'') at the points under disturbed weather and for historical
+observations of St Elmo's fire on ship masts and church spires.
+
+In this picture, the electrovegetometer can act as a facilitator for
+corona discharges during periods when the atmospheric column is already
+highly stressed by nearby storm charge. The elevated mast ensures that
+the upper collector samples a region of slightly higher conductivity and
+potential, while the lower multi-point crown concentrates this potential
+drop at canopy height. The simulations show that storm-time currents may
+increase by roughly three orders of magnitude compared with fair weather
+while retaining smooth, monotonic conduction-like profiles around the
+tips. Once corona onset is reached, ion production and charge transport
+near the canopy could be substantially greater than in the fair-weather
+regime, potentially producing visible glows and enhanced ion fluxes.
+
+However, this enhanced operation would remain episodic, tied to the
+presence of nearby electrified clouds and may not correspond to the
+benign, steady-state ``improvement'' of vegetation that Bertholon had in
+mind. Moreover, corona can produce localised chemical and mechanical
+stresses (ozone, NOx, UV, micro-scale heating and ion-wind shear) whose
+impacts on plants are complex and not necessarily beneficial. The
+present model cannot address these aspects and thus cannot directly
+support or refute any claimed agronomic benefits of storm-time
+operation.
+
+\subsection{Robustez a incertidumbres geométricas y el papel del
+mástil}\label{robustez-a-incertidumbres-geomuxe9tricas-y-el-papel-del-muxe1stil}
+
+The parametric sweeps indicate that several aspects of the device
+response are relatively robust to historical uncertainties in geometry.
+Varying the apex angle of the upper collector over a wide range only
+alters the maximum field and current density near the tip by factors of
+order unity, not by orders of magnitude. This reflects the fact that the
+global potential available to the floating structure is set by the
+imposed atmospheric column, while the tip sharpness controls how that
+potential drop is localized on mm scales. Likewise, replacing the single
+upper point by a small crown or extending the mast modestly, barely
+affects the peak fields at the lower crown in either fair or condiciones
+de tormenta. The simulations show that, in the storm regime, all
+mast-bearing configurations (Configurations I, II and extended-I) yield
+similar Emax and Jmax at the canopy-level crown, whereas an isolated
+crown with no mast reaches significantly lower maxima. This suggests
+that the primary electrodynamic role of the mast is to intercept an
+
+enhanced portion of the background column current and potential,
+funnelling it into the distributor, rather than to sensitively encode
+the details of the collector design.
+
+From a historical reconstruction perspective, this is reassuring: even
+if Bertholon's actual hardware deviated from the stylised geometry used
+here, the qualitative conclusions about fair- versus storm-time
+operation, localisation of fields and the relative importance of
+collector versus distributor are unlikely to change drastically. The
+multi-point crown near the crop canopy emerges as the dominant feature
+for local field enhancement, while the mast and collector primarily
+condition how much ``voltage'' is delivered to it.
+
+\subsection{Limitaciones del modelo
+actual}\label{limitaciones-del-modelo-actual}
+
+Despite its usefulness as an exploratory tool, the present 2-D, linear,
+ohmic model has several important limitations that constrain the
+interpretation of the results:
+
+\begin{itemize}
+\item
+  The model assumes a prescribed conductivity profile and linear Ohm's
+  law, with no explicit treatment of charge production, attachment,
+  recombination or drift beyond what is encoded in σ(z). Once fields
+  approach corona-onset thresholds, this approximation breaks down. The
+  simulated peak fields in the storm-like regime should therefore be
+  viewed as indicative of where onset is likely, not as literal
+  predictions of sustained MV.m⁻¹ values.
+\item
+  The cross-sectional configuration of the electrovegetometer represents
+  an infinitely long structure, leading to wedge-like tips rather than
+  realistic 3-D conical points. This affects local amplification factors
+  and field line topology near the apices. A full 3-D simulation would
+  likely yield different absolute Emax values and possibly broader
+  high-field regions, though the basic trends (localised enhancement,
+  decimetric decay to background, relative insensitivity to collector
+  apex angle) should remain qualitatively similar.
+\item
+  The wooden supports are modelled with fixed, low conductivities and
+  the soil is treated implicitly through boundary conditions rather than
+  as a stratified, moisture-dependent conductor. In practice, however,
+  Bertholon devoted considerable attention to improving insulation: the
+  buried mast section was fire-dried, tarred, wrapped in charcoal dust
+  and cement, then set in masonry, while the above-ground part was
+  painted or bitumen-coated; the mast head was further protected by
+  resin-saturated inserts and glass/mastic sleeves and the horizontal
+  arms were carried on insulated trestles with silk cords (Table 1).
+  These measures likely reduced leakage and increased support
+  resistance, yet their properties still depended on humidity, ageing
+  and contamination, so leakage paths and the floating potential (and
+  thus Emax and Jmax) may have shifted only by moderate factors.
+\item
+  The ``fair-weather'' and ``storm-like'' regimes are represented by
+  simple, horizontally uniform profiles with prescribed J0,atm and
+  E0,atm. Actual atmospheric electric environments over agricultural
+  fields are influenced by topography, nearby structures, aerosol
+  loading and horizontal inhomogeneities in storm charge. The local
+  field at the electrovegetometer could therefore deviate
+\end{itemize}
+
+\begin{quote}
+significantly from the idealised profiles adopted here, especially under
+complex convective conditions.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  The simulations do not include explicit representations of vegetation.
+  Leaves, stems and canopy structure can distort the field and act as
+  additional conductors or partial insulators, redistributing currents
+  and modifying the near-surface potential landscape. They can also
+  participate in charge exchange through surface conduction films,
+  stomatal apertures or wetting layers. The present results therefore
+  provide a first-order picture of the field ``in the air'', not a
+  complete description of plant-field coupling.
+\end{itemize}
+
+\subsection{Implicaciones para la historia y la práctica moderna de la
+``electrocultura''}\label{implicaciones-para-la-historia-y-la-pruxe1ctica-moderna-de-la-electrocultura}
+
+Within these limitations, the modelling results support a nuanced
+re-assessment of Bertholon's electrovegetometer. On the one hand, the
+device is physically capable of generating strong local field
+enhancements and, under storm-time conditions, of approaching or
+exceeding corona-onset thresholds, making luminous ``aigrettes''
+plausible. On the other hand, in its primary fair-weather operating
+state (which would dominate day-to-day exposure) the structure appears
+to act mainly as a passive field concentrator with small total currents
+and highly localised perturbations.
+
+This dual picture suggests that Bertholon's conceptual intuition about
+the existence of a persistent electrical influence on vegetation was not
+entirely misplaced, but that his expectations regarding the strength and
+agronomic consequences of this influence might have been optimistic. The
+electrovegetometer is better interpreted as a delicate probe of the
+global electric circuit in the near-surface layer and as a demonstrator
+of field concentration and corona phenomena, than as a robust
+agricultural ``enhancer'' in the modern engineering sense.
+
+For contemporary discussions of ``electroculture'', a term that has
+recently resurfaced in popular and sometimes pseudoscientific contexts,
+the present work underscores the need for careful, quantitative
+modelling and controlled experiments. Devices that resemble historical
+electrovegetometers may indeed modify the local electric environment
+around plants, but the magnitude, sign and biological relevance of these
+modifications cannot be inferred from qualitative analogies alone. They
+require a combination of atmospheric-electric measurements, detailed
+plant-physiology studies and models that extend beyond the pre-corona,
+linear regime considered here.
+
+\section{Conclusión}\label{conclusiuxf3n}
+
+Re-examining Bertholon's 18th-century electrovegetometer within the
+framework of modern atmospheric electrodynamics, this study has
+developed a quasi-steady, two-dimensional, resistive model of the
+air-device system, in which the atmosphere is treated as an ohmic medium
+carrying the global conduction current and the metallic structure is
+represented as a floating conductor supported by leaky wooden
+insulators. Solving the stationary conduction equation with
+altitude-dependent
+
+conductivity and realistic configurations has yielded quantitative
+estimates of potentials, electric fields and current densities around
+the electrovegetometer under idealised fair-weather and storm-like
+forcing.
+
+The main findings can be summarised as follows:
+
+\begin{itemize}
+\item
+  Under typical condiciones de tiempo despejado, the
+  electrovegetometer's sharp points enhance the local electric field by
+  two to three orders of magnitude relative to the background
+  atmospheric field, reaching tens of kV.m⁻¹ at the upper single point
+  and about 80 kV.m⁻¹ at the lower multi-point crown. The associated
+  current densities remain in the pA-nA/m2 range, consistent with weak
+  conduction in a slightly ionised medium. Field and current
+  perturbations are strongly localised and decay to near-ambient values
+  within cm.
+\item
+  When the background field and conductivity are increased to values
+  representative of pre-storm or storm-affected conditions, the same
+  geometry yields peak fields in the 10⁵-10⁶ V.m⁻¹ range. These levels
+  approach or exceed empirical corona-onset thresholds and encroach on
+  breakdown estimates, particularly at the lower crown. Within the
+  limits of a linear, space-charge-free approximation, these results
+  indicate that Bertholon's device could have produced corona glows and
+  enhanced ion fluxes during disturbed weather, providing a plausible
+  physical basis for historical reports of luminous ``aigrettes''.
+\item
+  Parametric variations of the upper apex angle and collector geometry
+  show that fair-weather and storm-time peak fields and currents near
+  the lower crown are largely insensitive to the fine details of the
+  collector, as long as an elevated mast is present. The mast's
+  principal function is to intercept a portion of the atmospheric column
+  potential and funnel it to the distributor, while the multi-point
+  crown near canopy height remains the dominant feature controlling
+  local field enhancement.
+\item
+  The results are contingent on the assumptions of a 2-D geometry,
+  linear ohmic conduction, prescribed conductivity profiles and
+  simplified material properties. They should therefore be viewed as
+  límites superiores pre-corona rather than fully realistic predictions
+  of discharge behaviour. Within these limits, the study suggests that
+  Bertholon's electrovegetometer was physically capable of concentrating
+  atmospheric electricity and occasionally producing visible corona
+  under storm-time forcing, while its fair-weather influence on plants
+  was likely subtle, localised and difficult to quantify with
+  18th-century instruments.
+\end{itemize}
+
+Finally, this work illustrates how modern numerical modelling of the
+global atmospheric electric circuit, even in a simplified pre-corona
+form, can sharpen our understanding of historical electrotechnical
+devices and their plausible modes of operation. Future extensions could
+include fully 3-D simulations, explicit treatment of space charge and
+corona dynamics, more realistic representations of soil and vegetation
+and coupled experiments in controlled atmospheric-electric environments.
+Such studies would not only refine the retrospective assessment of
+Bertholon's electrovegetometer but also inform contemporary debates on
+the physical and biological significance of weak atmospheric-electric
+perturbations in agricultural settings.
+
+\section{Referencias}\label{referencias}
+
+{[}Aplin, 2008{]} K. L. Aplin, R. G. Harrison, M. J. Rycroft.
+Investigating Earth's Atmospheric Electricity: a Role Model for
+Planetary Studies. Space Sci Rev, Vol. 137, pp.~11-27 (2008).
+{[}https://doi.org/10.1007/s11214-008-9372-x{]}
+
+{[}Winkler et al., 1898{]} J. H. Winkler, B. Franklin, T. F. Dalibard,
+L. G. Le Monnier. Ueber Luftelektricität. Neudruck Von Schriften Und
+Karten Über Meteorologie Und Erdmagnetismus Herausgegeben Von Professor
+Dr.~G. Hellmann. N°11. Berlin, A. Asher \& Co.~(1898).
+
+{[}Bailey, 2001{]} A. G. Bailey. The charging of insulator surfaces.
+Journal of Electrostatics. Vol. 51-52, pp.~82-90 (2001).
+{[}https://doi.org/10.1016/S0304-3886(01)00106-1{]}00106-1)
+
+{[}Bertholon, 1783{]} Bertholon. De l'électricité des végétaux. A Paris,
+chez P. F. Didot Jeune, quai des Augustins (1783).
+
+{[}Guha, 2010{]} A. Guha, B. K. De, S. Gurubaran, S. S. De, K. Jeeva.
+First results of fair-weather atmospheric electricity measurements in
+Northeast India. J. Earth Syst. Sci., Vol. 119, pp.~221-228 (2010).
+{[}https://doi.org/10.1007/s12040-010-0014-9{]}
+
+{[}Herbert, 2012{]} K. B. H. Herbert. John Canton --- Pioneer
+investigator of atmospheric electricity. Weather, RMetS, Vol. 52, Issue
+9, pp.~286-290 (1997).
+{[}https://doi.org/10.1002/j.1477-8696.1997.tb06326.x{]}
+
+{[}Kudintseva, 2016{]} I. G. Kudintseva, A. P. Nickolaendro, M. J.
+Rycroft, A. Odzimek. AC and DC global electric circuit properties and
+the height profile of atmospheric conductivity. Annals of geophysics,
+Vol. 59, 5, A0545 (2016). {[}https://www.doi.org/10.4401/ag-6870{]}
+
+{[}Kundt, 1999{]} W. Kundt, G. Thuma. Geoelectricity: atmospheric
+charging and thunderstorms. Journal of Atmospheric and Solar-Terrestrial
+Physics, Vol. 61, pp.~955-963 (1999).
+{[}https://doi.org/10.1016/S1364-6826(99)00061-9{]}00061-9)
+
+{[}Mareev, 2014{]} E. A. Mareev, E. M. Volodin. Variation of the global
+electric circuit and Ionospheric potential in a general circulation
+model. Geophysical Research Letters, Vol. 41, Issue 24, pp.~9009-9016
+(2014). {[}https://doi.org/10.1002/2014GL062352{]}
+
+{[}McGinness, 2025{]} B. P. S. McGinness, R. Giles Harrison, K. L.
+Aplin,
+
+M. W. Airey. The role of point discharge in the historical development
+of atmospheric electricity. Hist. Geo Space Sci., 16, 51-63 (2025).
+{[}https://doi.org/10.5194/hgss-16-51-2025{]}
+
+{[}Standler, 1979{]} R. B. Standler, W. P. Winn. Effects of coronae on
+electric fields beneath thunderstorms. Quaterly J. of Royal
+Meteorological Society, Vol. 105, 443, pp.~285-302 (1979).
+{[}https://doi.org/10.1002/qj.49710544319Ci{]}
+
+{[}Tinsley, 2007{]} B. A. Tinsley, G. B. Burns, L. Zhou. The role of the
+global electric circuit in solar and internal forcing of clouds and
+climate. Advances in Space Research Vol. 40, Issue 7, pp.~1126-1139
+(2007). {[}https://doi.org/10.1016/j.asr.2007.01.071{]}
+
+{[}Williams, 2009{]} E. R. Williams. C.T.R. Wilson versus G.C. Simpson:
+Fifty years of controversy in atmospheric electricity. Atmospheric
+Research; Vol. 91, Issues 2-4, pp.~259-271 (2009).
+{[}https://doi.org/10.1016/j.atmosres.2008.03.024{]}
+
+\end{document}
