@@ -2,11 +2,11 @@
 
 ---
 
-**Tesis para optar al título de Ingeniero Agrónomo**
+**Tesis para optar al título de Ingeniero Agrónomo (Ejemplo)**
 
 **Presentada por:** [Nombre del Estudiante]  
 **Director:** [Nombre del Director]  
-**Institución:** Universidad Nacional Ecuatoriana de Ciencias Médicas y de la Salud (UNESUM)  
+**Institución:** UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ (UNESUM)  
 **Facultad de Ciencias Agropecuarias**  
 **Jipijapa, Manabí – Ecuador**  
 **2025**
