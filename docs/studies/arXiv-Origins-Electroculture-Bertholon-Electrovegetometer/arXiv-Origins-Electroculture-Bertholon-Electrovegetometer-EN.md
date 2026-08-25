@@ -1,9 +1,9 @@
 # At the Origins of Electroculture: A Retrodictive Modelling of Bertholon's 18th-Century Electrovegetometer in the Pre-Corona Regime
 
 **Author:** T. Dufour  
-**Affiliation:** Laboratoire de Physique des Plasmas, Sorbonne Université, CNRS, Ecole polytechnique  
-**Journal:** Compte-Rendus Mécanique de l'Académie des Sciences  
-**DOI:** [https://doi.org/10.5802/crmeca.331](https://doi.org/10.5802/crmeca.331)
+**Affiliation:** LPP, Sorbonne Université, CNRS, École Polytechnique, Université Paris-Sud, Observatoire de Paris, Université Paris-Saclay, PSL Research University, 4 Place Jussieu, 75252 Paris, France  
+**Journal:** Compte-Rendus Mécanique de l'Académie des Sciences, Volume 354 (2026), pp. 117-139  
+**DOI:** [https://doi.org/10.5802/crmeca.346](https://doi.org/10.5802/crmeca.346)
 
 ---
 
@@ -17,7 +17,7 @@ The present study was initiated in the aftermath of the French colloquium *« Ho
 
 To situate this renewed interest within its original scientific context, it is necessary to revisit the historical foundations of Bertholon's work. In 1783, Pierre-Nicolas Bertholon de Saint-Lazare, commonly known as Abbé Bertholon, published *De*
 
-*l'électricité des végétaux*, a treatise in which he asserted that "atmospheric electricity" acts continuously on plants and might be harnessed to improve germination, growth, flowering and fruiting \[Bertholon, 1783\]. His key practical proposal, the electrovegetometer (*électro-végétomètre)*, was a passive apparatus intended to collect charge from the atmosphere and redistribute it gently over crops through "aigrettes lumineuses": a historical French expression that can be understood today as faint, luminous corona discharges.
+*l'électricité des végétaux*, a treatise in which he asserted that "atmospheric electricity" acts continuously on plants and might be harnessed to improve germination, growth, flowering and fruiting [Bertholon, 1783]. His key practical proposal, the electrovegetometer (*électro-végétomètre)*, was a passive apparatus intended to collect charge from the atmosphere and redistribute it gently over crops through "aigrettes lumineuses": a historical French expression that can be understood today as faint, luminous corona discharges.
 
 Although Bertholon interpreted the operation of his apparatus through the 18th-century notion of an "electric fluid", the physical principle he was appealing to can be expressed clearly in modern electrodynamic terms: sharp conductors immersed in an ambient electric field can act as sources (or sinks) of space charge, modifying local ion densities and weak airflows and thereby altering the microphysical environment near leaves and soil. In Bertholon's descriptions, the electrovegetometer consisted essentially of a vertical, insulated mast that elevated a collecting structure into the atmospheric electric field. A conductive path brought the intercepted charge down to a distribution arm, which terminated in a crown of fine points suspended over crop rows. The points were intended to release charge via non-disruptive discharges, subtly modifying the potential gradient and charge environment around the canopy.
 
@@ -35,95 +35,54 @@ Bertholon described two closely related configurations of this electrovegetomete
 
 > ![](./images/image1.jpeg)
 
-> ***Figure 1. Bertholon's electrovegetometer, a passive apparatus intended to channel "atmospheric electricity" toward crops. (a) Configuration I, featuring a single-point rod collector (E) at the mast head and an articulated arm that distributed charge through a multi-point crown (N). (b) Configuration II, equipped with a multi-point crown collector (E), a rotating and extendable arm and a larger treatment footprint terminating by a multi-point crown distributor (N). A neutralization device (Z), shown in the inset of (b), could provide safety and on/off control. Adapted from \[Bertholon, 1783\].***
+> ***Figure 1. Bertholon's electrovegetometer, a passive apparatus intended to channel "atmospheric electricity" toward crops. (a) Configuration I, featuring a single-point rod collector (E) at the mast head and an articulated arm that distributed charge through a multi-point crown (N). (b) Configuration II, equipped with a multi-point crown collector (E), a rotating and extendable arm and a larger treatment footprint terminating by a multi-point crown distributor (N). A neutralization device (Z), shown in the inset of (b), could provide safety and on/off control. Adapted from [Bertholon, 1783].***
 
-> ***Table 1. Comparison between the design and operation of Bertholon\'s electrovegetometer (Figure 1): Configuration I ("single-point rod, articulated arm") and Configuration II ("multi-point crown, rotating and extendable arm"). The letters (A to Z) correspond to the captions of the original figures. Both devices were passive [collectors-distributors (no field/charge/current measurement). ]{.underline}***
-                                     | > **Configuration I**                                                                                                       | > **Configuration II**                                                                        |
-                                     | >                                                                                                                           | >                                                                                             |
-                                     | > **Single-point rod, articulated arm**                                                                                     | > **Multi-point crown, rotating & extendable arm**                                            |
- > **Purpose**                       | > Passive capture → Insulated conduction → Gentle diffusion over crops (no measurement).                                    |                                                                                               |
- > **Mast / Base**                   | > Wooden mast (A-B): buried section fire-dried, tarred, wrapped                                                             | > Mast (A-B) with resin-saturated head cylinder (C)                                           |
-                                     | >                                                                                                                           | >                                                                                             |
-                                     | > in charcoal dust/cement, then masonry footing; above-ground part painted/bitumen-coated for weather resistance.           | > treated with tar/pitch/turpentine to improve insulation from ground.                        |
- > **Top insulation**                | -   Thick glass tube packed with bituminous mastic (D)                                                                      | > Insulated rotary interface via resin insert (D) and                                         |
-                                     |                                                                                                                             | >                                                                                             |
-                                     | -   Second glass insulator downstream (H).                                                                                  | > glass/mastic sleeve (H).                                                                    |
- > **Collector (at**                 | > Single-point rod (E) mounted in D; protected by a tinplate                                                                | > Multipoint crown (E) to maximize charge capture.                                            |
- >                                   | >                                                                                                                           |                                                                                               |
- > **mast head)**                    | > funnel (F).                                                                                                               |                                                                                               |
- > **Conduction path**               | > Conducting chain (G) suspended from E, guided through H to                                                                | > Bent iron lever (C) carrying chain (G) to the arm                                           |
- >                                   | >                                                                                                                           | >                                                                                             |
- > **(vertical)**                    | > prevent leakage.                                                                                                          | > interface.                                                                                  |
- > **Regulation /**                  | > Chain terminates at iron disk (K) acting as a small                                                                       | > No separate disk; regulation implicit (focus on                                             |
- >                                   | >                                                                                                                           | >                                                                                             |
- > **buffer**                        | > "condenser/regulator" to buffer atmospheric variations.                                                                   | > mobility and reach).                                                                        |
- > **Horizontal arm / distribution** | > Articulated conductor arm (K-L-M-N) hinged at L and Q, supported on insulating trestles (O, P) with stretched silk cords. | > Telescoping conductor arm (L-M) with its telescoping conductor (Q), supported on insulating |
-                                     |                                                                                                                             | >                                                                                             |
-                                     |                                                                                                                             | > trestle (P) with stretched silk cords.                                                      |
- > **Terminal diffuser**             | > Crown of sharp metal points at the arm tip (N, R), releasing charge as non-disruptive corona over the crop canopy/soil.   |                                                                                               |
- > **Mobility /**                    | > Arm swings on hinges (L, Q) to cover a sector (row/strip).                                                                | > Full 360° rotation via I-L-M & extend/retract (Q) to                                        |
- >                                   |                                                                                                                             | >                                                                                             |
- > **coverage**                      |                                                                                                                             | > sweep a full circle and vary reach.                                                         |
- > **Neutralization**                | > Apply a chain (or vertical rod) between K and the ground to break insulation and bleed charge. Also used to null          |                                                                                               |
- >                                   | >                                                                                                                           |                                                                                               |
- > **(on/off control)**              | > effect when "excess" of electricity is presumed.                                                                          |                                                                                               |
- > **Operation (per Bertholon)**     | > Use when the air was "poor in electric fluid"; distributed via N; grounded at K when "excess" was observed.               |                                                                                               |
- > **Safety**                        | > Sharp points released corona glows (no sparks). "C-shaped exciter" (copper/iron frame with glass handle + trailing        |                                                                                               |
-                                     | >                                                                                                                           |                                                                                               |
-                                     | > ground chain) recommended to shunt charge during handling.                                                                |                                                                                               |
+**Table 1. Comparison between the design and operation of Bertholon's electrovegetometer (Figure 1): Configuration I and Configuration II.**
+
+| Feature | Configuration I (single-point rod, articulated arm) | Configuration II (multi-point crown, rotating & extendable arm) |
+|---------|-----------------------------------------------------|------------------------------------------------------------------|
+| **Purpose** | Passive capture → Insulated conduction → Gentle diffusion over crops (no measurement) | Same |
+| **Mast / Base** | Wooden mast (A-B): buried section fire-dried, tarred, wrapped in charcoal dust/cement, then masonry footing; above-ground part painted/bitumen-coated | Mast (A-B) with resin-saturated head cylinder (C) treated with tar/pitch/turpentine |
+| **Top insulation** | Thick glass tube packed with bituminous mastic (D); second glass insulator downstream (H) | Insulated rotary interface via resin insert (D) and glass/mastic sleeve (H) |
+| **Collector (at mast head)** | Single-point rod (E) mounted in D; protected by a tinplate funnel (F) | Multipoint crown (E) to maximize charge capture |
+| **Conduction path (vertical)** | Conducting chain (G) suspended from E, guided through H to prevent leakage | Bent iron lever (C) carrying chain (G) to the arm interface |
+| **Regulation / buffer** | Chain terminates at iron disk (K) acting as a small "condenser/regulator" | No separate disk; regulation implicit (focus on mobility and reach) |
+| **Horizontal arm** | Articulated conductor arm (K-L-M-N) hinged at L and Q, supported on insulating trestles (O, P) with stretched silk cords | Telescoping conductor arm (L-M) with telescoping conductor (Q), supported on insulating trestle (P) |
+| **Terminal diffuser** | Crown of sharp metal points (N, R), releasing non-disruptive corona | Crown of sharp metal points |
+| **Mobility / coverage** | Arm swings on hinges (L, Q) to cover a sector (row/strip) | Full 360° rotation; extend/retract to vary reach |
+| **Neutralization** | Chain between K and ground to bleed charge | Same |
+| **Safety** | "C-shaped exciter" (copper/iron frame with glass handle + trailing ground chain) | Same |
 
 ## From Enlightenment ideas to modern atmospheric electrodynamics
 
-By the late 18th century, several essential aspects of atmospheric electricity were already recognised. Experiments by Stephen Gray and Charles François de Cisternay Du Fay had already distinguished conductors from insulators and introduced the idea of two opposite electrical states, later renamed "positive" and "negative" \[Bailey, 2001\]. Benjamin Franklin synthesised these ideas, defined the polarity convention and argued, on the basis of laboratory similarities and field experiments, that lightning was an electrical discharge of the same nature as sparks from machines \[Williams, 2009\]. His proposals were confirmed in France by Dalibard and Le Monnier who utilized elevated and well-insulated iron conductors to draw sparks during thunderstorms, hence confirming that storm clouds carry electrical charge \[Winkler et al., 1898\]. Soon afterwards, systematic electroscope measurements by John Canton in London and Giambattista Beccaria in Turin showed that even cloudless air was rarely neutral: slow "silent" discharges, diurnal variations of the field and luminous glows such as sailors' St Elmo's fire revealed that the lower atmosphere was persistently electrified \[Herbert, 2012\]. From a modern standpoint, St Elmo's fire was understood as a low-current corona discharge from sharp conductors in a strong ambient field \[McGinness, 2025\]. Yet these 18th-century insights were local and qualitative. A quantitative, global framework, in which thunderstorms, fair-weather regions and the ionosphere are coupled through a single atmospheric electric circuit, emerged only in the early 20th century, particularly
+By the late 18th century, several essential aspects of atmospheric electricity were already recognised. Experiments by Stephen Gray and Charles François de Cisternay Du Fay had already distinguished conductors from insulators and introduced the idea of two opposite electrical states, later renamed "positive" and "negative" [Bailey, 2001]. Benjamin Franklin synthesised these ideas, defined the polarity convention and argued, on the basis of laboratory similarities and field experiments, that lightning was an electrical discharge of the same nature as sparks from machines [Williams, 2009]. His proposals were confirmed in France by Dalibard and Le Monnier who utilized elevated and well-insulated iron conductors to draw sparks during thunderstorms, hence confirming that storm clouds carry electrical charge [Winkler et al., 1898]. Soon afterwards, systematic electroscope measurements by John Canton in London and Giambattista Beccaria in Turin showed that even cloudless air was rarely neutral: slow "silent" discharges, diurnal variations of the field and luminous glows such as sailors' St Elmo's fire revealed that the lower atmosphere was persistently electrified [Herbert, 2012]. From a modern standpoint, St Elmo's fire was understood as a low-current corona discharge from sharp conductors in a strong ambient field [McGinness, 2025]. Yet these 18th-century insights were local and qualitative. A quantitative, global framework, in which thunderstorms, fair-weather regions and the ionosphere are coupled through a single atmospheric electric circuit, emerged only in the early 20th century, particularly
 
-through C. T. R. Wilson's work and later syntheses of the "global atmospheric electrical circuit" \[Aplin, 2008\].
+through C. T. R. Wilson's work and later syntheses of the "global atmospheric electrical circuit" [Aplin, 2008].
 
-Modern atmospheric electrodynamics frames these phenomena in terms of the global electric circuit (GEC). The Earth-ionosphere system behaves as a leaky spherical capacitor: thunderstorms and electrified clouds maintain the ionosphere at roughly +250/+300 kV relative to the surface, while "fair-weather" regions close the circuit through the weak electrical conductivity of the air \[Tinsley, 2007\], \[Mareev, 2014\]. Under clear undisturbed conditions, the atmospheric column carries a small, nearly steady downward conduction current density, described locally by Ohm's law:
+Modern atmospheric electrodynamics frames these phenomena in terms of the global electric circuit (GEC). The Earth-ionosphere system behaves as a leaky spherical capacitor: thunderstorms and electrified clouds maintain the ionosphere at roughly +250/+300 kV relative to the surface, while "fair-weather" regions close the circuit through the weak electrical conductivity of the air [Tinsley, 2007], [Mareev, 2014]. Under clear undisturbed conditions, the atmospheric column carries a small, nearly steady downward conduction current density, described locally by Ohm's law:
 
 > 𝐽~𝑧~(𝑧) = 𝜎(𝑧) 𝐸~𝑧~(𝑧) {1}
 
-where σ(z) is the electrical conductivity and Ez(z) the vertical electric field (taken positive upward). Near the surface, typical values are E0,atm ≈ −100 to −150 V.m⁻¹ and J0,atm ≈ −1 to −3 pA.m⁻² \[Guha, 2010\]. Conductivity increases by many orders of magnitude with altitude (from about 10⁻¹⁴ S.m⁻¹ near the ground to 10⁻⁷ S.m⁻¹ in the lower thermosphere), so that \|𝐸~𝑧~\| decreases correspondingly and the potential V(z) rises from 0 V at the ground toward the ionospheric level of a few ×10⁵ V \[Kudintseva, 2016\].
+where σ(z) is the electrical conductivity and Ez(z) the vertical electric field (taken positive upward). Near the surface, typical values are E0,atm ≈ −100 to −150 V.m⁻¹ and J0,atm ≈ −1 to −3 pA.m⁻² [Guha, 2010]. Conductivity increases by many orders of magnitude with altitude (from about 10⁻¹⁴ S.m⁻¹ near the ground to 10⁻⁷ S.m⁻¹ in the lower thermosphere), so that \|𝐸~𝑧~\| decreases correspondingly and the potential V(z) rises from 0 V at the ground toward the ionospheric level of a few ×10⁵ V [Kudintseva, 2016].
 
-Under disturbed or stormy conditions, this simple vertical structure is strongly modified. Charge separation in thunderclouds produces large quasi-static fields at the surface (up to several kV.m⁻¹), enhances ion production and alters the conductivity profile \[Kundt, 1999\]. The vertical current density can increase into
+Under disturbed or stormy conditions, this simple vertical structure is strongly modified. Charge separation in thunderclouds produces large quasi-static fields at the surface (up to several kV.m⁻¹), enhances ion production and alters the conductivity profile [Kundt, 1999]. The vertical current density can increase into
 
-the nA.m⁻² range and strong, locally variable fields develop near sharp objects, creating conditions favourable for corona discharges and leaders \[Standler, 1979\]. These disturbed states form the storm branch of the global circuit are crucial for interpreting how a protruding conductor, such as Bertholon's electrovegetometer, might experience both modest fair-weather forcing and episodic, much stronger storm-time forcing.
+the nA.m⁻² range and strong, locally variable fields develop near sharp objects, creating conditions favourable for corona discharges and leaders [Standler, 1979]. These disturbed states form the storm branch of the global circuit are crucial for interpreting how a protruding conductor, such as Bertholon's electrovegetometer, might experience both modest fair-weather forcing and episodic, much stronger storm-time forcing.
 
-> ***Table 2. Idealized near-surface regimes used as atmospheric boundary conditions***
- > **Parameter**                        |              | > **Fair weather**                                                | > **Stormy weather**                                                              |
-                                        |              | >                                                                 | >                                                                                 |
-                                        |              | > **conditions**                                                  | > **conditions**                                                                  |
- > **Electric field**                   |              | > Downward                                                        | > Upward (positive)                                                               |
-                                        |              | >                                                                 |                                                                                   |
- **direction**                          |              | > (negative)                                                      |                                                                                   |
- > **Vertical electric**                |              | > −100                                                            | +1 → +10 𝑘𝑉. 𝑚^−1^                                                                |
- >                                      |              | >                                                                 |                                                                                   |
- > **field E0,atm**                     |              | > → −150 𝑉. 𝑚^−1^                                                 |                                                                                   |
- > **Electric potential**               | **V(z)**     | > Increases with altitude                                         | > Decreases with altitude                                                         |
-                                        |              | >                                                                 | >                                                                                 |
-                                        |              | > 𝑑𝑉                                                              | > 𝑑𝑉                                                                              |
-                                        |              | >                                                                 | >                                                                                 |
-                                        |              | > = −𝐸~𝑧~ \> 0                                                    | > = −𝐸~𝑧~ \< 0                                                                    |
-                                        |              | >                                                                 | >                                                                                 |
-                                        |              | > 𝑑𝑧                                                              | > 𝑑𝑧                                                                              |
-                                        | > **V(1m)**  | +100 𝑉 → +150 𝑉                                                   | > −1 𝑘𝑉 → −10 𝑘𝑉                                                                  |
-                                        | > **V(10m)** | > +1000 𝑉                                                         | > −10 𝑘𝑉 → −100 𝑘𝑉                                                                |
-                                        |              | >                                                                 |                                                                                   |
-                                        |              | > → +1500 𝑉                                                       |                                                                                   |
- > **Conductivity at**                  |              | > (1-5) × 10⁻¹⁴ S.m⁻¹                                             | > (1-10) × 10⁻¹² S.m⁻¹                                                            |
- >                                      |              |                                                                   |                                                                                   |
- > **surface σ(0)**                     |              |                                                                   |                                                                                   |
- > **σ variation with height (0-20 m)** |              | > Increases gradually (≈10×) due to ionization by cosmic rays and | > Increases sharply (≈100×) near ground due to field-induced ionization and space |
-                                        |              | >                                                                 | >                                                                                 |
-                                        |              | > radioactivity                                                   | > charge                                                                          |
- > **Conduction current density J**     |              | > ≈ -2 pA.m⁻² (downward,                                          | > +0.1🡪 +10 nA.m⁻² (upward, positive)                                             |
-                                        |              | >                                                                 |                                                                                   |
-                                        |              | > negative)                                                       |                                                                                   |
- > **Surface potential**                |              | > 0 V (by convention)                                             | > 0 V (by convention)                                                             |
- >                                      |              |                                                                   |                                                                                   |
- > **reference V(0)**                   |              |                                                                   |                                                                                   |
- > **Breakdown**                        |              | > ≈ 3.0 MV.m⁻¹                                                    | > 2.5-2.8 MV.m⁻¹                                                                  |
-                                        |              |                                                                   |                                                                                   |
- **[electric field (Ebd)]{.underline}** |              |                                                                   |                                                                                   |
+**Table 2. Idealized near-surface regimes used as atmospheric boundary conditions.**
+
+| Parameter | Fair weather conditions | Stormy weather conditions |
+|-----------|------------------------|--------------------------|
+| **Electric field direction** | Downward (negative) | Upward (positive) |
+| **Vertical electric field E₀,atm** | −100 → −150 V·m⁻¹ | +1 → +10 kV·m⁻¹ |
+| **Electric potential V(z)** | Increases with altitude (dV/dz = −E_z > 0) | Decreases with altitude (dV/dz = −E_z < 0) |
+| **V(1m)** | +100 V → +150 V | −1 kV → −10 kV |
+| **V(10m)** | +1000 V → +1500 V | −10 kV → −100 kV |
+| **Conductivity at surface σ(0)** | (1-5) × 10⁻¹⁴ S·m⁻¹ | (1-10) × 10⁻¹² S·m⁻¹ |
+| **σ variation with height (0-20 m)** | Increases gradually (≈10×) due to ionization by cosmic rays and radioactivity | Increases sharply (≈100×) near ground due to field-induced ionization and space charge |
+| **Conduction current density J** | ≈ −2 pA·m⁻² (downward, negative) | +0.1 → +10 nA·m⁻² (upward, positive) |
+| **Surface potential reference V(0)** | 0 V (by convention) | 0 V (by convention) |
+| **Breakdown electric field (Ebd)** | ≈ 3.0 MV·m⁻¹ | 2.5-2.8 MV·m⁻¹ |
 
 Owing to its limited height (**Figure 1**), Bertholon's apparatus can only interact with the lowest few meters of the atmosphere, where the idealised one-dimensional GEC picture breaks down and local processes dominate. Topography, aerosol loading, vegetation, humidity, surface conductivity and proximity to storm charge all influence the local electric field. For a passive collector-distributor such as the electrovegetometer, this near-surface layer controls both the magnitude of intercepted current and the likelihood of initiating discharges at the tips. For clarity, two idealized regimes can be distinguished, as summarized in Table 2:
 
@@ -151,7 +110,7 @@ These considerations lead to the following research questions:
 
 > equation {5}, where 𝜎~0~
 
-> = [𝐽0,atm]{.underline} is determined by the imposed
+> = [𝐽0,atm] is determined by the imposed
 
 > 𝐸0,atm
 
@@ -193,7 +152,7 @@ corresponding column current density 𝐽~0,atm~. **Figure 2a** displays the res
 
 (𝑧) = 𝜎~0~
 
-> [𝑧]{.underline}
+> [𝑧]
 
 exp ( ) {5}
 
@@ -277,7 +236,7 @@ positioned approximately 0.5 m above the ground. At the end of this arm, a termi
 
 ## Boundary conditions and numerical
 
-##  {#section .unnumbered}
+## Boundary conditions and numerical implementation
 
 > implementation
 
@@ -303,7 +262,7 @@ five-point finite-difference stencil. To ensure continuity of the current densit
 
 > discrete system is solved by Jacobi relaxation, in which the
 
-[𝜕𝑉]{.underline}
+[𝜕𝑉]
 
 \|
 
@@ -311,7 +270,7 @@ five-point finite-difference stencil. To ensure continuity of the current densit
 
 𝑧=𝐻
 
-> [𝐽0,𝑎𝑡𝑚]{.underline}
+> [𝐽0,𝑎𝑡𝑚]
 
 > = − 𝜎(𝐻)
 
@@ -333,7 +292,7 @@ left/right
 
 > sweep.
 
-> [2𝜎~1~𝜎~2~]{.underline}
+> [2𝜎~1~𝜎~2~]
 
 > 𝜎 =
 
@@ -373,7 +332,7 @@ Here, we examine Configuration I of the electrovegetometer (**Figure 1a**), whic
 
 (𝑧) = 𝐸~0,atm~𝐻~𝜎~ (1 − 𝑒
 
-> [𝑧]{.underline}
+> [𝑧]
 
 > 𝐻𝜎) {14}
 
@@ -437,7 +396,7 @@ collector are shown in **Figure 3**. **Figure 3a** illustrates that the atmosphe
 
 > **Figure 3c** shows the associated current-density magnitude. The strongest currents are confined to a narrow axial plume emerging from the single-point rod, with a peak of 𝐽~max~ = 1.36 𝑛𝐴. 𝑚^−2^. This value is consistent with Ohm's law 𝐽 = 𝜎𝐸, using the local fair-weather surface conductivity 𝜎~0~ ≈ 1.7 × 10^−14^ 𝑆. 𝑚^−1^. Although small in absolute terms, such a current corresponds to a microscopic flux of:
 
-> 𝑁̇ ≈ [𝐽max]{.underline} ≈ 8 × 10^9^ charges.s^−1^.pm^−2^,
+> 𝑁̇ ≈ [𝐽max] ≈ 8 × 10^9^ charges.s^−1^.pm^−2^,
 
 𝑒
 
@@ -633,30 +592,30 @@ Finally, this work illustrates how modern numerical modelling of the global atmo
 
 # References
 
-\[Aplin, 2008\] K. L. Aplin, R. G. Harrison, M. J. Rycroft. Investigating Earth's Atmospheric Electricity: a Role Model for Planetary Studies. Space Sci Rev, Vol. 137, pp. 11-27 (2008). [[https://doi.org/10.1007/s11214-008-9372-x]{.underline}](https://doi.org/10.1007/s11214-008-9372-x)
+[Aplin, 2008] K. L. Aplin, R. G. Harrison, M. J. Rycroft. Investigating Earth's Atmospheric Electricity: a Role Model for Planetary Studies. Space Sci Rev, Vol. 137, pp. 11-27 (2008). [https://doi.org/10.1007/s11214-008-9372-x]
 
-\[Winkler et al., 1898\] J. H. Winkler, B. Franklin, T. F. Dalibard, L. G. Le Monnier. Ueber Luftelektricität. Neudruck Von Schriften Und Karten Über Meteorologie Und Erdmagnetismus Herausgegeben Von Professor Dr. G. Hellmann. N°11. Berlin, A. Asher & Co. (1898).
+[Winkler et al., 1898] J. H. Winkler, B. Franklin, T. F. Dalibard, L. G. Le Monnier. Ueber Luftelektricität. Neudruck Von Schriften Und Karten Über Meteorologie Und Erdmagnetismus Herausgegeben Von Professor Dr. G. Hellmann. N°11. Berlin, A. Asher & Co. (1898).
 
-\[Bailey, 2001\] A. G. Bailey. The charging of insulator surfaces. Journal of Electrostatics. Vol. 51-52, pp. 82-90 (2001). [[https://doi.org/10.1016/S0304-3886(01)00106-1]{.underline}](https://doi.org/10.1016/S0304-3886(01)00106-1)
+[Bailey, 2001] A. G. Bailey. The charging of insulator surfaces. Journal of Electrostatics. Vol. 51-52, pp. 82-90 (2001). [https://doi.org/10.1016/S0304-3886(01)00106-1]00106-1)
 
-\[Bertholon, 1783\] Bertholon. De l'électricité des végétaux. A Paris, chez P. F. Didot Jeune, quai des Augustins (1783).
+[Bertholon, 1783] Bertholon. De l'électricité des végétaux. A Paris, chez P. F. Didot Jeune, quai des Augustins (1783).
 
-\[Guha, 2010\] A. Guha, B. K. De, S. Gurubaran, S. S. De, K. Jeeva. First results of fair-weather atmospheric electricity measurements in Northeast India. J. Earth Syst. Sci., Vol. 119, pp. 221-228 (2010). [[https://doi.org/10.1007/s12040-010-0014-9]{.underline}](https://doi.org/10.1007/s12040-010-0014-9)
+[Guha, 2010] A. Guha, B. K. De, S. Gurubaran, S. S. De, K. Jeeva. First results of fair-weather atmospheric electricity measurements in Northeast India. J. Earth Syst. Sci., Vol. 119, pp. 221-228 (2010). [https://doi.org/10.1007/s12040-010-0014-9]
 
-\[Herbert, 2012\] K. B. H. Herbert. John Canton --- Pioneer investigator of atmospheric electricity. Weather, RMetS, Vol. 52, Issue 9, pp. 286-290 (1997). [[https://doi.org/10.1002/j.1477-8696.1997.tb06326.x]{.underline}](https://doi.org/10.1002/j.1477-8696.1997.tb06326.x)
+[Herbert, 2012] K. B. H. Herbert. John Canton — Pioneer investigator of atmospheric electricity. Weather, RMetS, Vol. 52, Issue 9, pp. 286-290 (1997). [https://doi.org/10.1002/j.1477-8696.1997.tb06326.x]
 
-\[Kudintseva, 2016\] I. G. Kudintseva, A. P. Nickolaendro, M. J. Rycroft, A. Odzimek. AC and DC global electric circuit properties and the height profile of atmospheric conductivity. Annals of geophysics, Vol. 59, 5, A0545 (2016). [[https://www.doi.org/10.4401/ag-6870]{.underline}](https://www.doi.org/10.4401/ag-6870)
+[Kudintseva, 2016] I. G. Kudintseva, A. P. Nickolaendro, M. J. Rycroft, A. Odzimek. AC and DC global electric circuit properties and the height profile of atmospheric conductivity. Annals of geophysics, Vol. 59, 5, A0545 (2016). [https://www.doi.org/10.4401/ag-6870]
 
-\[Kundt, 1999\] W. Kundt, G. Thuma. Geoelectricity: atmospheric charging and thunderstorms. Journal of Atmospheric and Solar-Terrestrial Physics, Vol. 61, pp. 955-963 (1999). [[https://doi.org/10.1016/S1364-6826(99)00061-9]{.underline}](https://doi.org/10.1016/S1364-6826(99)00061-9)
+[Kundt, 1999] W. Kundt, G. Thuma. Geoelectricity: atmospheric charging and thunderstorms. Journal of Atmospheric and Solar-Terrestrial Physics, Vol. 61, pp. 955-963 (1999). [https://doi.org/10.1016/S1364-6826(99)00061-9]00061-9)
 
-\[Mareev, 2014\] E. A. Mareev, E. M. Volodin. Variation of the global electric circuit and Ionospheric potential in a general circulation model. Geophysical Research Letters, Vol. 41, Issue 24, pp. 9009-9016 (2014). [[https://doi.org/10.1002/2014GL062352]{.underline}](https://doi.org/10.1002/2014GL062352)
+[Mareev, 2014] E. A. Mareev, E. M. Volodin. Variation of the global electric circuit and Ionospheric potential in a general circulation model. Geophysical Research Letters, Vol. 41, Issue 24, pp. 9009-9016 (2014). [https://doi.org/10.1002/2014GL062352]
 
-\[McGinness, 2025\] B. P. S. McGinness, R. Giles Harrison, K. L. Aplin,
+[McGinness, 2025] B. P. S. McGinness, R. Giles Harrison, K. L. Aplin,
 
-M. W. Airey. The role of point discharge in the historical development of atmospheric electricity. Hist. Geo Space Sci., 16, 51-63 (2025). [[https://doi.org/10.5194/hgss-16-51-2025]{.underline}](https://doi.org/10.5194/hgss-16-51-2025)
+M. W. Airey. The role of point discharge in the historical development of atmospheric electricity. Hist. Geo Space Sci., 16, 51-63 (2025). [https://doi.org/10.5194/hgss-16-51-2025]
 
-\[Standler, 1979\] R. B. Standler, W. P. Winn. Effects of coronae on electric fields beneath thunderstorms. Quaterly J. of Royal Meteorological Society, Vol. 105, 443, pp. 285-302 (1979). [[https://doi.org/10.1002/qj.49710544319Ci]{.underline}](https://doi.org/10.1002/qj.49710544319Ci)
+[Standler, 1979] R. B. Standler, W. P. Winn. Effects of coronae on electric fields beneath thunderstorms. Quaterly J. of Royal Meteorological Society, Vol. 105, 443, pp. 285-302 (1979). [https://doi.org/10.1002/qj.49710544319Ci]
 
-\[Tinsley, 2007\] B. A. Tinsley, G. B. Burns, L. Zhou. The role of the global electric circuit in solar and internal forcing of clouds and climate. Advances in Space Research Vol. 40, Issue 7, pp. 1126-1139 (2007). [[https://doi.org/10.1016/j.asr.2007.01.071]{.underline}](https://doi.org/10.1016/j.asr.2007.01.071)
+[Tinsley, 2007] B. A. Tinsley, G. B. Burns, L. Zhou. The role of the global electric circuit in solar and internal forcing of clouds and climate. Advances in Space Research Vol. 40, Issue 7, pp. 1126-1139 (2007). [https://doi.org/10.1016/j.asr.2007.01.071]
 
-\[Williams, 2009\] E. R. Williams. C.T.R. Wilson versus G.C. Simpson: Fifty years of controversy in atmospheric electricity. Atmospheric Research; Vol. 91, Issues 2-4, pp. 259-271 (2009). [[https://doi.org/10.1016/j.atmosres.2008.03.024]{.underline}](https://doi.org/10.1016/j.atmosres.2008.03.024)
+[Williams, 2009] E. R. Williams. C.T.R. Wilson versus G.C. Simpson: Fifty years of controversy in atmospheric electricity. Atmospheric Research; Vol. 91, Issues 2-4, pp. 259-271 (2009). [https://doi.org/10.1016/j.atmosres.2008.03.024]
