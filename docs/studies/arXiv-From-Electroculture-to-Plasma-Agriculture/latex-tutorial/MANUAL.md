@@ -11,8 +11,9 @@
 3. [Estructura de archivos](#3-estructura-de-archivos-después-de-extraer-imágenes)
 4. [Generar el archivo LaTeX](#4-generar-el-archivo-latex)
 5. [Compilar a PDF](#5-compilar-a-pdf)
-6. [Usar el agente de IA](#6-usar-el-agente-de-ia)
-7. [Solución de problemas](#7-solución-de-problemas)
+6. [Abrir y compilar con TeXstudio](#6-abrir-y-compilar-con-texstudio)
+7. [Usar el agente de IA](#7-usar-el-agente-de-ia)
+8. [Solución de problemas](#8-solución-de-problemas)
 
 ---
 
@@ -144,40 +145,62 @@ tu-carpeta/
 | `header-unicode.tex` | Soporte para caracteres Unicode (subíndices, símbolos, etc.) |
 | `images/` | Carpeta con todas las imágenes del documento |
 
+### Archivos en esta carpeta del tutorial:
+
+| Archivo | Descripción |
+|---------|-------------|
+| `arXiv-From-Electroculture-to-Plasma-Agriculture.pdf` | Paper original en inglés |
+| `arXiv-From-Electroculture-to-Plasma-Agriculture.docx` | DOCX descargado de ilovepdf |
+| `arXiv-From-Electroculture-to-Plasma-Agriculture-ES.md` | Paper traducido al español |
+| `arXiv-From-Electroculture-to-Plasma-Agriculture-ES.tex` | LaTeX generado (ya compilado) |
+| `header-unicode.tex` | Soporte Unicode para este paper |
+| `images/` | 13 imágenes del paper |
+
 ---
 
 ## 4. Generar el archivo LaTeX
 
-### Método manual (recomendado para aprendizaje)
+### Opción A: Una sola columna (recomendado para lectura)
 
-Ejecuta este comando en la terminal, reemplazando los valores:
+Este es el método más sencillo. Ejecuta en la terminal:
 
 ```bash
 pandoc tu-paper-ES.md -o tu-paper-ES.tex \
-  --pdf-engine=pdflatex \
+  --from markdown \
+  --to latex \
+  --include-in-header=header-unicode.tex
+```
+
+### Opción B: Dos columnas (estilo artículo académico)
+
+Para el formato de revista científica en dos columnas:
+
+```bash
+pandoc tu-paper-ES.md -o tu-paper-ES.tex \
+  --from markdown \
+  --to latex \
+  --include-in-header=header-unicode.tex \
   -V documentclass=article \
   -V classoption:twocolumn \
   -V papersize=letter \
   -V fontsize=10pt \
   -V geometry:"top=2cm,bottom=2cm,left=1.8cm,right=1.8cm,columnsep=0.6cm" \
-  -V lang=es \
-  -H header-unicode.tex \
-  --standalone
+  -V lang=es
 ```
 
 ### Parámetros explicados:
 
 | Parámetro | Valor | Descripción |
 |-----------|-------|-------------|
-| `--pdf-engine` | `pdflatex` | Motor de compilación |
+| `--from markdown` | — | Formato de entrada |
+| `--to latex` | — | Formato de salida (LaTeX) |
+| `--include-in-header` | `header-unicode.tex` | Archivo de soporte Unicode |
 | `-V documentclass` | `article` | Tipo de documento |
-| `-V classoption` | `twocolumn` | Dos columnas (estilo académico) |
+| `-V classoption` | `twocolumn` | Dos columnas (solo Opción B) |
 | `-V papersize` | `letter` | Tamaño de papel (carta) |
 | `-V fontsize` | `10pt` | Tamaño de fuente |
 | `-V geometry` | `top=2cm,...` | Márgenes y separación de columnas |
 | `-V lang` | `es` | Idioma (español) |
-| `-H header-unicode.tex` | — | Archivo de soporte Unicode |
-| `--standalone` | — | Genera archivo completo con preámbulo |
 
 ---
 
@@ -219,7 +242,42 @@ Cambia `pdflatex` por `xelatex` en el campo "PdfLaTeX".
 
 ---
 
-## 6. Usar el agente de IA
+## 6. Abrir y compilar con TeXstudio
+
+### Paso 1: Abrir el archivo .tex
+
+```bash
+texstudio arXiv-From-Electroculture-to-Plasma-Agriculture-ES.tex
+```
+
+O simplemente haz **doble clic** en el archivo `.tex` desde el administrador de archivos.
+
+### Paso 2: Compilar
+
+- Presiona **F1** o haz clic en el botón verde ▶ de "Compilar"
+
+### Paso 3: Ver el PDF
+
+- Presiona **F7** o haz clic en "Ver PDF"
+
+### Atajos útiles en TeXstudio
+
+| Tecla | Acción |
+|-------|--------|
+| **F1** | Compilar |
+| **F7** | Ver PDF |
+| **F8** | Compilar + Ver PDF |
+| **F9** | Compilar todo |
+
+### Si sale error de Unicode
+
+Ve a: **Opciones → Configurar TeXstudio → Compilador**
+
+Cambia `pdflatex` por `xelatex` en el campo "Motor predeterminado".
+
+---
+
+## 7. Usar el agente de IA
 
 ### Prompt 1: Generar el archivo LaTeX
 
@@ -289,7 +347,7 @@ Usa \clearpage y \onecolumn para que sea una página separada.
 
 ---
 
-## 7. Solución de problemas
+## 8. Solución de problemas
 
 ### Problema: "Unicode character not set up"
 
