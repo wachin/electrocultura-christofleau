@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.8.25)  25 AUG 2026 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.8.25)  25 AUG 2026 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,684 +765,120 @@ File: ./images/image1.png Graphic file (type png)
 <use ./images/image1.png>
 Package pdftex.def Info: ./images/image1.png  used on input line 337.
 (pdftex.def)             Requested size: 207.393pt x 283.42456pt.
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 343--345
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-50.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 349--351
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 366--368
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 372--374
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-<./images/image2.jpeg, id=24, 885.3075pt x 405.01312pt>
+<./images/image2.jpeg, id=20, 885.3075pt x 405.01312pt>
 File: ./images/image2.jpeg Graphic file (type jpg)
 <use ./images/image2.jpeg>
-Package pdftex.def Info: ./images/image2.jpeg  used on input line 398.
+Package pdftex.def Info: ./images/image2.jpeg  used on input line 372.
 (pdftex.def)             Requested size: 207.38536pt x 94.87526pt.
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 404--406
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 410--412
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 426--428
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 432--434
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-[2 <./images/image1.png> <./images/image2.jpeg>]
-<./images/image3.jpeg, id=45, 947.79094pt x 304.13625pt>
+<./images/image3.jpeg, id=21, 947.79094pt x 304.13625pt>
 File: ./images/image3.jpeg Graphic file (type jpg)
 <use ./images/image3.jpeg>
-Package pdftex.def Info: ./images/image3.jpeg  used on input line 459.
+Package pdftex.def Info: ./images/image3.jpeg  used on input line 407.
 (pdftex.def)             Requested size: 207.38661pt x 66.5482pt.
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 465--467
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 471--473
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 483--485
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 489--491
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-<./images/image4.jpeg, id=50, 897.3525pt x 432.11438pt>
+[2 <./images/image1.png> <./images/image2.jpeg> <./images/image3.jpeg>]
+<./images/image4.jpeg, id=29, 897.3525pt x 432.11438pt>
 File: ./images/image4.jpeg Graphic file (type jpg)
 <use ./images/image4.jpeg>
-Package pdftex.def Info: ./images/image4.jpeg  used on input line 506.
+Package pdftex.def Info: ./images/image4.jpeg  used on input line 428.
 (pdftex.def)             Requested size: 207.38628pt x 99.86554pt.
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 512--514
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 518--520
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 532--534
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--540
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--540
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 538--540
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-[3 <./images/image3.jpeg> <./images/image4.jpeg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-68.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+64.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<./images/image5.png, id=67, 475.7775pt x 751.30687pt>
+
+<./images/image5.png, id=30, 475.7775pt x 751.30687pt>
 File: ./images/image5.png Graphic file (type png)
 <use ./images/image5.png>
-Package pdftex.def Info: ./images/image5.png  used on input line 585.
+Package pdftex.def Info: ./images/image5.png  used on input line 481.
 (pdftex.def)             Requested size: 207.39711pt x 327.50368pt.
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 591--593
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--599
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--599
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 597--599
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 610--612
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--618
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--618
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 616--618
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-[4{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./images
-/image5.png>]
-<./images/image6.jpeg, id=87, 800.23969pt x 554.82281pt>
+/image4.jpeg> <./images/image5.png>]
+
+<./images/image6.jpeg, id=40, 800.23969pt x 554.82281pt>
 File: ./images/image6.jpeg Graphic file (type jpg)
 <use ./images/image6.jpeg>
-Package pdftex.def Info: ./images/image6.jpeg  used on input line 716.
+Package pdftex.def Info: ./images/image6.jpeg  used on input line 586.
 (pdftex.def)             Requested size: 207.38582pt x 143.7849pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 722--724
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--730
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--730
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 728--730
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 742--744
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--750
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--750
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 748--750
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-[5 <./images/image6.jpeg>]
-Overfull \hbox (3.0771pt too wide) in paragraph at lines 793--793
+[4 <./images/image6.jpeg>]
+Overfull \hbox (3.0771pt too wide) in paragraph at lines 637--637
 []|\T1/lmr/bx/n/10 (-20) Neutralización|  
  []
 
 
 
-[6
+[5
 
 ]
-<./images/image7.jpeg, id=112, 947.79094pt x 485.56406pt>
+<./images/image7.jpeg, id=59, 947.79094pt x 485.56406pt>
 File: ./images/image7.jpeg Graphic file (type jpg)
 <use ./images/image7.jpeg>
-Package pdftex.def Info: ./images/image7.jpeg  used on input line 813.
+Package pdftex.def Info: ./images/image7.jpeg  used on input line 657.
 (pdftex.def)             Requested size: 207.38661pt x 106.2465pt.
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 819--821
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 825--827
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 825--827
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 825--827
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 839--841
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 845--847
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 845--847
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 845--847
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-<./images/image8.jpeg, id=117, 947.03813pt x 514.17094pt>
+<./images/image8.jpeg, id=60, 947.03813pt x 514.17094pt>
 File: ./images/image8.jpeg Graphic file (type jpg)
 <use ./images/image8.jpeg>
-Package pdftex.def Info: ./images/image8.jpeg  used on input line 856.
+Package pdftex.def Info: ./images/image8.jpeg  used on input line 674.
 (pdftex.def)             Requested size: 207.39528pt x 112.60014pt.
 
 
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 862--864
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
+[6
 
-Underfull \hbox (badness 10000) in paragraph at lines 868--870
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 868--870
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 868--870
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 882--884
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 888--890
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 888--890
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 888--890
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-[7
 
  <./images/image7.jpeg> <./images/image8.jpeg>]
 
-[8
+[7
 
 ]
 
 
 
-[9
+[8
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
-<./images/image9.jpeg, id=151, 553.31718pt x 249.93375pt>
+<./images/image9.jpeg, id=81, 553.31718pt x 249.93375pt>
 File: ./images/image9.jpeg Graphic file (type jpg)
 <use ./images/image9.jpeg>
-Package pdftex.def Info: ./images/image9.jpeg  used on input line 1078.
+Package pdftex.def Info: ./images/image9.jpeg  used on input line 870.
 (pdftex.def)             Requested size: 207.3921pt x 93.67915pt.
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1084--1086
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1092
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1092
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1090--1092
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1104--1106
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1110--1112
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-
-<./images/image10.jpeg, id=156, 496.10344pt x 126.4725pt>
+<./images/image10.jpeg, id=82, 496.10344pt x 126.4725pt>
 File: ./images/image10.jpeg Graphic file (type jpg)
 <use ./images/image10.jpeg>
-Package pdftex.def Info: ./images/image10.jpeg  used on input line 1123.
+Package pdftex.def Info: ./images/image10.jpeg  used on input line 889.
 (pdftex.def)             Requested size: 207.39307pt x 52.87106pt.
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1129--1131
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1137
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1137
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1135--1137
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1148--1150
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1156
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1156
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1154--1156
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-<./images/image11.jpeg, id=161, 945.5325pt x 344.03531pt>
+<./images/image11.jpeg, id=83, 945.5325pt x 344.03531pt>
 File: ./images/image11.jpeg Graphic file (type jpg)
 <use ./images/image11.jpeg>
-Package pdftex.def Info: ./images/image11.jpeg  used on input line 1171.
+Package pdftex.def Info: ./images/image11.jpeg  used on input line 911.
 (pdftex.def)             Requested size: 207.3974pt x 75.46227pt.
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1177--1179
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-
-[10 <./images/image9.jpeg> <./images/image10.jpeg> <./images/image11.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1185
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1185
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1183--1185
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1198--1200
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1204--1206
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1204--1206
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1204--1206
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-<./images/image12.jpeg, id=181, 1284.29813pt x 428.35031pt>
+<./images/image12.jpeg, id=84, 1284.29813pt x 428.35031pt>
 File: ./images/image12.jpeg Graphic file (type jpg)
 <use ./images/image12.jpeg>
-Package pdftex.def Info: ./images/image12.jpeg  used on input line 1228.
+Package pdftex.def Info: ./images/image12.jpeg  used on input line 942.
 (pdftex.def)             Requested size: 207.39278pt x 69.17145pt.
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1234--1236
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
 
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1240--1242
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1240--1242
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1240--1242
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1255--1257
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1263
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1263
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1261--1263
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-<./images/image13.jpeg, id=186, 947.79094pt x 532.23843pt>
+[9 <./images/image9.jpeg> <./images/image10.jpeg> <./images/image11.jpeg> <./im
+ages/image12.jpeg>]
+<./images/image13.jpeg, id=93, 947.79094pt x 532.23843pt>
 File: ./images/image13.jpeg Graphic file (type jpg)
 <use ./images/image13.jpeg>
-Package pdftex.def Info: ./images/image13.jpeg  used on input line 1291.
+Package pdftex.def Info: ./images/image13.jpeg  used on input line 979.
 (pdftex.def)             Requested size: 207.38661pt x 116.45935pt.
-
-Underfull \vbox (badness 5954) has occurred while \output is active []
-
-
-
-[11 <./images/image12.jpeg>]
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1297--1299
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1303--1305
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
-
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1320--1322
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1328
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1328
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1326--1328
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
-
 
 
 
@@ -1453,14 +889,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1385   ozono/NOâ‚“
+l.1047   ozono/NOâ‚“
                      y UV, protecciÃ³n contra arcos y ensayos multicÃ©ntricos
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
-[12 <./images/image13.jpeg>]
+
+
+[10 <./images/image13.jpeg>]
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1470,17 +916,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[14]
+[12]
 
 ! LaTeX Error: Unicode character ðŸ“„ (U+1F4C4)
                not set up for use with LaTeX.
@@ -1489,7 +925,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1650 ðŸ“„
+l.1312 ðŸ“„
             \textbf{Paper original:}
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1502,7 +938,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1650 ðŸ“„
+l.1312 ðŸ“„
             \textbf{Paper original:}
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1515,7 +951,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1651 ...g/abs/2505.06968}{arXiv:2505.06968} ðŸ“¥
+l.1313 ...g/abs/2505.06968}{arXiv:2505.06968} ðŸ“¥
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1528,68 +964,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1653 ...05.06968}{arxiv.org/pdf/2505.06968} ðŸ”¬
+l.1315 ...05.06968}{arxiv.org/pdf/2505.06968} ðŸ”¬
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (2.34105pt too wide) in paragraph at lines 1661--1663
-[]\T1/lmr/bx/n/10 (-20) Repositorio: []\T1/lmr/m/n/10 (-20) github.com/wachin/e
-lectrocultura-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1667--1669
-[]\T1/lmr/bx/n/10 (+20) PDF ori-gi-nal en in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1667--1669
-\T1/lmr/bx/n/10 (+20) glés (en es-te re-po-si-to-rio):
- []
-
-
-Overfull \hbox (60.35274pt too wide) in paragraph at lines 1667--1669
-\T1/lmtt/m/n/10 arXiv-From-Electroculture-to-Plasma-Agriculture.pdf 
- []
 
 
 
-
-
-[15
+[13
 
 ] (./arXiv-From-Electroculture-to-Plasma-Agriculture-ES.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 15588 strings out of 475116
- 247495 string characters out of 5764601
- 734433 words of memory out of 5000000
- 37996 multiletter control sequences out of 15000+600000
- 616057 words of font info for 222 fonts, out of 8000000 for 9000
+ 15539 strings out of 475116
+ 246754 string characters out of 5764601
+ 734199 words of memory out of 5000000
+ 37953 multiletter control sequences out of 15000+600000
+ 615738 words of font info for 221 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 83i,7n,93p,1750b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,7n,93p,1750b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmtt10.pfb>
-Output written on arXiv-From-Electroculture-to-Plasma-Agriculture-ES.pdf (15 pa
-ges, 2890682 bytes).
+m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
+Output written on arXiv-From-Electroculture-to-Plasma-Agriculture-ES.pdf (13 pa
+ges, 2858015 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
  26874 words of extra memory for PDF output out of 29859 (max. 10000000)
 

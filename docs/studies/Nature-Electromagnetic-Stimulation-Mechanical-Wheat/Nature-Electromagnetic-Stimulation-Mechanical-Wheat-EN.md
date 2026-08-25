@@ -13,7 +13,7 @@
 
 > **Electromagnetic stimulation.** The leaves were grown from seeds subjected to pre-sowing treatment: C (control---unstimulated seeds); L1 and L5---seeds stimulated with laser light with 1 and 5 min exposure, respec-tively; and F1 and F5---seeds stimulated with a magnetic field with 1 and 5 min exposure, respectively.
 
-> ![](./images/image1.png)
+> ![](./images/figure1-laser-rig.jpg)
 
 > **Figure 1.** Self-designed rig for laser light stimulation of seeds. Photo by Agata Dziwulska-Hunek.
 
@@ -139,7 +139,7 @@ and leaf mass and tensile strength (Fig. [7]). Positive values of the coefficien
 
 > The chlorophyll fluorescence lifetime and pigment content values were noticeably reduced in the experimental alfalfa plants relative to the control, which may have been due to the electromagnetic/stressogenic factors used. This evidences ageing of alfalfa plants.
 
-> ![](./images/image23.png)
+> ![](./images/image20.png)
 
 > **Figure 6.** Scattering plot with histogram for correlation between carotenoids and chlorophyll *a* + *b*.
 
@@ -193,7 +193,7 @@ Car
 
 > Chl *a+b*
 
-> ![](./images/image24.png)
+> ![](./images/image21.png)
 
 > **Figure 7.** Scattering plot with histogram for correlation between disruptive force and leaf mass.
 
