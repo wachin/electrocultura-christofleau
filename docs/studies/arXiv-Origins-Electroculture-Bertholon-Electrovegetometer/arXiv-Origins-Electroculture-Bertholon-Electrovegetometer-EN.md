@@ -7,6 +7,14 @@
 
 ---
 
+## Summary
+
+Pierre-Nicolas Bertholon's 18th-century electrovegetometer was conceived to harness "atmospheric electricity" for plant growth, yet its physical capabilities have never been quantified within the context of today's understanding of the Earth's atmospheric electric system. This study addresses the lack of quantitative assessment of such historical "electroculture" device and its plausible influence on the near-canopy electrical environment. It aims to reinterpret Bertholon's apparatus using contemporary atmospheric electrodynamics, asking under which realistic fair-weather and storm-like conditions a purely passive collector-distributor could generate fields and ion fluxes of physical significance. A two-dimensional, quasi-steady ohmic model has been developed in which the atmosphere is a resistive column carrying the global conduction current, the metal structure is a floating conductor supported by leaky wooden insulators and space-charge and corona are excluded so that all results describe pre-onset upper bounds. The simulations show that in fair weather the single upper point and the lower multi-point crown of the electrovegetometer enhance the background field by two to three orders of magnitude, yet only within millimetric-centimetric regions around the tips and with total currents limited to the pA-nA·m⁻² range. Under storm-like forcing, peak fields at the crown reach 10⁵-10⁶ V·m⁻¹, approaching or exceeding empirical corona-onset thresholds, while remaining largely insensitive to uncertainties in apex angle or collector geometry as long as an elevated mast is present. These results make Bertholon's reports of luminous "aigrettes" physically plausible, but suggest that any fair-weather agronomic impact was subtle and highly localized and that modern "electroculture" claims require careful, coupled electrostatic and biological studies beyond the pre-corona regime.
+
+**Keywords:** Electroculture, electrovegetometer, plasma agriculture, Bertholon
+
+---
+
 # Introduction
 
 ## An interdisciplinary impetus: from the Montpellier colloquium to the present study
