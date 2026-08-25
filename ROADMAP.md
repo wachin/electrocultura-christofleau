@@ -236,6 +236,7 @@ Estos prompts son los más importantes del proyecto. Se usaron para **verificar 
 | **Administrador de archivos** | Extraer DOCX como ZIP | Clic derecho → "Extraer todo" |
 | **rsvg-convert** | Convertir SVG → PNG | `sudo apt install librsvg2-bin` |
 | **pandoc** | Conversión DOCX → Markdown | `sudo apt install pandoc` |
+| **python-docx** | Crear DOCX en dos columnas | `pip install python-docx` |
 
 ### Herramientas de IA
 
