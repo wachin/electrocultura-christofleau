@@ -237,6 +237,7 @@ Estos prompts son los más importantes del proyecto. Se usaron para **verificar 
 | **rsvg-convert** | Convertir SVG → PNG | `sudo apt install librsvg2-bin` |
 | **pandoc** | Conversión DOCX → Markdown | `sudo apt install pandoc` |
 | **python-docx** | Crear DOCX en dos columnas | `pip install python-docx` |
+| **LaTeX/pdflatex** | PDF profesional académico | `sudo apt install texlive-latex-base texlive-latex-extra texlive-fonts-recommended` |
 
 ### Herramientas de IA
 
@@ -288,7 +289,37 @@ cd electrocultura-christofleau
 3. Convierte a PNG: `rsvg-convert -o output.png input.svg`
 4. Referencia las imágenes en los Markdowns
 
-### Paso 5: Organizar y hacer commit
+### Paso 5: Generar PDF profesional con LaTeX
+
+1. **Instalar LaTeX** (solo una vez):
+   ```bash
+   sudo apt install texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-spanish lmodern
+   ```
+
+2. **Generar el .tex** desde Markdown:
+   ```bash
+   pandoc archivo-ES.md -o archivo-ES.tex \
+     --pdf-engine=pdflatex \
+     -V documentclass=article \
+     -V classoption:twocolumn \
+     -V papersize=letter \
+     -V fontsize=10pt \
+     -V lang=es \
+     -H header-unicode.tex \
+     --standalone
+   ```
+
+3. **Compilar a PDF**:
+   ```bash
+   pdflatex archivo-ES.tex
+   pdflatex archivo-ES.tex  # Segunda pasada para referencias
+   ```
+
+4. **O usar TeXstudio** (editor visual):
+   - Abrir el `.tex` con TeXstudio
+   - Presionar **F7** para compilar y ver el PDF
+
+### Paso 6: Organizar y hacer commit
 
 ```bash
 git add .
