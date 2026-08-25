@@ -69,7 +69,7 @@ through C. T. R. Wilson's work and later syntheses of the "global atmospheric el
 
 Modern atmospheric electrodynamics frames these phenomena in terms of the global electric circuit (GEC). The Earth-ionosphere system behaves as a leaky spherical capacitor: thunderstorms and electrified clouds maintain the ionosphere at roughly +250/+300 kV relative to the surface, while "fair-weather" regions close the circuit through the weak electrical conductivity of the air [Tinsley, 2007], [Mareev, 2014]. Under clear undisturbed conditions, the atmospheric column carries a small, nearly steady downward conduction current density, described locally by Ohm's law:
 
-> 𝐽~𝑧~(𝑧) = 𝜎(𝑧) 𝐸~𝑧~(𝑧) {1}
+$$J_z(z) = \sigma(z) E_z(z) \quad {1}$$
 
 where σ(z) is the electrical conductivity and Ez(z) the vertical electric field (taken positive upward). Near the surface, typical values are E0,atm ≈ −100 to −150 V.m⁻¹ and J0,atm ≈ −1 to −3 pA.m⁻² [Guha, 2010]. Conductivity increases by many orders of magnitude with altitude (from about 10⁻¹⁴ S.m⁻¹ near the ground to 10⁻⁷ S.m⁻¹ in the lower thermosphere), so that \|𝐸~𝑧~\| decreases correspondingly and the potential V(z) rises from 0 V at the ground toward the ionospheric level of a few ×10⁵ V [Kudintseva, 2016].
 
@@ -148,53 +148,29 @@ corresponding column current density 𝐽~0,atm~. **Figure 2a** displays the res
 
 -   A conductivity scale height of 𝐻~𝜎~ = 6𝑘𝑚 is adopted. In a vertically uniform atmospheric column, current conservation {6} then leads to the electric-field profile of equation {7}. Through Gauss's law, the corresponding diagnostic space-charge density is given by equation {8}.
 
-∇⃗→ ⋅ \[𝜎(𝑥, 𝑧) ∇⃗→𝑉(𝑥, 𝑧)\] = 0 {2}
+$$\vec{\nabla} \cdot [\sigma(x, z) \vec{\nabla} V(x, z)] = 0 \quad \{2\}$$
 
-𝐸⃗→ = −∇⃗→𝑉 {3}
+$$\vec{E} = -\vec{\nabla} V \quad \{3\}$$
 
-𝐽→ = 𝜎𝐸⃗→ {4}
+$$\vec{J} = \sigma \vec{E} \quad \{4\}$$
 
 -   The atmosphere behaves as a linear, resistive medium characterized by a prescribed conductivity σ(x, z), dominated
 
-𝜎air
-
-(𝑧) = 𝜎~0~
-
-> [𝑧]
-
-exp ( ) {5}
-
-> 𝐻~𝜎~
+$$\sigma_{\text{air}}(z) = \sigma_0 \exp\left(-\frac{z}{H_{\sigma}}\right) \quad \{5\}$$
 
 > by its altitude dependence σ(z).
 
 -   The vertical conduction current is approximately conserved
 
-> 𝐽~𝑧~(𝑧) = 𝜎(𝑧). 𝐸~𝑧~(𝑧) = 𝐽~0,𝑎𝑡𝑚~ {6}
+$$J_z(z) = \sigma(z) \cdot E_z(z) = J_{0,\text{atm}} \quad \{6\}$$
 
 > (∇⃗→. →J = 0) in the absence of sources or sinks. Space charge ρ and ionization feedback are not explicitly resolved; instead, their net effect on conductivity is encoded in σ(z).
 
-> 𝐸~𝑧~(𝑧) = −𝐸~0,𝑎𝑡𝑚~
-
-𝑑𝐸~𝑧~
-
-> 𝑧
-
-exp (− ) {7}
-
-𝐻
-
-> 𝜎
-
-> 𝐸~𝑧~(𝑧)
+> $$E_z(z) = -E_{0,\text{atm}} \exp\left(-\frac{z}{H_{\sigma}}\right) \quad \{7\}$$
 
 -   The metallic parts of the device are treated as perfect conductors, each connected metallic region being
 
-> 𝜌(𝑧) = 𝜀~0~ 𝑑𝑧 = −𝜀~0~
-
-> 𝐻~𝜎~
-
-> {8}
+$$\rho(z) = \varepsilon_0 \frac{dE_z}{dz} = -\varepsilon_0 \frac{E_{0,\text{atm}}}{H_{\sigma}} \quad \{8\}$$
 
 > equipotential. The structure is electrically floating: no external voltage is imposed, and its potential adjusts self-consistently under the imposed global-circuit forcing.
 

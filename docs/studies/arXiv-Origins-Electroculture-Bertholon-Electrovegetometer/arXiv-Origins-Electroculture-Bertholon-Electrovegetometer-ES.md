@@ -67,7 +67,7 @@ a través del trabajo de C. T. R. Wilson y las síntesis posteriores del "circui
 
 La electrodinámica atmosférica moderna enmarca estos fenómenos en términos del circuito eléctrico global (GEC). El sistema Tierra-ionosfera se comporta como un capacitor esférico con fugas: las tormentas y nubes electrificadas mantienen la ionosfera a aproximadamente +250/+300 kV en relación con la superficie, mientras que las regiones de "tiempo despejado" cierran el circuito a través de la débil conductividad eléctrica del aire [Tinsley, 2007], [Mareev, 2014]. En condiciones claras sin perturbaciones, la columna atmosférica transporta una pequeña corriente de conducción descendente casi estable, descrita localmente por la ley de Ohm:
 
-> 𝐽~𝑧~(𝑧) = 𝜎(𝑧) 𝐸~𝑧~(𝑧) {1}
+$$J_z(z) = \sigma(z) E_z(z) \quad {1}$$
 
 donde σ(z) es la conductividad eléctrica y Ez(z) el campo eléctrico vertical (tomado positivo hacia arriba). Cerca de la superficie, los valores típicos son E0,atm ≈ −100 a −150 V.m⁻¹ y J0,atm ≈ −1 a −3 pA.m⁻² [Guha, 2010]. La conductividad aumenta muchos órdenes de magnitud con la altitud (desde aproximadamente 10⁻¹⁴ S.m⁻¹ cerca del suelo hasta 10⁻⁷ S.m⁻¹ en la termosfera inferior), de modo que |𝐸~𝑧~| disminuye correspondientemente y el potencial V(z) aumenta desde 0 V en el suelo hacia el nivel ionosférico de unos pocos ×10⁵ V [Kudintseva, 2016].
 
@@ -144,27 +144,19 @@ densidad de corriente de columna correspondiente 𝐽~0,atm~. **La Figura 2a** m
 
 ∇⃗→ ⋅ [𝜎(𝑥, 𝑧) ∇⃗→𝑉(𝑥, 𝑧)] = 0 {2}
 
-𝐸⃗→ = −∇⃗→𝑉 {3}
+$$\vec{E} = -\vec{\nabla} V \quad \{3\}$$
 
-𝐽→ = 𝜎𝐸⃗→ {4}
+$$\vec{J} = \sigma \vec{E} \quad \{4\}$$
 
 -   La atmósfera se comporta como un medio lineal y resistivo caracterizado por una conductividad prescrita σ(x, z), dominada
 
-𝜎air
-
-(𝑧) = 𝜎~0~
-
-> [𝑧]
-
-exp ( ) {5}
-
-> 𝐻~𝜎~
+$$\sigma_{\text{air}}(z) = \sigma_0 \exp\left(-\frac{z}{H_{\sigma}}\right) \quad \{5\}$$
 
 > por su dependencia de altitud σ(z).
 
 -   La corriente de conducción vertical se conserva aproximadamente
 
-> 𝐽~𝑧~(𝑧) = 𝜎(𝑧). 𝐸~𝑧~(𝑧) = 𝐽~0,𝑎𝑡𝑚~ {6}
+$$J_z(z) = \sigma(z) \cdot E_z(z) = J_{0,\text{atm}} \quad \{6\}$$
 
 > (∇⃗→. →J = 0) en ausencia de fuentes o sumideros. La carga espacial ρ y la retroalimentación de ionización no se resuelven explícitamente; en cambio, su efecto neto sobre la conductividad está codificado en σ(z).
 
